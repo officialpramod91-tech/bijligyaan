@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
-import SolarFloatWidget from '../../components/SolarFloatWidget.astro';
+
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
@@ -65,15 +65,17 @@ const categoryTitle = article?.data?.category ? (categoryMap[article.data.catego
         </p>
 
         <!-- Author Byline -->
-        <div class="flex items-center gap-3 pt-2">
-          <div class="w-11 h-11 rounded-full bg-slate-900 text-amber-400 font-black flex items-center justify-center text-lg border-2 border-amber-400 shrink-0">
-            ⚡
-          </div>
-          <div>
-            <p class="text-sm font-bold text-slate-900">{article.data.author}</p>
-            <p class="text-xs text-slate-500">Senior Electrical Specialist & Industrial Tech</p>
-          </div>
-        </div>
+<div class="flex items-center gap-3 pt-2">
+  <img 
+    src="/author-pramod.jpg" 
+    alt={article.data.author || "Er. Pramod Kumar"} 
+    class="w-11 h-11 rounded-full object-cover border-2 border-amber-400 shrink-0 shadow-sm"
+  />
+  <div>
+    <p class="text-sm font-bold text-slate-900">{article.data.author}</p>
+    <p class="text-xs text-slate-500">Senior Electrical Specialist & Industrial Tech</p>
+  </div>
+</div>
 
         <!-- Featured Image -->
         {article.data.image && (
@@ -104,5 +106,5 @@ const categoryTitle = article?.data?.category ? (categoryMap[article.data.catego
     </main>
   </div>
 
-  <SolarFloatWidget />
+  
 </Layout>
