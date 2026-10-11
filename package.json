@@ -22,5 +22,8 @@
   },
   "devDependencies": {
     "@rollup/rollup-win32-x64-msvc": "^4.64.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.64.5"
   }
 }
