@@ -1,0 +1,79 @@
+---
+const navCategories = [
+  { name: 'Home Electrical Guide', href: '/category/home-electrical-guide' },
+  { name: 'Electrical Safety', href: '/category/electrical-safety' },
+  { name: 'Solar & Smart Energy', href: '/category/solar-smart-energy' },
+  { name: 'Electricity Bill Guide', href: '/category/electricity-bill-guide' },
+  { name: 'Home Appliances Guide', href: '/category/home-appliances-guide' },
+];
+---
+
+<header class="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 text-white shadow-lg sticky top-0 z-50 border-b border-indigo-500/20">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+    
+    <!-- Dynamic Logo Area (Image with Fallback) -->
+    <a href="/" class="flex items-center gap-2 shrink-0 group">
+      <!-- 1. Real Image Logo (Jab aap public/logo.png upload karenge to direct ye dikhega) -->
+      <img 
+        src="/logo.png" 
+        alt="Bijli Gyaan Logo" 
+        class="h-9 w-auto object-contain hidden"
+        id="siteHeaderLogo"
+        onload="this.classList.remove('hidden'); document.getElementById('logoFallbackText')?.classList.add('hidden');"
+      />
+
+      <!-- 2. Fallback Badge (Tab tak ke liye jab tak image upload nahi hoti) -->
+      <div id="logoFallbackText" class="bg-amber-400 text-slate-950 font-black text-xs px-2.5 py-1 rounded shadow-sm group-hover:bg-amber-300 transition-colors flex items-center gap-1">
+        <span>⚡</span>
+        <span>BIJLI GYAAN</span>
+      </div>
+    </a>
+
+    <!-- Desktop Category Navigation (Exact 5 Core Categories) -->
+    <nav class="hidden lg:flex items-center gap-6 text-sm font-semibold">
+      {navCategories.map((item) => (
+        <a 
+          href={item.href} 
+          class="text-slate-200 hover:text-amber-400 transition-colors whitespace-nowrap"
+        >
+          {item.name}
+        </a>
+      ))}
+    </nav>
+
+    <!-- Right Side Actions: Calculator CTA + Search Icon -->
+    <div class="flex items-center gap-3 shrink-0">
+      <a
+        href="/calculator"
+        class="bg-amber-400 hover:bg-amber-300 text-slate-950 font-extrabold px-3.5 py-1.5 rounded-lg text-xs transition-all shadow-md flex items-center gap-1"
+      >
+        <span>⚡</span>
+        <span class="hidden sm:inline">Calculator</span>
+      </a>
+
+      <!-- Search Trigger / Icon -->
+      <a 
+        href="/search" 
+        class="p-2 text-slate-300 hover:text-white transition-colors"
+        aria-label="Search articles"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Mobile Horizontal Scrollable Categories Bar -->
+  <div class="lg:hidden bg-slate-950/80 border-t border-slate-800/80 px-4 py-2 overflow-x-auto flex gap-4 text-xs font-medium no-scrollbar">
+    {navCategories.map((item) => (
+      <a 
+        href={item.href} 
+        class="text-slate-300 hover:text-amber-400 whitespace-nowrap"
+      >
+        {item.name}
+      </a>
+    ))}
+  </div>
+</header>

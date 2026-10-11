@@ -1,0 +1,284 @@
+---
+const botBaseUrl = "https://officialpramod91-tech.github.io/solar-sathi-ai/";
+
+// Smart Appliance Master Database (Practical Field Averages)
+const defaultAppliances = [
+  {
+    category: "Cooling & Air",
+    items: [
+      { name: "BLDC Smart Fan (5★)", watt: 32, hours: 12, qty: 3 },
+      { name: "Regular Induction Fan", watt: 75, hours: 12, qty: 1 },
+      { name: "1.5T 5-Star Inverter AC", watt: 900, hours: 8, qty: 1 },
+      { name: "1.5T Non-Inverter / Split AC", watt: 1500, hours: 8, qty: 0 },
+      { name: "Air Cooler (Water)", watt: 180, hours: 8, qty: 0 },
+    ]
+  },
+  {
+    category: "Heavy Heating & Kitchen",
+    items: [
+      { name: "Storage Water Geyser (2kW)", watt: 2000, hours: 1, qty: 1 },
+      { name: "Instant Geyser (3kW)", watt: 3000, hours: 0.5, qty: 0 },
+      { name: "Induction Cooktop", watt: 1400, hours: 1.5, qty: 1 },
+      { name: "Electric Iron (Press)", watt: 1000, hours: 0.5, qty: 1 },
+      { name: "Microwave Oven", watt: 1200, hours: 0.3, qty: 0 },
+    ]
+  },
+  {
+    category: "Pumps & Heavy Motors",
+    items: [
+      { name: "0.5 HP Water Motor", watt: 375, hours: 1, qty: 0 },
+      { name: "1.0 HP Water Motor / Pump", watt: 750, hours: 1, qty: 1 },
+      { name: "1.5 HP Submersible Pump", watt: 1120, hours: 1, qty: 0 },
+      { name: "Washing Machine (Semi-Auto)", watt: 350, hours: 0.5, qty: 1 },
+      { name: "Washing Machine (Front/Heater)", watt: 1500, hours: 0.5, qty: 0 },
+    ]
+  },
+  {
+    category: "Daily Electronics & Lighting",
+    items: [
+      { name: "Single Door Inverter Fridge", watt: 90, hours: 24, qty: 1 },
+      { name: "Double Door Frost-Free Fridge", watt: 180, hours: 24, qty: 0 },
+      { name: "LED Bulbs Set (9W)", watt: 9, hours: 6, qty: 5 },
+      { name: "Smart TV (32-43 inch)", watt: 55, hours: 5, qty: 1 },
+      { name: "WiFi Router & Set-Top Box", watt: 20, hours: 18, qty: 1 },
+    ]
+  }
+];
+---
+
+<div class="bg-slate-900 border border-slate-800 rounded-3xl p-4 sm:p-8 text-white shadow-2xl max-w-5xl mx-auto my-8">
+  
+  <!-- Header -->
+  <div class="text-center space-y-2 mb-8">
+    <span class="inline-flex items-center gap-1.5 bg-cyan-500/20 text-cyan-300 text-xs font-bold px-3 py-1 rounded-full border border-cyan-500/30 uppercase tracking-wide">
+      <span>⚡</span> Practical Smart Tariff Engine
+    </span>
+    <h2 class="text-2xl sm:text-3xl font-extrabold text-white">
+      Ghar Ka Real Bijli Bill & Load Calculator
+    </h2>
+    <p class="text-xs sm:text-sm text-slate-400 max-w-2xl mx-auto">
+      BLDC, Inverter AC, Geyser, Induction aur Motor ke actual power load ke hisab se exact units aur rupaye calculate karein.
+    </p>
+  </div>
+
+  <!-- Global Settings Bar -->
+  <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800 mb-6 flex flex-wrap items-center justify-between gap-4">
+    <div class="flex items-center gap-2">
+      <span class="text-xs font-semibold text-slate-300">State / Board Rate:</span>
+      <div class="relative w-28">
+        <span class="absolute left-2.5 top-1.5 text-cyan-400 font-bold text-xs">₹</span>
+        <input 
+          type="number" 
+          id="unitRateInput" 
+          value="8" 
+          step="0.5"
+          class="w-full bg-slate-900 border border-slate-700 rounded-lg pl-6 pr-2 py-1 text-white font-bold text-xs focus:border-cyan-400 outline-none"
+        />
+      </div>
+      <span class="text-xs text-slate-400">/ kWh Unit</span>
+    </div>
+
+    <div class="text-xs text-slate-400 flex items-center gap-2">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      Auto-Realtime Calculation Active
+    </div>
+  </div>
+
+  <!-- Appliance Accordion / Category Tabs -->
+  <div class="space-y-4" id="categoriesWrapper">
+    {defaultAppliances.map((group, gIdx) => (
+      <div class="bg-slate-950/70 border border-slate-800 rounded-2xl p-4 sm:p-5">
+        <h3 class="text-sm font-bold text-cyan-300 uppercase tracking-wider mb-3 flex items-center gap-2 border-b border-slate-800/80 pb-2">
+          <span>⚡</span> {group.category}
+        </h3>
+        
+        <div class="space-y-2.5">
+          {group.items.map((item, iIdx) => (
+            <div class="app-row bg-slate-900/90 hover:bg-slate-900 border border-slate-800/90 rounded-xl p-3 grid grid-cols-12 gap-2 sm:gap-4 items-center">
+              
+              <!-- Name & Edit -->
+              <div class="col-span-12 sm:col-span-4">
+                <span class="text-xs font-semibold text-white block truncate">{item.name}</span>
+                <span class="text-[10px] text-slate-400">Rating: <strong class="text-cyan-400">{item.watt}W</strong></span>
+              </div>
+
+              <!-- Quantity (+ / -) -->
+              <div class="col-span-4 sm:col-span-3 flex items-center gap-1.5">
+                <label class="text-[10px] text-slate-400 hidden sm:inline">Qty:</label>
+                <div class="flex items-center bg-slate-950 border border-slate-700 rounded-lg overflow-hidden">
+                  <button type="button" class="qty-btn px-2 py-0.5 text-slate-300 hover:bg-slate-800 text-xs font-bold" data-action="minus">-</button>
+                  <input 
+                    type="number" 
+                    value={item.qty} 
+                    min="0" 
+                    max="50" 
+                    class="app-qty w-10 bg-transparent text-center text-xs font-bold text-white outline-none" 
+                  />
+                  <button type="button" class="qty-btn px-2 py-0.5 text-slate-300 hover:bg-slate-800 text-xs font-bold" data-action="plus">+</button>
+                </div>
+              </div>
+
+              <!-- Watt Override -->
+              <div class="col-span-4 sm:col-span-2">
+                <label class="text-[10px] text-slate-400 block sm:hidden">Watts</label>
+                <div class="relative">
+                  <input 
+                    type="number" 
+                    value={item.watt} 
+                    class="app-watt w-full bg-slate-950 border border-slate-700 rounded-lg px-2 py-1 text-xs text-white outline-none focus:border-cyan-400 text-center font-medium" 
+                  />
+                </div>
+              </div>
+
+              <!-- Daily Hours -->
+              <div class="col-span-4 sm:col-span-3">
+                <label class="text-[10px] text-slate-400 block sm:hidden">Hours</label>
+                <div class="flex items-center gap-1">
+                  <input 
+                    type="number" 
+                    value={item.hours} 
+                    step="0.5" 
+                    min="0.1" 
+                    max="24" 
+                    class="app-hours w-full bg-slate-950 border border-slate-700 rounded-lg px-2 py-1 text-xs text-white outline-none focus:border-cyan-400 text-center font-medium" 
+                  />
+                  <span class="text-[10px] text-slate-400">hr/d</span>
+                </div>
+              </div>
+
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <!-- Live Output Dashboard -->
+  <div class="mt-8 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 border-2 border-cyan-500/40 rounded-2xl p-6 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+    <div>
+      <p class="text-[11px] text-slate-400 uppercase font-bold tracking-wider">Total Running Load</p>
+      <div class="text-2xl sm:text-3xl font-black text-amber-400 mt-1">
+        <span id="totalConnectedLoad">0</span> <span class="text-xs font-semibold text-slate-400">kW</span>
+      </div>
+      <p class="text-[10px] text-slate-500 mt-1">Meter sanction load reference</p>
+    </div>
+
+    <div class="border-y sm:border-y-0 sm:border-x border-slate-800 py-3 sm:py-0">
+      <p class="text-[11px] text-slate-400 uppercase font-bold tracking-wider">Monthly Units (kWh)</p>
+      <div class="text-2xl sm:text-3xl font-black text-cyan-400 mt-1">
+        <span id="monthlyUnits">0</span> <span class="text-xs font-semibold text-slate-400">Units</span>
+      </div>
+      <p class="text-[10px] text-slate-500 mt-1">Daily avg: <span id="dailyUnits">0</span> units</p>
+    </div>
+
+    <div>
+      <p class="text-[11px] text-slate-400 uppercase font-bold tracking-wider">Estimated Monthly Bill</p>
+      <div class="text-2xl sm:text-3xl font-black text-emerald-400 mt-1">
+        ₹ <span id="monthlyBillTotal">0</span>
+      </div>
+      <p class="text-[10px] text-slate-500 mt-1">Saal ka kharcha: ₹<span id="yearlyBill">0</span></p>
+    </div>
+  </div>
+
+  <!-- SMART LEAD CONVERSION CARD (Hook to Solar Sathi AI) -->
+  <div id="solarLeadCard" class="mt-8 bg-gradient-to-r from-amber-950/60 via-slate-950 to-amber-950/60 border-2 border-amber-400/60 rounded-2xl p-6 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-6">
+    <div class="space-y-2 text-center md:text-left">
+      <div class="inline-flex items-center gap-1.5 bg-amber-500/20 text-amber-300 text-xs font-extrabold px-3 py-1 rounded-full border border-amber-400/30">
+        <span>☀️</span>
+        <span>PM Surya Ghar Muft Bijli Yojana Match</span>
+      </div>
+      <h3 class="text-xl sm:text-2xl font-black text-white">
+        Aapka Bijli Bill <span class="text-amber-400">₹0</span> Ho Sakta Hai!
+      </h3>
+      <p class="text-xs sm:text-sm text-slate-300 max-w-xl">
+        Aapke monthly bill ke hisab se Solar Sathi AI aapko <strong>exact solar plant capacity</strong> aur <strong>₹78,000 tak ki sarkari subsidy</strong> calculate karke dega.
+      </p>
+    </div>
+
+    <div class="shrink-0 w-full md:w-auto text-center">
+      <a 
+        id="solarBotLeadBtn"
+        href={botBaseUrl} 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="inline-flex items-center justify-center gap-2 w-full md:w-auto bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black text-sm px-7 py-3.5 rounded-xl shadow-xl transition-all transform active:scale-95 group"
+      >
+        <span>⚡</span>
+        <span>Check My Solar Subsidy Now</span>
+        <span class="group-hover:translate-x-1 transition-transform">→</span>
+      </a>
+      <p class="text-[10px] text-slate-400 mt-1.5">Free AI Analysis • 30 Sec Setup</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const rateInput = document.getElementById('unitRateInput') as HTMLInputElement;
+  const loadEl = document.getElementById('totalConnectedLoad');
+  const monthlyUnitsEl = document.getElementById('monthlyUnits');
+  const dailyUnitsEl = document.getElementById('dailyUnits');
+  const monthlyBillEl = document.getElementById('monthlyBillTotal');
+  const yearlyBillEl = document.getElementById('yearlyBill');
+  const leadBtn = document.getElementById('solarBotLeadBtn') as HTMLAnchorElement;
+  const wrapper = document.getElementById('categoriesWrapper');
+
+  function calculateAll() {
+    const rows = document.querySelectorAll('.app-row');
+    let totalWattLoad = 0;
+    let totalMonthlyKwh = 0;
+    const rate = parseFloat(rateInput?.value || '8');
+
+    rows.forEach((row) => {
+      const qty = parseFloat((row.querySelector('.app-qty') as HTMLInputElement)?.value || '0');
+      const watt = parseFloat((row.querySelector('.app-watt') as HTMLInputElement)?.value || '0');
+      const hours = parseFloat((row.querySelector('.app-hours') as HTMLInputElement)?.value || '0');
+
+      if (qty > 0 && watt > 0) {
+        totalWattLoad += (watt * qty);
+        if (hours > 0) {
+          totalMonthlyKwh += (watt * qty * hours * 30) / 1000;
+        }
+      }
+    });
+
+    const dailyUnits = totalMonthlyKwh / 30;
+    const monthlyBill = totalMonthlyKwh * rate;
+    const yearlyBill = monthlyBill * 12;
+
+    if (loadEl) loadEl.innerText = (totalWattLoad / 1000).toFixed(2);
+    if (monthlyUnitsEl) monthlyUnitsEl.innerText = Math.round(totalMonthlyKwh).toString();
+    if (dailyUnitsEl) dailyUnitsEl.innerText = dailyUnits.toFixed(1);
+    if (monthlyBillEl) monthlyBillEl.innerText = Math.round(monthlyBill).toLocaleString('en-IN');
+    if (yearlyBillEl) yearlyBillEl.innerText = Math.round(yearlyBill).toLocaleString('en-IN');
+
+    // Dynamic handoff to Solar Sathi AI
+    if (leadBtn) {
+      const base = "https://officialpramod91-tech.github.io/solar-sathi-ai/";
+      leadBtn.href = `${base}?bill=${encodeURIComponent(Math.round(monthlyBill))}&units=${encodeURIComponent(Math.round(totalMonthlyKwh))}&load=${encodeURIComponent((totalWattLoad/1000).toFixed(1))}`;
+    }
+  }
+
+  // Event Listeners for Live Update
+  wrapper?.addEventListener('input', calculateAll);
+  rateInput?.addEventListener('input', calculateAll);
+
+  // Plus / Minus Quantity Buttons
+  wrapper?.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement;
+    if (target.classList.contains('qty-btn')) {
+      const action = target.getAttribute('data-action');
+      const input = target.parentElement?.querySelector('.app-qty') as HTMLInputElement;
+      if (input) {
+        let val = parseInt(input.value) || 0;
+        if (action === 'plus') val++;
+        if (action === 'minus' && val > 0) val--;
+        input.value = val.toString();
+        calculateAll();
+      }
+    }
+  });
+
+  // Run on mount
+  calculateAll();
+</script>

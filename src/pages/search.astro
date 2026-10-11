@@ -1,0 +1,129 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+// Saare articles fetch karke search index ke liye prepare karna
+const allArticles = await getCollection('articles');
+const searchableArticles = allArticles.map((post) => ({
+  id: post.id,
+  title: post.data.title,
+  description: post.data.description,
+  category: post.data.category ? String(post.data.category).toLowerCase().replace(/-/g, ' ') : '',
+  image: post.data.image || '/images/load-guide.jpg',
+  readTime: post.data.readTime || '5 min read',
+  author: post.data.author || 'Er. Pramod Kumar',
+}));
+---
+
+<Layout title="Search Articles - Bijli Gyaan" description="Bijli Gyaan par electrical guides, safety tips aur tools search karein.">
+  <main class="max-w-4xl mx-auto px-4 py-12 min-h-[70vh]">
+    <!-- Header & Search Box -->
+    <div class="text-center mb-10 space-y-4">
+      <span class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider bg-amber-500/10 text-amber-700 px-3 py-1 rounded-full border border-amber-500/30">
+        ⚡ Field Guides Search
+      </span>
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900">
+        Bijli Gyaan Guide Search
+      </h1>
+      <p class="text-slate-600 text-sm max-w-lg mx-auto">
+        Wiring, MCB, RCCB, Solar subsidy ya appliances se juda koi bhi topic search karein.
+      </p>
+
+      <!-- Search Input Container -->
+      <div class="max-w-xl mx-auto mt-6 relative">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Type karein jaise: Solar, MCB, Bill, Geyser..."
+          class="w-full pl-12 pr-4 py-3.5 bg-white border-2 border-slate-300 focus:border-amber-500 focus:ring-2 focus:ring-amber-500/20 rounded-2xl text-slate-900 text-sm font-medium outline-none transition-all shadow-sm"
+          autocomplete="off"
+        />
+        <span class="absolute left-4 top-3.5 text-slate-400 text-lg">🔍</span>
+      </div>
+      <p id="search-count" class="text-xs text-slate-500 mt-2">
+        Showing all {searchableArticles.length} guides
+      </p>
+    </div>
+
+    <!-- Results Grid -->
+    <div id="results-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {searchableArticles.map((post) => (
+        <article 
+          class="article-card bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-amber-400 transition-all flex flex-col justify-between"
+          data-title={post.title.toLowerCase()}
+          data-desc={post.description.toLowerCase()}
+          data-category={post.category}
+        >
+          <div>
+            <div class="flex items-center justify-between text-[11px] mb-2.5">
+              <span class="font-bold text-amber-700 uppercase bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200">
+                {post.category}
+              </span>
+              <span class="text-slate-400 font-medium">{post.readTime}</span>
+            </div>
+            <h2 class="text-base font-bold text-slate-900 leading-snug hover:text-amber-600 transition-colors">
+              <a href={`/articles/${post.id}`}>
+                {post.title}
+              </a>
+            </h2>
+            <p class="text-xs text-slate-600 mt-2 line-clamp-2 leading-relaxed">
+              {post.description}
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="text-slate-400 text-[11px]">Field Verified ✓</span>
+            <a href={`/articles/${post.id}`} class="font-bold text-emerald-700 hover:text-emerald-800 flex items-center gap-1">
+              Read Guide <span>→</span>
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <!-- No Results State -->
+    <div id="no-results" class="hidden text-center py-12 bg-slate-50 rounded-2xl border border-slate-200 mt-6">
+      <span class="text-4xl">🔍</span>
+      <h3 class="text-base font-bold text-slate-900 mt-3">Koi Guide Nahi Mila</h3>
+      <p class="text-xs text-slate-500 mt-1">Dusra keyword search karein ya Home page par category dekhein.</p>
+    </div>
+  </main>
+</Layout>
+
+<script>
+  const searchInput = document.getElementById('search-input') as HTMLInputElement | null;
+  const cards = document.querySelectorAll('.article-card') as NodeListOf<HTMLElement>;
+  const noResults = document.getElementById('no-results');
+  const searchCount = document.getElementById('search-count');
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      const query = (e.target as HTMLInputElement).value.toLowerCase().trim();
+      let matchCount = 0;
+
+      cards.forEach((card) => {
+        const title = card.getAttribute('data-title') || '';
+        const desc = card.getAttribute('data-desc') || '';
+        const cat = card.getAttribute('data-category') || '';
+
+        if (title.includes(query) || desc.includes(query) || cat.includes(query)) {
+          card.style.display = 'flex';
+          matchCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      if (searchCount) {
+        searchCount.textContent = `Showing ${matchCount} guides`;
+      }
+
+      if (noResults) {
+        if (matchCount === 0) {
+          noResults.classList.remove('hidden');
+        } else {
+          noResults.classList.add('hidden');
+        }
+      }
+    });
+  }
+</script>

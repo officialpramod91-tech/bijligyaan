@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SmartCalculator from '../components/SmartCalculator.astro';
+---
+
+<Layout>
+  <main class="max-w-6xl mx-auto px-4 py-10">
+    <SmartCalculator />
+
+    <!-- SEO Content Section for Google Ranking -->
+    <article class="max-w-4xl mx-auto mt-12 bg-white p-6 sm:p-10 rounded-2xl border border-slate-200 shadow-sm text-slate-800 space-y-6">
+      <h2 class="text-2xl font-bold text-slate-900 border-l-4 border-amber-500 pl-3">
+        Ghar Ke Bijli Bill Ki Calculation Kaise Hoti Hai?
+      </h2>
+      <p class="text-sm leading-relaxed text-slate-600">
+        Bijli ka bill aapke ghar me use hone wale total units (kWh) par tay hota hai. <strong>1 Unit ka matlab hota hai 1000 Watts ka load 1 ghante tak chalna.</strong>
+      </p>
+
+      <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs font-mono">
+        Units (kWh) = (Appliance Watts × Quantity × Daily Hours × 30 Din) ÷ 1000
+      </div>
+
+      <h3 class="text-lg font-bold text-slate-900">Heavy Appliances Ka Bijli Kharcha:</h3>
+      <ul class="list-disc list-inside space-y-2 text-sm text-slate-600">
+        <li><strong>Geyser (2000W):</strong> Rozana 1 ghanta chalne par mahine me lagbhag 60 units khata hai (~₹480).</li>
+        <li><strong>1.5 Ton Inverter AC:</strong> Rozana 8 ghante par mahine me 250 se 280 units (~₹2,200).</li>
+        <li><strong>Induction Cooktop (1400W):</strong> Rozana 1.5 ghante par lagbhag 63 units (~₹500).</li>
+        <li><strong>1 HP Water Motor (750W):</strong> Rozana 1 ghanta par lagbhag 22.5 units (~₹180).</li>
+      </ul>
+    </article>
+  </main>
+</Layout>

@@ -1,0 +1,84 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const allArticles = await getCollection('articles');
+
+  const categoryRoutes = [
+    { slug: 'home-electrical-guide', title: 'Home Electrical Guide' },
+    { slug: 'electrical-safety', title: 'Electrical Safety' },
+    { slug: 'solar-smart-energy', title: 'Solar & Smart Energy' },
+    { slug: 'electricity-bill-guide', title: 'Electricity Bill Guide' },
+    { slug: 'home-appliances-guide', title: 'Home Appliances Guide' },
+  ];
+
+  return categoryRoutes.map((cat) => {
+    const filteredArticles = allArticles.filter((article) => {
+      const artCat = article.data.category?.toLowerCase().trim();
+      return artCat === cat.slug;
+    });
+
+    return {
+      params: { category: cat.slug },
+      props: { 
+        categoryTitle: cat.title, 
+        articles: filteredArticles 
+      },
+    };
+  });
+}
+
+const { category } = Astro.params;
+const { categoryTitle, articles } = Astro.props;
+---
+
+<BaseLayout title={`${categoryTitle} - Bijli Gyaan`} description={`${categoryTitle} se jude verified articles aur electrician guides.`}>
+  <main class="max-w-7xl mx-auto px-4 py-8">
+    <div class="mb-8 border-b border-slate-200 pb-4">
+      <span class="text-xs font-bold uppercase tracking-wider text-amber-500">Category Archive</span>
+      <h1 class="text-3xl font-extrabold text-slate-900 mt-1">{categoryTitle}</h1>
+      <p class="text-sm text-slate-600 mt-1">Total {articles.length} verified guides available</p>
+    </div>
+
+    {articles.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {articles.map((post) => (
+          <article class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col">
+            <a href={`/articles/${post.id}`} class="block aspect-video overflow-hidden bg-slate-100">
+              <img 
+                src={post.data.image || '/images/load-guide.jpg'} 
+                alt={post.data.imageAlt || post.data.title}
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </a>
+            <div class="p-5 flex flex-col flex-1">
+              <h2 class="text-lg font-bold text-slate-900 leading-snug line-clamp-2 hover:text-amber-600 transition-colors">
+                <a href={`/articles/${post.id}`}>
+                  {post.data.title}
+                </a>
+              </h2>
+              <p class="text-xs text-slate-600 mt-2 line-clamp-3 leading-relaxed flex-1">
+                {post.data.description}
+              </p>
+              <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+                <span>By {post.data.author || 'Er. Pramod Kumar'}</span>
+                <a href={`/articles/${post.id}`} class="font-bold text-amber-600 hover:text-amber-700">
+                  Read More →
+                </a>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <div class="bg-amber-50 border border-amber-200 text-amber-900 p-8 rounded-xl text-center my-12">
+        <h3 class="text-lg font-bold">Jald Hi Naye Guides Aane Wale Hain!</h3>
+        <p class="text-sm text-amber-700 mt-1">Is category ke articles abhi review aur drafting phase me hain.</p>
+        <a href="/" class="inline-block mt-4 text-xs font-bold bg-amber-500 text-slate-950 px-4 py-2 rounded-lg hover:bg-amber-400">
+          Home Page Par Jayein
+        </a>
+      </div>
+    )}
+  </main>
+</BaseLayout>

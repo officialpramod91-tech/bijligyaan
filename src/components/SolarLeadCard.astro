@@ -1,0 +1,91 @@
+---
+interface Props {
+  title?: string;
+  subtitle?: string;
+}
+
+const { 
+  title = "⚡ Apne Bijli Bill Ke Hisab Se Solar System Aur Subsidy Jaanein", 
+  subtitle = "Apna monthly bijli bill chunein — Solar Sathi AI aapko exact plant size aur bachat batayega." 
+} = Astro.props;
+
+const botBaseUrl = "https://officialpramod91-tech.github.io/solar-sathi-ai/";
+---
+
+<section class="my-10 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border border-amber-500/40 rounded-2xl p-6 sm:p-8 text-white shadow-xl">
+  <div class="max-w-xl mx-auto text-center space-y-2">
+    <span class="inline-block bg-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1 rounded-full border border-amber-500/30 uppercase tracking-wide">
+      ☀️ Solar Sathi AI Instant Tool
+    </span>
+    <h3 class="text-xl sm:text-2xl font-extrabold text-white leading-snug">
+      {title}
+    </h3>
+    <p class="text-xs sm:text-sm text-slate-300">
+      {subtitle}
+    </p>
+  </div>
+
+  <div class="mt-6 max-w-md mx-auto bg-slate-950/80 p-5 rounded-xl border border-slate-700/80 space-y-4">
+    <div>
+      <label for="monthlyBillInput" class="block text-xs font-semibold text-slate-300 mb-1">
+        Aapka Mahine Ka Bijli Bill Kitna Aata Hai?
+      </label>
+      <div class="relative">
+        <span class="absolute left-3 top-2.5 text-amber-400 font-bold">₹</span>
+        <input 
+          type="number" 
+          id="monthlyBillInput" 
+          placeholder="e.g. 3500" 
+          class="w-full pl-8 pr-4 py-2.5 bg-slate-900 border border-slate-700 rounded-lg text-white font-bold text-sm focus:outline-none focus:border-amber-400 transition-colors"
+        />
+      </div>
+    </div>
+
+    <!-- Quick Pill Selectors -->
+    <div class="flex flex-wrap gap-2 text-xs">
+      <button type="button" class="bill-quick-chip bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1 rounded-md border border-slate-700 transition-all" data-val="1500">₹1,500</button>
+      <button type="button" class="bill-quick-chip bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1 rounded-md border border-slate-700 transition-all" data-val="3000">₹3,000</button>
+      <button type="button" class="bill-quick-chip bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1 rounded-md border border-slate-700 transition-all" data-val="5000">₹5,000</button>
+      <button type="button" class="bill-quick-chip bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1 rounded-md border border-slate-700 transition-all" data-val="8000">₹8,000+</button>
+    </div>
+
+    <button 
+      id="openBotBtn"
+      data-bot-url={botBaseUrl}
+      class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-extrabold py-3 px-4 rounded-lg text-sm shadow-lg transition-transform transform active:scale-95 flex items-center justify-center gap-2"
+    >
+      <span>⚡</span>
+      <span>Calculate Subsidy With AI Bot</span>
+    </button>
+  </div>
+</section>
+
+<script>
+  const chips = document.querySelectorAll('.bill-quick-chip');
+  const billInput = document.getElementById('monthlyBillInput') as HTMLInputElement;
+  const launchBtn = document.getElementById('openBotBtn');
+
+  chips.forEach((chip) => {
+    chip.addEventListener('click', () => {
+      const val = chip.getAttribute('data-val');
+      if (billInput && val) {
+        billInput.value = val;
+      }
+    });
+  });
+
+  if (launchBtn) {
+    launchBtn.addEventListener('click', () => {
+      const val = billInput ? billInput.value : '';
+      const base = launchBtn.getAttribute('data-bot-url') || '';
+      if (!val || Number(val) <= 0) {
+        alert('Kripya apna monthly bijli bill enter karein!');
+        billInput?.focus();
+        return;
+      }
+
+      // Open bot in new tab with bill context
+      window.open(`${base}?bill=${encodeURIComponent(val)}`, '_blank');
+    });
+  }
+</script>

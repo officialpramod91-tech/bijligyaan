@@ -1,0 +1,129 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout 
+  title="About Us - Er. Pramod Kumar | Bijli Gyaan"
+  description="Bijli Gyaan ke founder Er. Pramod Kumar ke baare mein janein."
+>
+  <main class="max-w-4xl mx-auto px-4 py-8 text-slate-200">
+    
+    <!-- Profile Card (Passport Size Photo) -->
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl mb-8">
+      <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+        
+        <!-- Passport Size Photo Frame -->
+        <div class="shrink-0 flex flex-col items-center">
+          <div class="rounded-xl overflow-hidden border-2 border-amber-400/60 shadow-lg bg-slate-800" style="width: 130px; height: 165px;">
+            <img 
+              src="/images/author-pramod.jpg" 
+              alt="Er. Pramod Kumar" 
+              class="w-full h-full object-cover"
+              style="width: 130px; height: 165px; object-fit: cover;"
+              onerror="this.src='/logo.png'"
+            />
+          </div>
+          <span class="mt-2 text-[11px] font-bold text-emerald-400 bg-emerald-950/80 border border-emerald-500/30 px-2 py-0.5 rounded-full">
+            ✓ Field Verified
+          </span>
+        </div>
+
+        <!-- Author Details -->
+        <div class="flex-1 text-center sm:text-left">
+          <span class="text-xs font-bold text-amber-400 uppercase tracking-wider bg-amber-400/10 px-2.5 py-1 rounded-md border border-amber-400/20">
+            Founder & Chief Editor
+          </span>
+          <h1 class="text-2xl sm:text-3xl font-extrabold text-white mt-2">
+            Er. Pramod Kumar
+          </h1>
+          <p class="text-slate-400 text-sm mt-1">
+            Diploma in Electrical Engineering • 10+ Years Practical Field Experience
+          </p>
+
+          <!-- Quick Highlights -->
+          <div class="grid grid-cols-3 gap-3 mt-4 pt-4 border-t border-slate-800 text-center">
+            <div class="p-2 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-amber-400 font-bold text-base">10+ Yrs</div>
+              <div class="text-[11px] text-slate-400">Field Exp.</div>
+            </div>
+            <div class="p-2 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-amber-400 font-bold text-base">Safety</div>
+              <div class="text-[11px] text-slate-400">100% Practical</div>
+            </div>
+            <div class="p-2 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-amber-400 font-bold text-base">Solar AI</div>
+              <div class="text-[11px] text-slate-400">Free Tools</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Article / Content Section -->
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6 shadow-xl leading-relaxed text-slate-300 text-sm md:text-base">
+      
+      <section>
+        <h2 class="text-xl font-bold text-white mb-2 flex items-center gap-2">
+          <span class="text-amber-400">⚡</span> Namaste!
+        </h2>
+        <p>
+          Mera naam <strong>Pramod Kumar</strong> hai aur main <a href="/" class="text-amber-400 hover:underline font-semibold">Bijli Gyaan</a> ka founder hoon.
+        </p>
+      </section>
+
+      <section class="border-t border-slate-800 pt-4">
+        <h2 class="text-lg font-bold text-white mb-2">Main Kaun Hoon?</h2>
+        <p>
+          Main ek trained electrical technician aur diploma holder hoon. Mujhe electrical field mein barson ka practical experience hai. Apne kaam ke dauran maine mehsoos kiya ki aaj bhi bahut se log ghar ki bijli se judi basic lekin zaroori cheezon (jaise RCCB, MCB aur Earthing) ke baare mein sahi se nahi jaante. Is jankari ki kami ki wajah se aksar bade nuksan ya accident ho jate hain.
+        </p>
+      </section>
+
+      <section class="border-t border-slate-800 pt-4">
+        <h2 class="text-lg font-bold text-white mb-2">Bijli Gyaan Shuru Karne ka Maqsad</h2>
+        <p class="mb-3">Maine is blog ki shuruaat isi experience ko logon tak pahunchane ke liye ki hai. Mera aim hai ki:</p>
+        <ul class="list-disc list-inside space-y-1.5 text-slate-300">
+          <li>Ghar-ghar tak <strong>Electrical Safety</strong> ki awareness pahunche.</li>
+          <li>Log apni wiring aur bijli ke upkarno ko lekar sahi faisle le sakein.</li>
+          <li>Load calculation aur electrical products ko aasaan bhasha mein samajh sakein.</li>
+        </ul>
+      </section>
+
+      <section class="border-t border-slate-800 pt-4">
+        <h2 class="text-lg font-bold text-white mb-3">Aapko Yahan Kya Milega?</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+          <div class="p-3 bg-slate-800/40 rounded-xl border border-slate-800">
+            <span class="text-amber-400 font-bold block mb-1">1. Electrical Safety</span>
+            RCCB, MCB aur Earthing ki sahi aur practical jankari.
+          </div>
+          <div class="p-3 bg-slate-800/40 rounded-xl border border-slate-800">
+            <span class="text-amber-400 font-bold block mb-1">2. Home Wiring</span>
+            Ghar ki sahi wiring, wire gauge aur pipe planning guide.
+          </div>
+          <div class="p-3 bg-slate-800/40 rounded-xl border border-slate-800">
+            <span class="text-amber-400 font-bold block mb-1">3. Load Calculation</span>
+            AC, Geyser aur meter sanction load ki aasan calculation.
+          </div>
+          <div class="p-3 bg-slate-800/40 rounded-xl border border-slate-800">
+            <span class="text-amber-400 font-bold block mb-1">4. Tools & Solar</span>
+            Sahi tools ka istemal aur rooftop solar subsidy guidance.
+          </div>
+        </div>
+      </section>
+
+      <div class="border-t border-slate-800 pt-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div>
+          <h3 class="text-white font-bold text-sm">Sampark Karein:</h3>
+          <p class="text-slate-400 text-xs">Kisi bhi sawal ya suggestion ke liye aap seedha email kar sakte hain:</p>
+        </div>
+        <a 
+          href="mailto:officialpramod91@gmail.com" 
+          class="bg-amber-400 text-slate-950 font-bold px-4 py-2 rounded-xl text-xs hover:bg-amber-300 transition-colors shrink-0"
+        >
+          ✉ officialpramod91@gmail.com
+        </a>
+      </div>
+
+    </div>
+  </main>
+</Layout>

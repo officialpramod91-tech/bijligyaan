@@ -1,0 +1,112 @@
+---
+// SolarSathiWidget.astro
+const botUrl = "https://officialpramod91-tech.github.io/solar-sathi-ai/";
+---
+
+<!-- Floating Solar Sathi Live Assistant (Docked in Bottom-Right) -->
+<aside class="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex flex-col items-end pointer-events-auto font-sans">
+  
+  <!-- Chatbot Window (Default state: hidden) -->
+  <div 
+    id="solarLiveBotCard" 
+    class="hidden w-[92vw] sm:w-[380px] h-[540px] max-h-[85vh] bg-slate-900 border-2 border-amber-400/80 rounded-3xl shadow-2xl flex flex-col overflow-hidden transition-all duration-300 mb-2"
+  >
+    <!-- Header: Green Dot + PM Surya Ghar Badge + Close Button -->
+    <div class="bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 px-4 py-3 border-b border-amber-400/30 flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-full bg-amber-400 text-slate-950 flex items-center justify-center font-black text-sm shadow-md">
+          ☀️
+        </div>
+        <div>
+          <div class="flex items-center gap-1.5">
+            <h4 class="text-xs font-black text-white leading-tight">Bijli Gyaan</h4>
+            <span class="bg-emerald-500/20 text-emerald-400 text-[9px] font-bold px-1.5 py-0.5 rounded border border-emerald-500/30">
+              ⚡ Solar Sathi AI
+            </span>
+          </div>
+          <p class="text-[10px] text-slate-300 flex items-center gap-1 mt-0.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            Online | PM Surya Ghar Subsidy Desk
+          </p>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-2">
+        <a 
+          href={botUrl} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="text-xs text-slate-400 hover:text-amber-400 p-1 transition-colors"
+          title="Full Screen Me Kholein"
+        >
+          ↗
+        </a>
+        <button 
+          id="closeBotWindowBtn" 
+          class="w-6 h-6 rounded-full bg-slate-800 hover:bg-rose-500/20 text-slate-400 hover:text-rose-400 flex items-center justify-center text-xs font-bold transition-all cursor-pointer"
+          aria-label="Minimize Chat"
+          title="Minimize Karein"
+        >
+          ✕
+        </button>
+      </div>
+    </div>
+
+    <!-- Live Bot Frame -->
+    <div class="flex-grow bg-slate-950 relative">
+      <iframe 
+        src={botUrl} 
+        title="Solar Sathi AI Chatbot"
+        class="w-full h-full border-none"
+        loading="lazy"
+        allow="clipboard-write"
+      ></iframe>
+    </div>
+  </div>
+
+  <!-- Floating Pill Button (Default state: Active & Visible) -->
+  <button
+    id="openBotLauncherBtn"
+    class="flex items-center gap-2.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black px-4 py-2.5 rounded-full shadow-2xl border-2 border-amber-300 transition-all transform hover:scale-105 active:scale-95 group cursor-pointer"
+    aria-label="Open Solar Sathi AI"
+  >
+    <span class="text-base group-hover:rotate-12 transition-transform">☀️</span>
+    <div class="text-left leading-tight">
+      <span class="block text-[11px] font-extrabold text-slate-950">
+        Solar Sathi AI
+      </span>
+      <span class="inline-flex items-center gap-1 text-[10px] text-slate-900 font-semibold">
+        <span class="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse"></span>
+        ₹78,000 Subsidy Check Karein
+      </span>
+    </div>
+  </button>
+
+</aside>
+
+<script>
+  function initSolarBot() {
+    const botCard = document.getElementById('solarLiveBotCard');
+    const openBtn = document.getElementById('openBotLauncherBtn');
+    const closeBtn = document.getElementById('closeBotWindowBtn');
+
+    if (!botCard || !openBtn || !closeBtn) return;
+
+    // Open Window
+    openBtn.onclick = () => {
+      openBtn.classList.add('hidden');
+      botCard.classList.remove('hidden');
+    };
+
+    // Close / Minimize Window
+    closeBtn.onclick = () => {
+      botCard.classList.add('hidden');
+      openBtn.classList.remove('hidden');
+    };
+  }
+
+  // Astro page load lifecycle
+  document.addEventListener('DOMContentLoaded', initSolarBot);
+  document.addEventListener('astro:page-load', initSolarBot);
+</script>

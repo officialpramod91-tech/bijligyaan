@@ -1,0 +1,106 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import SolarFloatWidget from '../../components/SolarFloatWidget.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map((entry: any) => ({
+    params: { slug: entry.id.replace(/\.(md|mdx)$/, '') },
+    props: { article: entry },
+  }));
+}
+
+const { article } = Astro.props as any;
+const { Content } = await render(article);
+
+const categoryMap: Record<string, string> = {
+  'home-electrical-guide': 'Home Electrical Guide',
+  'electrical-safety': 'Electrical Safety',
+  'solar-smart-energy': 'Solar & Smart Energy',
+  'electricity-bill-guide': 'Electricity Bill Guide',
+  'home-appliances-guide': 'Home Appliances Guide',
+};
+
+const pageTitle = article?.data?.title 
+  ? `${article.data.title} | Bijli Gyaan` 
+  : "Bijli Gyaan Article";
+const categoryTitle = article?.data?.category ? (categoryMap[article.data.category] || article.data.category) : "Guide";
+---
+
+<Layout title={pageTitle} description={article.data.description} image={article.data.image}>
+  <div class="bg-slate-100 py-10 sm:py-14 px-4 min-h-screen">
+    <main class="max-w-4xl mx-auto bg-white p-6 sm:p-12 md:p-14 rounded-2xl shadow-sm border border-slate-200">
+      
+      <!-- Breadcrumbs -->
+      <nav class="flex items-center gap-2 text-xs text-slate-500 mb-6 overflow-x-auto whitespace-nowrap pb-1">
+        <a href="/" class="hover:text-amber-600 transition-colors">Home</a>
+        <span class="text-slate-400">/</span>
+        <a href={`/category/${article.data.category}`} class="hover:text-amber-600 font-medium transition-colors">
+          {categoryTitle}
+        </a>
+        <span class="text-slate-400">/</span>
+        <span class="text-slate-700 truncate max-w-[220px] sm:max-w-none">{article.data.title}</span>
+      </nav>
+
+      <!-- Article Header -->
+      <header class="mb-10 pb-8 border-b border-slate-200">
+        <div class="flex items-center gap-3 flex-wrap mb-4">
+          <span class="bg-amber-100 text-amber-900 border border-amber-300 text-xs font-bold px-3 py-1 rounded-full">
+            {categoryTitle}
+          </span>
+          <span class="bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold px-3 py-1 rounded-md flex items-center gap-1">
+            ✓ 10-Yr Field Verified
+          </span>
+        </div>
+
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 leading-tight tracking-tight mb-4">
+          {article.data.title}
+        </h1>
+
+        <p class="text-lg text-slate-600 leading-relaxed font-normal mb-6">
+          {article.data.description}
+        </p>
+
+        <!-- Author Byline -->
+        <div class="flex items-center gap-3 pt-2">
+          <div class="w-11 h-11 rounded-full bg-slate-900 text-amber-400 font-black flex items-center justify-center text-lg border-2 border-amber-400 shrink-0">
+            ⚡
+          </div>
+          <div>
+            <p class="text-sm font-bold text-slate-900">{article.data.author}</p>
+            <p class="text-xs text-slate-500">Senior Electrical Specialist & Industrial Tech</p>
+          </div>
+        </div>
+
+        <!-- Featured Image -->
+        {article.data.image && (
+          <div class="mt-8">
+            <img 
+              src={article.data.image} 
+              alt={article.data.imageAlt || article.data.title}
+              class="w-full h-auto rounded-xl shadow-md border border-slate-200 object-cover aspect-video"
+              loading="eager"
+            />
+          </div>
+        )}
+      </header>
+
+      <!-- Article Body -->
+      <article class="article-content">
+        <Content />
+      </article>
+
+      <!-- Standard Author Safety Footer -->
+      <aside class="mt-14 p-6 bg-slate-900 text-white rounded-xl text-xs space-y-2">
+        <p class="font-bold text-amber-400 text-sm">⚠️ Electrical Safety Advice by Er. Pramod Kumar:</p>
+        <p class="text-slate-300 leading-relaxed text-sm">
+          Ghar ke kisi bhi main breaker, meter box ya phase line par kaam karte samay Main Switch hamesha OFF karein aur insulated safety tools ka upyog karein. Complex problem hone par licensed electrician ko hi bulayein.
+        </p>
+      </aside>
+
+    </main>
+  </div>
+
+  <SolarFloatWidget />
+</Layout>

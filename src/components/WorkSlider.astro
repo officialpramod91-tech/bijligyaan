@@ -1,0 +1,158 @@
+---
+// Sample images - Aap public folder me apni real photos daal kar yahan naam badal sakte hain
+const slides = [
+  {
+    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80",
+    tag: "Field Practical",
+    title: "Industrial & Home Main Distribution Panel Wiring",
+    desc: "10+ saal ka practical on-site maintenance experience - Standard color coding aur safety layout."
+  },
+  {
+    image: "https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
+    tag: "Solar Installation",
+    title: "Rooftop Solar Panel Structure & Net Metering",
+    desc: "PM Surya Ghar Yojana ke tehat high-efficiency mono PERC panels ki live rooftop fitting."
+  },
+  {
+    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+    tag: "Electrical Safety",
+    title: "RCCB, Earth Leakage & Short Circuit Testing",
+    desc: "Har ghar aur factory me earth resistance aur leakage trip current test karna sabse zaroori hai."
+  }
+];
+---
+
+<section class="max-w-6xl mx-auto px-4 py-8">
+  <div class="relative overflow-hidden rounded-3xl border-2 border-slate-800 bg-slate-950 shadow-2xl">
+    
+    <!-- Slides Container -->
+    <div id="sliderTrack" class="flex transition-transform duration-700 ease-out">
+      {slides.map((slide, index) => (
+        <div class="min-w-full relative h-[320px] sm:h-[440px] flex items-end">
+          <!-- Background Image -->
+          <img 
+            src={slide.image} 
+            alt={slide.title}
+            class="absolute inset-0 w-full h-full object-cover opacity-60"
+            loading={index === 0 ? "eager" : "lazy"}
+          />
+
+          <!-- Gradient Overlay -->
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent"></div>
+
+          <!-- Slide Content / Caption -->
+          <div class="relative z-10 p-6 sm:p-10 max-w-2xl space-y-2">
+            <span class="inline-block bg-amber-400 text-slate-950 font-black text-[11px] px-3 py-1 rounded-full uppercase tracking-wider">
+              {slide.tag}
+            </span>
+            <h3 class="text-xl sm:text-3xl font-extrabold text-white leading-tight">
+              {slide.title}
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-300 line-clamp-2">
+              {slide.desc}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button 
+      id="prevSlideBtn" 
+      class="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-950/70 hover:bg-amber-400 hover:text-slate-950 text-white border border-slate-700 flex items-center justify-center transition-all z-20"
+      aria-label="Previous Slide"
+    >
+      ❮
+    </button>
+    <button 
+      id="nextSlideBtn" 
+      class="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-950/70 hover:bg-amber-400 hover:text-slate-950 text-white border border-slate-700 flex items-center justify-center transition-all z-20"
+      aria-label="Next Slide"
+    >
+      ❯
+    </button>
+
+    <!-- Slide Indicators (Dots) -->
+    <div class="absolute bottom-4 right-6 flex items-center gap-2 z-20" id="dotsContainer">
+      {slides.map((_, i) => (
+        <button 
+          class="dot-indicator w-2.5 h-2.5 rounded-full bg-white/40 hover:bg-amber-400 transition-all"
+          data-index={i}
+          aria-label={`Slide ${i + 1}`}
+        ></button>
+      ))}
+    </div>
+
+  </div>
+</section>
+
+<script>
+  const track = document.getElementById('sliderTrack');
+  const prevBtn = document.getElementById('prevSlideBtn');
+  const nextBtn = document.getElementById('nextSlideBtn');
+  const dots = document.querySelectorAll('.dot-indicator');
+  const totalSlides = dots.length;
+  let currentIndex = 0;
+  let autoSlideTimer: any;
+
+  function updateSlider() {
+    if (track) {
+      track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+    dots.forEach((dot, idx) => {
+      if (idx === currentIndex) {
+        dot.classList.add('bg-amber-400', 'w-6');
+        dot.classList.remove('bg-white/40', 'w-2.5');
+      } else {
+        dot.classList.remove('bg-amber-400', 'w-6');
+        dot.classList.add('bg-white/40', 'w-2.5');
+      }
+    });
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % totalSlides;
+    updateSlider();
+  }
+
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+    updateSlider();
+  }
+
+  function startAutoPlay() {
+    autoSlideTimer = setInterval(nextSlide, 3500);
+  }
+
+  function stopAutoPlay() {
+    clearInterval(autoSlideTimer);
+  }
+
+  nextBtn?.addEventListener('click', () => {
+    stopAutoPlay();
+    nextSlide();
+    startAutoPlay();
+  });
+
+  prevBtn?.addEventListener('click', () => {
+    stopAutoPlay();
+    prevSlide();
+    startAutoPlay();
+  });
+
+  dots.forEach((dot) => {
+    dot.addEventListener('click', (e) => {
+      stopAutoPlay();
+      currentIndex = Number((e.target as HTMLElement).getAttribute('data-index') || 0);
+      updateSlider();
+      startAutoPlay();
+    });
+  });
+
+  // Pause on mouse hover
+  track?.addEventListener('mouseenter', stopAutoPlay);
+  track?.addEventListener('mouseleave', startAutoPlay);
+
+  updateSlider();
+  startAutoPlay();
+</script>
