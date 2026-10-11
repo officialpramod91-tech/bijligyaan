@@ -33,15 +33,17 @@ const categoryTitle = article?.data?.category ? (categoryMap[article.data.catego
     <main class="max-w-4xl mx-auto bg-white p-6 sm:p-12 md:p-14 rounded-2xl shadow-sm border border-slate-200">
       
       <!-- Breadcrumbs -->
-      <nav class="flex items-center gap-2 text-xs text-slate-500 mb-6 overflow-x-auto whitespace-nowrap pb-1">
-        <a href="/" class="hover:text-amber-600 transition-colors">Home</a>
-        <span class="text-slate-400">/</span>
-        <a href={`/category/${article.data.category}`} class="hover:text-amber-600 font-medium transition-colors">
-          {categoryTitle}
-        </a>
-        <span class="text-slate-400">/</span>
-        <span class="text-slate-700 truncate max-w-[220px] sm:max-w-none">{article.data.title}</span>
-      </nav>
+      <!-- Naya clean code -->
+<nav class="flex items-center gap-2 text-xs text-slate-500 mb-6 flex-wrap leading-relaxed">
+  <a href="/" class="hover:text-amber-600 transition-colors font-medium">Home</a>
+  <span class="text-slate-400">/</span>
+  <a href={`/category/${article.data.category}`} class="hover:text-amber-600 font-medium transition-colors">
+    {categoryTitle}
+  </a>
+  <!-- Mobile par slash aur title dono hide rahenge, tablet/desktop par hi aayenge -->
+  <span class="hidden sm:inline text-slate-400">/</span>
+  <span class="hidden sm:inline text-slate-800 font-medium truncate max-w-xs">{article.data.title}</span>
+</nav>
 
       <!-- Article Header -->
       <header class="mb-10 pb-8 border-b border-slate-200">
@@ -54,11 +56,11 @@ const categoryTitle = article?.data?.category ? (categoryMap[article.data.catego
           </span>
         </div>
 
-        <h1 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 leading-tight tracking-tight mb-4">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-black text-gray-950 leading-tight tracking-tight mb-4">
           {article.data.title}
         </h1>
 
-        <p class="text-lg text-slate-600 leading-relaxed font-normal mb-6">
+        <p class="text-lg text-gray-700 leading-relaxed font-normal mb-6">
           {article.data.description}
         </p>
 
