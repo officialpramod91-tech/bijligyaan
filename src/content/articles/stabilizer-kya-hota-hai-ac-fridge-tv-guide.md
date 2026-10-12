@@ -2,7 +2,7 @@
 title: "Stabilizer Kya Hota Hai? Kya Har Ghar Me Zaroori Hai? (AC, Fridge, TV Full Guide 2026)"
 description: "Stabilizer kya hota hai, kaise kaam karta hai aur kya inverter AC me stabilizer lagana zaroori hai? Senior electrician Er. Pramod Kumar se janiye complete voltage safety guide."
 pubDate: 2026-03-10T00:00:00Z
-category: "home-appliances-guide"
+category: "Home-Electrical-Guide"
 author: "Er. Pramod Kumar"
 tags: ["Stabilizer", "Voltage Fluctuation", "Inverter AC", "Electrical Safety", "Home Appliances"]
 image: "/images/stabilizer-guide.jpg"
