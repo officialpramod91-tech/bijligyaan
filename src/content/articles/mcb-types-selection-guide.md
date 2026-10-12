@@ -3,7 +3,7 @@ title: "MCB Selection Guide: Ghar Ke Liye Sahi MCB Kaise Chune? (Types, Rating &
 description: "Ghar ke AC, geyser aur wiring ke liye sahi MCB rating kaise chune? Jane B-Type vs C-Type me antar, 1.5 Ton AC ke liye best MCB, aur complete MCB selection chart."
 pubDate: 2026-10-12
 author: "Er Pramod Kumar"
-category: "Home-Electrical-Guide"
+category: "home-electrical-guide"
 tags: ["MCB", "House Wiring", "Electrical Safety", "Circuit Breaker", "B Type vs C Type"]
 image: "/images/articles/mcb-types-selection-guide.webp"
 imageAlt: "Ghar ki wiring ke liye MCB selection chart aur B-Type C-Type MCB ratings"
