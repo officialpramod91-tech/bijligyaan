@@ -87,46 +87,50 @@
   font-weight: 500 !important;
 }
 
-/* 6. Standard Engineering Tables (100% Mobile Responsive & Scrollable) */
+/* 6. Standard Engineering Tables (Mobile Screen Auto-Fit - No Horizontal Scroll) */
 .article-content table {
-  display: block !important;
+  display: table !important;
   width: 100% !important;
-  max-width: 100% !important;
-  overflow-x: auto !important;
-  -webkit-overflow-scrolling: touch !important;
+  table-layout: fixed !important;
   border-collapse: separate !important;
   border-spacing: 0 !important;
-  margin: 2.25rem 0 !important;
+  margin: 2rem 0 !important;
   background: #ffffff !important;
   border: 1.5px solid #cbd5e1 !important;
   border-radius: 0.75rem !important;
+  overflow: hidden !important;
   box-shadow: 0 4px 16px -4px rgba(0, 0, 0, 0.06) !important;
+  word-break: break-word !important;
 }
 
 .article-content thead,
 .article-content tbody {
-  display: table !important;
+  display: table-row-group !important;
   width: 100% !important;
-  min-width: 580px !important; /* Mobile me content shrink nahi hoga */
+  min-width: 100% !important;
 }
 
 .article-content th {
   background-color: #111827 !important;
   color: #ffffff !important;
   font-weight: 750 !important;
-  padding: 1rem 1.25rem !important;
+  padding: 0.65rem 0.5rem !important;
   text-align: left !important;
   border-bottom: 3px solid #2563eb !important;
-  font-size: 0.95rem !important;
-  white-space: nowrap !important;
+  font-size: 0.8rem !important;
+  line-height: 1.3 !important;
+  white-space: normal !important; /* Long headlines wrap into 2 lines cleanly */
+  vertical-align: middle !important;
 }
 
 .article-content td {
-  padding: 0.95rem 1.25rem !important;
+  padding: 0.65rem 0.5rem !important;
   border-top: 1px solid #e5e7eb !important;
   color: #1f2937 !important;
-  font-size: 0.95rem !important;
+  font-size: 0.825rem !important;
+  line-height: 1.4 !important;
   white-space: normal !important;
+  vertical-align: top !important;
 }
 
 .article-content tr:nth-child(even) td {
@@ -136,6 +140,18 @@
 .article-content td:nth-child(2) {
   font-weight: 700 !important;
   color: #111827 !important;
+}
+
+/* Desktop screen adjustments for tables */
+@media (min-width: 640px) {
+  .article-content th {
+    padding: 1rem 1.25rem !important;
+    font-size: 0.95rem !important;
+  }
+  .article-content td {
+    padding: 0.95rem 1.25rem !important;
+    font-size: 0.95rem !important;
+  }
 }
 
 /* 7. Hyperlinks - Classic Web Blue */
