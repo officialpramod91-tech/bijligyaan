@@ -5,11 +5,11 @@ pubDate: 2026-10-12
 author: "Er Pramod Kumar"
 category: "home-electrical-guide"
 tags: ["MCB", "House Wiring", "Electrical Safety", "Circuit Breaker", "B Type vs C Type"]
-image: "/images/articles/mcb-types-selection-guide.webp"
+image: "/images/mcb-types-selection-guide.webp"
 imageAlt: "Ghar ki wiring ke liye MCB selection chart aur B-Type C-Type MCB ratings"
 ---
 
-![Ghar ki wiring ke liye MCB selection chart aur B-Type C-Type MCB ratings](/images/articles/mcb-types-selection-guide.webp "House Wiring MCB Selection Guide Aur B vs C Type MCB Rating Chart")
+![Ghar ki wiring ke liye MCB selection chart aur B-Type C-Type MCB ratings](/images/mcb-types-selection-guide.webp "House Wiring MCB Selection Guide Aur B vs C Type MCB Rating Chart")
 
 Ghar ki bijli wiring me sabse badi laparwahi galat MCB selection ki hoti hai. Log laakhon rupaye lagakar inverter AC, luxury geyser aur refrigerator lagwate hain, lekin unhe protect karne wali MCB "jo dukan par mil jaye" wo utha late hain.
 
