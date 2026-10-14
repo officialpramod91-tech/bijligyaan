@@ -35,7 +35,7 @@ Toh RCCB sirf **0.03 second (30 millisecond)** mein supply band kar deta hai. It
 
 > ⚡ **Zaroori Wiring Point:**  
 > RCCB ko usually Main Distribution Board (DB) ke andar install kiya jata hai. Ghar ke total connected load ke hisaab se sahi rating ki MCB aur RCCB select karna zaroori hai.  
-> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation)
+> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation/)
 
 ---
 
@@ -57,7 +57,7 @@ Agar aap naya geyser install kar rahe hain, toh safety ke liye RCCB zaroor lagwa
 
 > 📌 **Recommended Guide:**  
 > Agar aap bathroom me geyser lagwa rahe hain toh installation se pehle ye safety baatein zaroor jaan lein:  
-> 👉 [Geyser Lagane Se Pehle Kya Dhyan Rakhe? | Wire Size, MCB & RCCB Guide →](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe)
+> 👉 [Geyser Lagane Se Pehle Kya Dhyan Rakhe? | Wire Size, MCB & RCCB Guide →](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe/)
 
 ### 3. Short Circuit Se Hone Wali Aag Se Bachav
 Purani wiring, chooha kaatna, loose connection — yeh sab dheere-dheere leakage create karte hain. Leakage se wire garam hoti hai… aur phir aag lag sakti hai. RCCB shuruaati stage mein hi micro leakage ko pakad leti hai.
@@ -70,8 +70,7 @@ Kabhi fridge, cooler ya washing machine ko chhu kar halka jhatka ya vibration me
 
 > ⚠️ **Field Warning:**  
 > Metal body coolers aur fridge me voltage fluctuation ya current leakage se bachav ke liye sahi earth line aur stabilizer zaroori hota hai:  
-> 👉 [Cooler Kharidne Se Pehle Kya Dhyan De? (Safety & Buying Guide) →](/articles/cooler-kharidne-se-pehle-kya-dhyan-de)  
-> 👉 [Stabilizer Kya Hota Hai? AC Aur Fridge Ke Liye Kyun Zaroori Hai? →](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide)
+> 👉 [Cooler Kharidne Se Pehle Kya Dhyan De? (Safety & Buying Guide) →](/articles/cooler-kharidne-se-pehle-kya-dhyan-de/)  
 
 ### 6. Modern Safety Standard
 Naye construction aur modern electrical standards (NEC) mein RCCB ko har ghar ke liye basic safety device maana jata hai. Future-ready ghar ke liye yeh mandatory hai.
@@ -89,7 +88,8 @@ Neeche diye gaye table se dono ka antar samjhein:
 | **Trip Hone Ki Wajah** | Zyada load padne ya taar bhidne par | Current leak hote hi (0.03 sec me) |
 | **Ghar Mein Zaroori?** | Haan, Wiring ki safety ke liye | **Sabse Zaroori**, Family safety ke liye |
 
-> **Yaad Rakhein:** Dono ka kaam alag hai — Main Board me dono ka hona zaroori hai.
+> **Yaad Rakhein:** Dono ka kaam alag hai — Main Board me dono ka hona zaroori hai. Sahi tripping curve (B-Type ya C-Type) aur rating chart samajhne ke liye padhein:  
+> 👉 [MCB Selection Guide: Ghar Ke Liye Sahi MCB Kaise Chune? (Rating & Chart) →](/articles/mcb-types-selection-guide/)
 
 ---
 
@@ -105,6 +105,7 @@ Neeche diye gaye table se dono ka antar samjhein:
 
 ### 1. Proper Earthing
 Agar earthing sahi nahi hai, toh RCCB ka protection adha reh jayega. Earthing check karwana bohot zaroori hai taaki leakage current zameen me bypass ho sake aur RCCB turant trip kare.
+👉 [Earthing Kya Hai? Ghar Mein Earthing Kaise Kare (Kharcha & Testing Guide) →](/articles/earthing-kya-hai/)
 
 ### 2. Sahi Rating Ka Selection
 - **30mA RCCB:** Ghar (Human Safety) ke liye best.
@@ -142,7 +143,7 @@ Nahi. MCB insaan ko electric shock se nahi bachati.
 
 ### Q4. Bathroom me shock lagne par kaun bacha sakta hai?
 Bathroom me wet conditions hoti hain, wahan sirf 30mA RCCB hi instant protection de sakti hai:  
-👉 [Best Geyser for Small Family in India (2026 Buying Guide) →](/articles/best-geyser-for-small-family-in-india)
+👉 [Best Geyser for Small Family in India (2026 Buying Guide) →](/articles/best-geyser-for-small-family-in-india/)
 
 ---
 
@@ -150,11 +151,13 @@ Bathroom me wet conditions hoti hain, wahan sirf 30mA RCCB hi instant protection
 
 Aapki suraksha aur bijli bachat ke liye ye guides zaroor padhein:
 
+- ⚡ [Earthing Kya Hai? Ghar Mein Earthing Kaise Kare (2026 Guide)](/articles/earthing-kya-hai/)
+- ⚡ [MCB Selection Guide: Ghar Ke Liye Sahi MCB Kaise Chune?](/articles/mcb-types-selection-guide/)
 - ⚡ [Geyser Lagane Se Pehle Kya Dhyan Rakhe? (Wire Size, MCB & Safety)](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe)
-- ⚡ [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye?](/articles/home-electrical-load-calculation)
-- ⚡ [Stabilizer Kya Hota Hai? AC Aur Fridge Ke Liye Kyun Zaroori Hai?](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide)
-- ⚡ [Cooler Kharidne Se Pehle Kya Dhyan De? (2026 Buying Guide)](/articles/cooler-kharidne-se-pehle-kya-dhyan-de)
-- ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare)
+- ⚡ [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye?](/articles/home-electrical-load-calculation/)
+- ⚡ [Stabilizer Kya Hota Hai? AC Aur Fridge Ke Liye Kyun Zaroori Hai?](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide/)
+- ⚡ [Cooler Kharidne Se Pehle Kya Dhyan De? (2026 Buying Guide)](/articles/cooler-kharidne-se-pehle-kya-dhyan-de/)
+- ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare/)
 
 ---
 
