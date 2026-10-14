@@ -43,7 +43,7 @@ India ke aam grids me voltage fluctuation aana behad common hai. Iske main techn
 
 > ⚡ **Safety Tip:**  
 > Agar aapke ghar me neutral wire loose ya earthing weak hai, toh voltage achanak 300V tak chhalang maar sakti hai.  
-> 👉 [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Shock & Leakage Protection) →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
+> 👉 [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Shock & Leakage Protection) →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 
 ---
 
@@ -55,6 +55,9 @@ Aajkal lagbhag har inverter AC ke sticker par **"Stabilizer Free Operation"** li
 - **Lekin khatra kahan hai?** Agar transformer fault, bijli kadakne ya neutral break se voltage 270V se upar (jaise 290V–310V) chali jaye, toh AC ka internal surge protector (MOV) jal jata hai aur compressor circuit block ho jata hai.
 
 **Ground Reality:** India ke semi-urban aur residential areas me voltage range aksar 130V se 290V cross kar jaati hai. Isliye Inverter AC ke sath ek dedicated external stabilizer lagana hamesha sabse samajhdari bhara faisla hota hai.
+> 📌 **Related Guide:**  
+> Inverter AC aur non-inverter models me bijli bachat aur technology ka fark samajhne ke liye padhein:  
+> 👉 [5 Star vs 3 Star vs Inverter AC: Kaun Sa AC Sabse Kam Bijli Khata Hai? →](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison/)
 
 ---
 
@@ -82,7 +85,7 @@ Naya stabilizer khareedte waqt in 4 features ko box par zaroor check karein:
 
 > 📌 **Recommended Guide:**  
 > Stabilizer aur AC lagwate waqt ghar ke total load aur meter capacity ka calculation zaroor karein:  
-> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation)
+> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation/)
 
 ---
 
@@ -95,9 +98,6 @@ Bahut se logon ko darr hota hai ki *"Stabilizer lagane se bijli ka bill badh jay
 - Yeh poore mahine me aam taur par sirf **2 se 4 units** bijli khate hain (yaani mahine ka mushkil se ₹15 se ₹30 ka kharcha).
 - Iske mukable, low voltage par agar bina stabilizer ke compressor chalega, toh wo zyada current khinch kar ulti extra units waste karega.
 
-> 📌 **Recommended Guide:**  
-> Sardi me room heater aur heavy heating load ke dauran bijli ka bill kaise control karein:  
-> 👉 [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips →](/articles/winter-me-bijli-bill-kaise-kam-kare)
 
 ---
 
@@ -115,10 +115,6 @@ Sirf mehenga stabilizer laga lene se complete protection nahi milti:
 - **Dedicated 16A Power Socket:** AC aur heavy stabilizer ke liye direct wall socket ka istemal karein, saste multi-plug par kabhi na chalayein.
 - **Geyser Safety:** Geyser lagwate waqt bhi proper 16A socket aur MCB ka dhyan rakhein.
 
-> ⚡ **Recommended Guide:**  
-> Geyser aur heavy appliances lagwate waqt wiring aur MCB ka dhyan kaise rakhein:  
-> 👉 [Geyser Lagane Se Pehle Kya Dhyan Rakhe? (Wire Size, Ventilation, MCB Guide) →](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe)
-
 ---
 
 ## Aksar Pooche Jaane Wale Sawal (FAQs)
@@ -132,21 +128,17 @@ Nahi. Digital stabilizer mahine me lagbhag 2-3 unit hi consume karta hai, jo neg
 ### Q3. Kya solar system lagane par stabilizer ki zaroorat padti hai?
 On-Grid solar system grid ke sath sync rehta hai, isliye agar grid me fluctuation hai toh appliances ke liye stabilizer tab bhi safe practice rehti hai.
 
-> 📌 **Recommended Guide:**  
-> Solar system ke sath ghar ka load aur bijli bill kaise zero karein:  
-> 👉 [3kW Solar System Price in India with Subsidy (Complete Reality Guide) →](/articles/3kw-solar-system-price-india-subsidy)
 
 ---
 
-## ⚡ Related Electrical Guides (Bijli Gyaan Hub)
+## ⚡ Related Electrical Guides 
 
 Aapki home safety aur appliance longevity ke liye hamari yeh guides zaroor padhein:
 
-- ⚡ [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye?](/articles/home-electrical-load-calculation)
-- ⚡ [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Safety Guide)](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
-- ⚡ [Geyser Lagane Se Pehle Kya Dhyan Rakhe? (Wire Size, MCB & Ventilation)](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe)
-- ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare)
-- ⚡ [3kW Solar System Price in India with Subsidy](/articles/3kw-solar-system-price-india-subsidy)
+- ⚡ [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye?](/articles/home-electrical-load-calculation/)
+- ⚡ [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Safety Guide)](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
+> 👉 [5 Star vs 3 Star vs Inverter AC: Kaun Sa AC Sabse Kam Bijli Khata Hai? →](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison/)
+
 
 ---
 
