@@ -40,7 +40,7 @@ Is scheme mein sirf On-Grid Solar System lagta hai.
 - Extra bijli grid mein export hoti hai
 - Net metering se bill adjust hota hai
 
-Agar aap confused hain ki purane inverter battery setup ko hi solar banayein ya naya solar inverter lein, toh yeh practical guide padhein → [Solar Inverter vs Normal Inverter: Purana Inverter Solar Kaise Banaye?](/articles/solar-inverter-vs-normal-inverter)
+Agar aap confused hain ki purane inverter battery setup ko hi solar banayein ya naya solar inverter lein, toh yeh practical guide padhein → [Solar Inverter vs Normal Inverter: Purana Inverter Solar Kaise Banaye?](/articles/solar-inverter-vs-normal-inverter/)
 
 ---
 
@@ -91,7 +91,7 @@ Agar aap backup ke liye battery wala system chahte hain:
 - **Rozana:** 12–15 unit
 - **Mahina:** 360–450 unit
 
-Agar aap jaanna chahte hain ki aapke ghar ke total appliances ka load kitna hai aur kya aapka meter iska load sambhal payega, toh yeh guide zaroor padhein → [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye?](/articles/home-electrical-load-calculation)
+Agar aap jaanna chahte hain ki aapke ghar ke total appliances ka load kitna hai aur kya aapka meter iska load sambhal payega, toh yeh guide zaroor padhein → [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye?](/articles/home-electrical-load-calculation/)
 
 ---
 
@@ -109,7 +109,7 @@ Seedha jawab — har kisi ka nahi.
 - Raat ka load zyada hai
 - 👉 Is case mein bill 50–60% kam hoga, zero nahi.
 
-Agar aap garmiyon me AC chalane par aane wale bijli bill ko samajhna chahte hain, toh yeh comparison dekhein → [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison)
+Agar aap garmiyon me AC chalane par aane wale bijli bill ko samajhna chahte hain, toh yeh comparison dekhein → [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison/)
 
 **Electrician Tip:** Solar utni hi bijli dega jitni dhoop milegi. Raat ke load ke liye grid ya battery hi sahara hai.
 
@@ -137,7 +137,7 @@ Mahine ke end me Discom export units ko import units se ghata deta hai aur bachi
 - Approved vendor se hi install karwayein
 - Har 15 din mein panel cleaning karein
 - 6 mahine ka bill analysis karein taaki pattern samajh aaye
-- DB box me safety switchgear aur proper earthing zaroor maintain karein → [Ghar Mein RCCB Lagana Kyun Zaruri Hai?](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
+- DB box me safety switchgear aur proper earthing zaroor maintain karein → [Ghar Mein RCCB Lagana Kyun Zaruri Hai?](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 
 ---
 
@@ -165,10 +165,10 @@ Delhi mein milti hai (₹30,000 extra). Haryana mein nahi milti. Baaki states ke
 
 ### Related Articles
 - [Solar Inverter vs Normal Inverter: Purana Inverter Solar Kaise Banaye?](/articles/solar-inverter-vs-normal-inverter)
-- [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye?](/articles/home-electrical-load-calculation)
+- [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye?](/articles/home-electrical-load-calculation/)
 - [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison)
-- [Stabilizer Kya Hota Hai? AC Aur Fridge Ke Liye Kyun Zaroori Hai?](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide)
-- [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare)
+- [Stabilizer Kya Hota Hai? AC Aur Fridge Ke Liye Kyun Zaroori Hai?](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide/)
+- [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare/)
 
 ---
 
