@@ -62,7 +62,7 @@ Agar bathroom completely band hai, to electric geyser hi safe option hai.
 
 > 📌 **Recommended Guide:**  
 > Agar aap naya geyser kharidne ka plan kar rahe hain, to capacity aur brand comparison zaroor padhein:  
-> 👉 [Best Geyser for Small Family in India (2026 Buyer's Guide) →](/articles/best-geyser-for-small-family-in-india)
+> 👉 [Best Geyser for Small Family in India (2026 Buyer's Guide) →](/articles/best-geyser-for-small-family-in-india/)
 
 ---
 
@@ -99,7 +99,7 @@ Neeche diye gaye table se aap easily samajh sakte hain ki geyser ke liye kaunsa 
 
 > 📌 **Recommended Guide:**  
 > Ghar ke pure load ke mutabiq sahi meter aur main wire calculate karne ke liye yeh guide padhein:  
-> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation)
+> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation/)
 
 ---
 
@@ -116,7 +116,7 @@ Bahut log sirf MCB laga dete hain, par RCCB nahi lagate — ye sabse badi galti 
 
 > ⚡ **Safety Tip:**  
 > Current leakage hone par RCCB kaise turant trip karta hai aur human life bachata hai, yahan detail me jaanein:  
-> 👉 [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Electrical Safety Guide) →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
+> 👉 [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Electrical Safety Guide) →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 
 ---
 
@@ -141,7 +141,7 @@ Bahut log sirf MCB laga dete hain, par RCCB nahi lagate — ye sabse badi galti 
 >  
 > Apne ghar ke load aur sarkari subsidy ke mutabiq 30 seconds me free estimate check karein:  
 > 👉 [Solar Sathi AI – Check Free Solar Capacity & Subsidy Calculator →](https://officialpramod91-tech.github.io/solar-sathi-ai/)  
-> 👉 [3kW Solar System Price in India With Subsidy 2026 Guide →](/articles/3kw-solar-system-price-india-subsidy)
+> 👉 [3kW Solar System Price in India With Subsidy 2026 Guide →](/articles/3kw-solar-system-price-india-subsidy/)
 
 ---
 
@@ -170,7 +170,7 @@ Sirf installation hi kaafi nahi hota:
 
 > 📌 **Energy Saving Guide:**  
 > Sardi me geyser aur room heater ke use ke dauran bijli ka bill kaise kam karein:  
-> 👉 [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips →](/articles/winter-me-bijli-bill-kaise-kam-kare)
+> 👉 [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips →](/articles/winter-me-bijli-bill-kaise-kam-kare/)
 
 ---
 
@@ -190,12 +190,10 @@ Thodi si planning aapko electric shock, fire aur oxygen risk se bacha sakti hai.
 Ghar ke appliances aur electrical safety se judi important jankari:
 - ⚡ [Earthing Kya Hai? Ghar Mein Earthing Kaise Kare (2026 Guide)](/articles/earthing-kya-hai/)
 - ⚡ [MCB Selection Guide: Sahi MCB Rating Aur Chart](/articles/mcb-types-selection-guide/)
-- ⚡ [Best Geyser for Small Family in India (2026 Buyer's Guide)](/articles/best-geyser-for-small-family-in-india)
+- ⚡ [Best Geyser for Small Family in India (2026 Buyer's Guide)](/articles/best-geyser-for-small-family-in-india/)
 - ⚡ [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Safety Guide)](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
-- ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare)
+- ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare/)
 - ⚡ [Home Electrical Load Calculation: Simple Formula Guide](/articles/home-electrical-load-calculation)
-- ⚡ [Stabilizer Kya Hota Hai? AC Aur Fridge Ke Liye Kyun Zaroori Hai?](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide)
-- ⚡ [Cooler Kharidne Se Pehle Kya Dhyan De? (2026 Buying Guide)](/articles/cooler-kharidne-se-pehle-kya-dhyan-de)
 
 ---
 
