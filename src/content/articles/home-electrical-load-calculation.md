@@ -92,7 +92,7 @@ Maan lijiye aapke ghar me peak time par ek sath ye chal raha hai:
 
 > ⚡ **Life Saving Tip:**  
 > MCB sirf short circuit aur wire ko bachati hai, shock lagne par trip nahi hoti. Family safety ke liye main DB me 30mA RCCB mandatory hai:  
-> 👉 [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Electrical Safety Guide) →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
+> 👉 [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Electrical Safety Guide) →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 
 ---
 
@@ -107,8 +107,8 @@ Maan lijiye aapke ghar me peak time par ek sath ye chal raha hai:
 *Zaroori Note: Agar aapka load 5kW cross karta hai, toh hamesha 3-Phase connection hi lein, warna single phase wire par overload se voltage drop ki problem shuru ho jayegi.*
 
 > 📌 **Heavy Appliances Wiring & Safety Guides:**  
-> - 👉 [Geyser Lagane Se Pehle Kya Dhyan Rakhe? (Wire Size, MCB & RCCB) →](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe)  
-> - 👉 [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison →](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison)
+> - 👉 [Geyser Lagane Se Pehle Kya Dhyan Rakhe? (Wire Size, MCB & RCCB) →](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe/)  
+> - 👉 [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison →](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison/)
 
 ---
 
@@ -137,7 +137,7 @@ Jab ghar me naya AC lagta hai aur load 3kW se upar nikalne lagta hai, toh do raa
 3. **MDI Penalty in Electricity Bill:** Aaj kal ke smart digital meters peak demand record karte hain. Agar 2kW ke meter par 3.5kW load chalayenge, toh agle mahine penalty lagkar aayegi.
 4. **Appliance Failure:** Voltage drop hone se refrigerator aur AC ke compressor jaldi kharab ho jaate hain.
 
-Ghar ko voltage fluctuation aur spike se surakshit rakhne ke liye ye padhein → [Stabilizer Kya Hota Hai? AC Aur Fridge Ke Liye Kyun Zaroori Hai?](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide)
+Ghar ko voltage fluctuation aur spike se surakshit rakhne ke liye ye padhein → [Stabilizer Kya Hota Hai? AC Aur Fridge Ke Liye Kyun Zaroori Hai?](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide/)
 
 ---
 
@@ -146,7 +146,7 @@ Ghar ko voltage fluctuation aur spike se surakshit rakhne ke liye ye padhein →
 - **AC aur Geyser ke liye direct separate line:** Kabhi bhi AC ya geyser ko purane 5A/15A socket ke loop se na jodein. Inke liye distribution board se sidhi separate 4 sq mm wire aur 16A/20A MCB honi chahiye.
 - **Neutral Wire ko kabhi halka na samjhein:** Jitni moti phase wire hai, neutral wire bhi barabar motai ki honi chahiye. Loose neutral pure ghar ke electronics ko uda sakta hai.
 - **20% Future Scope:** Agar aaj aapka running load 2kW nikal raha hai, toh meter hamesha 3kW ka sanction karwayein taaki future me naya appliance lene par bar-bar bijli daftar na daudna pade.
-- **Purana Inverter Upgrade:** Agar power cut ke dauran basic load backup ke liye sochre hain, toh dekhein → [Solar Inverter vs Normal Inverter: Purana Inverter Solar Kaise Banaye?](/articles/solar-inverter-vs-normal-inverter)
+- **Purana Inverter Upgrade:** Agar power cut ke dauran basic load backup ke liye soch rhe hain, toh dekhein → [Solar Inverter vs Normal Inverter: Purana Inverter Solar Kaise Banaye?](/articles/solar-inverter-vs-normal-inverter/)
 
 ---
 
@@ -154,11 +154,11 @@ Ghar ko voltage fluctuation aur spike se surakshit rakhne ke liye ye padhein →
 
 Ghar ki bijli aur equipment ko safe rakhne ke liye hamari yeh guides zaroor check karein:
 
-- ⚡ [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Safety Guide)](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
-- ⚡ [3kW Solar System Price in India with Subsidy (Complete Reality Guide)](/articles/3kw-solar-system-price-india-subsidy)
-- ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare)
-- ⚡ [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison)
-- ⚡ [Cooler Kharidne Se Pehle Kya Dhyan De? (2026 Buying Guide)](/articles/cooler-kharidne-se-pehle-kya-dhyan-de)
+- ⚡ [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Safety Guide)](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
+- ⚡ [3kW Solar System Price in India with Subsidy (Complete Reality Guide)](/articles/3kw-solar-system-price-india-subsidy/)
+- ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare/)
+- ⚡ [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison/)
+- ⚡ [Cooler Kharidne Se Pehle Kya Dhyan De? (2026 Buying Guide)](/articles/cooler-kharidne-se-pehle-kya-dhyan-de/)
 
 ---
 
