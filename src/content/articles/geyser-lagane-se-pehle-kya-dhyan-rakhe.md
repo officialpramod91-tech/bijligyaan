@@ -28,7 +28,8 @@ Geyser high power device hota hai. Paani aur bijli ek saath ho to risk automatic
 - Geyser ke liye alag (dedicated) power line ho
 - Wiring purani ya jali hui na ho
 
-> ⚠️ **Field Warning:** Kabhi bhi geyser ko normal 6A plug me mat lagayein. Maximum shock cases ka reason weak earthing ya galat wiring hoti hai.
+> ⚠️ **Field Warning:** Kabhi bhi geyser ko normal 6A plug me mat lagayein. Maximum shock cases ka reason weak earthing ya galat wiring hoti hai. Ghar me pit kaise check karein aur kitna kharcha aata hai, yahan padhein:  
+> 👉 [Earthing Kya Hai? Ghar Mein Earthing Kaise Kare (2026 Guide) →](/articles/earthing-kya-hai/)
 
 ---
 
@@ -129,6 +130,10 @@ Bahut log sirf MCB laga dete hain, par RCCB nahi lagate — ye sabse badi galti 
 
 *Note: Hamesha ISI Mark MCB aur dedicated power line ka use karein. Extra safety ke liye 30mA RCCB install karna bhi zaroori hai. Switch ko geyser ke bilkul paas na lagayein.*
 
+> 📌 **Recommended Guide:**  
+> MCB ka tripping curve (B vs C Type) aur pure ghar ki MCB rating chart samajhne ke liye dekhein:  
+> 👉 [MCB Selection Guide: Ghar Ke Liye Sahi MCB Kaise Chune? →](/articles/mcb-types-selection-guide/)
+
 ---
 
 > ☀️ **Solar Sathi AI Hook: Sardi Me Geyser Ka Bijli Bill Zero Ho Sakta Hai?**  
@@ -183,6 +188,8 @@ Thodi si planning aapko electric shock, fire aur oxygen risk se bacha sakti hai.
 ## 🔗 Aapke Liye Useful Guides (Must Read)
 
 Ghar ke appliances aur electrical safety se judi important jankari:
+- ⚡ [Earthing Kya Hai? Ghar Mein Earthing Kaise Kare (2026 Guide)](/articles/earthing-kya-hai/)
+- ⚡ [MCB Selection Guide: Sahi MCB Rating Aur Chart](/articles/mcb-types-selection-guide/)
 - ⚡ [Best Geyser for Small Family in India (2026 Buyer's Guide)](/articles/best-geyser-for-small-family-in-india)
 - ⚡ [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Safety Guide)](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
 - ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare)
