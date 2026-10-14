@@ -59,7 +59,7 @@ Bohot se gharon me subah se shaam tak geyser ON rehta hai. Bhale hi thermostat c
 
 > 📌 **Recommended Guide:**  
 > Sardi me kam bijli bill ke liye 5-star BEE rated storage geyser kaise chunein, poora comparison dekhein:  
-> 👉 [Best Geyser for Small Family in India (2026 Energy Efficient Guide) →](/articles/best-geyser-for-small-family-in-india)
+> 👉 [Best Geyser for Small Family in India (2026 Energy Efficient Guide) →](/articles/best-geyser-for-small-family-in-india/)
 
 ### 3️⃣ LED Lights Par Shift Hon (80% Tak Bijli Bachayein)
 Agar aapke ghar me abhi bhi puraane 100-Watt ke peele bulb ya puraani CFL lagi hain, toh unhe turant badlein.
@@ -81,7 +81,7 @@ Loose connections aur weak earthing ki wajah se current leakage hoti hai. Meter 
 
 > ⚡ **Safety & Saving Tip:**  
 > Ghar ke main distribution panel me **30mA RCCB** lagwaein. Yeh device leakage hote hi power cut karti hai jisse current waste nahi hota aur shock se protection milti hai.  
-> 👉 [RCCB Kya Hai Aur Ghar Me Lagana Kyu Zaroori Hai? Poori Guide Padhein →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
+> 👉 [RCCB Kya Hai Aur Ghar Me Lagana Kyu Zaroori Hai? Poori Guide Padhein →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 
 ### 7️⃣ Standby Power Aur Extra Gadgets Ka Smart Use
 Sardi me Electric Kettle aur Rod heater ka baar-baar use bill double kar deta hai.
@@ -112,10 +112,10 @@ Nahi. Inverter transformer aur battery par heavy load dalta hai, jisse battery j
 
 Ghar ki bijli aur equipment ko safe rakhne ke liye hamari yeh guides zaroor check karein:
 
-- ⚡ [Geyser Lagane Se Pehle Kya Dhyan Rakhe? (Wire Size, MCB & RCCB)](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe)
-- ⚡ [Ghar Ka Bijli Load Kaise Calculate Karein? Step-by-Step Formula](/articles/home-electrical-load-calculation)
-- ⚡ [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Safety Guide)](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
-- ⚡ [Best Geyser for Small Family in India (2026 Buyer's Guide)](/articles/best-geyser-for-small-family-in-india)
+- ⚡ [Geyser Lagane Se Pehle Kya Dhyan Rakhe? (Wire Size, MCB & RCCB)](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe/)
+- ⚡ [Ghar Ka Bijli Load Kaise Calculate Karein? Step-by-Step Formula](/articles/home-electrical-load-calculation/)
+- ⚡ [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Safety Guide)](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
+- ⚡ [Best Geyser for Small Family in India (2026 Buyer's Guide)](/articles/best-geyser-for-small-family-in-india/)
 
 ---
 
