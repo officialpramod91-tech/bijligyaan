@@ -97,7 +97,7 @@ Maan lijiye aapka 1.5 Ton AC daily **8 ghante** chalta hai, aur aapke state me b
 >  
 > Sarkari PM Surya Ghar Yojana ke tehat ₹78,000 tak ki central subsidy mil rahi hai. Aapke ghar ke AC load ke liye kitne kW ka solar panel lagega aur kitna kharcha aayega, yeh abhi 30 seconds me check karein:  
 > 👉 [Solar Sathi AI – Check Your Solar Capacity & Subsidy (Free) →](https://officialpramod91-tech.github.io/solar-sathi-ai/)  
-> 👉 [3kW Solar System Price in India with Subsidy (Complete Reality Guide) →](/articles/3kw-solar-system-price-india-subsidy)
+> 👉 [3kW Solar System Price in India with Subsidy (Complete Reality Guide) →](/articles/3kw-solar-system-price-india-subsidy/)
 
 ---
 
@@ -122,7 +122,7 @@ Apne daily usage ghanton ke hisab se AC decide karein:
 
 > 📌 **Recommended Guide:**  
 > AC lagwate waqt ghar ke total sanctioned load ka calculation zaroor karein taaki meter penalty na lage:  
-> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation)
+> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation/)
 
 ---
 
@@ -135,7 +135,7 @@ Apne daily usage ghanton ke hisab se AC decide karein:
 
 > ⚡ **Recommended Guide:**  
 > Inverter AC me external stabilizer lagana kyun zaroori hai aur kaunsa stabilizer best hai:  
-> 👉 [Stabilizer Kya Hota Hai? Kya Har Ghar Me Zaroori Hai? (AC, Fridge, TV Guide) →](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide)
+> 👉 [Stabilizer Kya Hota Hai? Kya Har Ghar Me Zaroori Hai? (AC, Fridge, TV Guide) →](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide/)
 
 ---
 
@@ -148,7 +148,7 @@ Haan. Halanki aajkal ke Inverter AC me wide operating voltage range aati hai, le
 Agar AC roz 8 ghante chalta hai, toh 5-Star AC mahine me lagbhag 60 se 70 units kam khata hai, jisse ₹450 se ₹600 tak ka seedha monthly farq padta hai.
 
 ### Q3. Kya 5-Star AC lagwane se bijli ka bill zero ho sakta hai?
-Nahi. 5-Star AC sirf units kam karta hai, zero nahi. Agar aap garmi me AC chalate hue bill zero karna chahte hain, toh [Rooftop Solar System](/articles/3kw-solar-system-price-india-subsidy) lagwana hi ekmatra permanent solution hai.
+Nahi. 5-Star AC sirf units kam karta hai, zero nahi. Agar aap garmi me AC chalate hue bill zero karna chahte hain, toh [Rooftop Solar System](/articles/3kw-solar-system-price-india-subsidy/) lagwana hi ekmatra permanent solution hai.
 
 ### Q4. Inverter AC kis temperature par chalana sabse efficient hota hai?
 Inverter AC ko hamesha 24°C se 26°C ke beech chalana chahiye. Bureau of Energy Efficiency (BEE) ke mutabiq yeh human body ke liye sabse comfortable aur pocket ke liye sabse sasta temperature hai.
@@ -159,11 +159,11 @@ Inverter AC ko hamesha 24°C se 26°C ke beech chalana chahiye. Bureau of Energy
 
 Ghar ki bijli bachat aur appliance safety ke liye hamari yeh guides zaroor check karein:
 
-- ⚡ [Stabilizer Kya Hota Hai? AC Aur Fridge Ke Liye Kyun Zaroori Hai?](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide)
-- ⚡ [Home Electrical Load Calculation: Step-by-Step Formula (2026)](/articles/home-electrical-load-calculation)
-- ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Practical Tips](/articles/winter-me-bijli-bill-kaise-kam-kare)
-- ⚡ [3kW Solar System Price in India with Subsidy (Reality Guide)](/articles/3kw-solar-system-price-india-subsidy)
-- ⚡ [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Safety Guide)](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
+- ⚡ [Stabilizer Kya Hota Hai? AC Aur Fridge Ke Liye Kyun Zaroori Hai?](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide/)
+- ⚡ [Home Electrical Load Calculation: Step-by-Step Formula (2026)](/articles/home-electrical-load-calculation/)
+- ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Practical Tips](/articles/winter-me-bijli-bill-kaise-kam-kare/)
+- ⚡ [3kW Solar System Price in India with Subsidy (Reality Guide)](/articles/3kw-solar-system-price-india-subsidy/)
+- ⚡ [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Safety Guide)](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 
 ---
 
