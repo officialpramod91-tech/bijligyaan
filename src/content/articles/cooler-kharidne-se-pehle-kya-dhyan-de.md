@@ -67,13 +67,13 @@ Bijli ki khapat ke maamle me cooler AC ke mukable bohot sasta padta hai:
 
 > 📌 **Recommended Guide:**  
 > AC aur cooler ke bijli khapat aur star rating ka antar samajhne ke liye yeh guide padhein:  
-> 👉 [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison (2026 Guide) →](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison)
+> 👉 [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison (2026 Guide) →](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison/)
 
 ---
 
 > ☀️ **Summer Power & Cooling Hook: Light Cut Hone Par Bhi Thandak Chahiye?**  
 > Garmi me baar-baar power cut hona aam baat hai. Agar aap chahte hain ki light jaane par cooler bina kisi battery stress ke direct suraj ki dhoop se chale, toh apne normal inverter ko solar me upgrade karein ya rooftop solar lagwayein:  
-> 👉 [Solar Inverter vs Normal Inverter: Purana Inverter Solar Kaise Banaye? →](/articles/solar-inverter-vs-normal-inverter)  
+> 👉 [Solar Inverter vs Normal Inverter: Purana Inverter Solar Kaise Banaye? →](/articles/solar-inverter-vs-normal-inverter/)  
 > 👉 [Solar Sathi AI – Check Your Solar Capacity & Free Subsidy Estimate →](https://officialpramod91-tech.github.io/solar-sathi-ai/)
 
 ---
@@ -87,7 +87,7 @@ Cooler khareedte waqt in 2 internal cheezon ko zaroor dekhein:
 
 > ⚡ **Voltage Protection Tip:**  
 > Agar aapke ilaqe me voltage 160V se niche chali jaati hai, toh cooler ki motor slow hokar jam ho sakti hai:  
-> 👉 [Stabilizer Kya Hota Hai? Kya Har Ghar Me Lagana Zaroori Hai? →](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide)
+> 👉 [Stabilizer Kya Hota Hai? Kya Har Ghar Me Lagana Zaroori Hai? →](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide/)
 
 ---
 
@@ -131,7 +131,7 @@ Market me durability aur heavy airflow ke hisaab se yeh teen category models sab
 
 > 📌 **Recommended Guide:**  
 > Ghar me heavy motor loads chalate waqt meter aur MCB load calculation zaroor karein:  
-> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation)
+> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation/)
 
 ---
 
@@ -153,11 +153,10 @@ Haan! Ek 150W–200W ka cooler normal 850VA ya 1100VA inverter par 3 se 5 ghante
 
 ## ⚡ Related Electrical & Appliance Guides
 
-- ⚡ [Solar Inverter vs Normal Inverter: Purana Inverter Solar Kaise Banaye?](/articles/solar-inverter-vs-normal-inverter)
-- ⚡ [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison)
-- ⚡ [Stabilizer Kya Hota Hai? AC Aur Fridge Ke Liye Kyun Zaroori Hai?](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide)
-- ⚡ [Home Electrical Load Calculation: Step-by-Step Guide](/articles/home-electrical-load-calculation)
-- ⚡ [3kW Solar System Price in India with Subsidy (Complete Reality Guide)](/articles/3kw-solar-system-price-india-subsidy)
+- ⚡ [Solar Inverter vs Normal Inverter: Purana Inverter Solar Kaise Banaye?](/articles/solar-inverter-vs-normal-inverter/)
+- ⚡ [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison/)
+- ⚡ [Stabilizer Kya Hota Hai? AC Aur Fridge Ke Liye Kyun Zaroori Hai?](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide/)
+- ⚡ [Home Electrical Load Calculation: Step-by-Step Guide](/articles/home-electrical-load-calculation/)
 
 ---
 
