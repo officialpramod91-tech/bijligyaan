@@ -98,7 +98,7 @@ Showroom me sirf look dekhkar na lein, carton par ye 5 technical specifications 
 
 > ⚡ **Zaroori Installation & Wiring Point:**  
 > Naya geyser khareedne ke baad use purane 6A plug ya patli taar par lagane ki galti bilkul mat karna. Sahi wire size, 16A socket aur MCB ka dhyan rakhna zaroori hai:  
-> 👉 [Geyser Lagane Se Pehle Kya Dhyan Rakhe? (Wire Size, MCB & RCCB Guide) →](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe)
+> 👉 [Geyser Lagane Se Pehle Kya Dhyan Rakhe? (Wire Size, MCB & RCCB Guide) →](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe/)
 
 ---
 
@@ -118,7 +118,7 @@ Aksar log poochte hain: *"Bhaisahab, 2000 Watt ka geyser lein ya 3000 Watt ka?"*
 >  
 > Sarkari subsidy ke sath apne ghar ka solar estimate check karein:  
 > 👉 [Solar Sathi AI – Check Free Solar Capacity & Subsidy Calculator →](https://officialpramod91-tech.github.io/solar-sathi-ai/)  
-> 👉 [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Saving Tips →](/articles/winter-me-bijli-bill-kaise-kam-kare)
+> 👉 [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Saving Tips →](/articles/winter-me-bijli-bill-kaise-kam-kare/)
 
 ---
 
@@ -130,7 +130,7 @@ Aksar log poochte hain: *"Bhaisahab, 2000 Watt ka geyser lein ya 3000 Watt ka?"*
 
 > ⚡ **Shock Protection Guide:**  
 > Current leakage aur bathroom electric shock se bachne ke liye RCCB kaise protect karta hai, zaroor padhein:  
-> 👉 [RCCB Kya Hai Aur Ghar Mein Lagana Kyun Zaruri Hai? Complete Safety Guide →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
+> 👉 [RCCB Kya Hai Aur Ghar Mein Lagana Kyun Zaruri Hai? Complete Safety Guide →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 
 ---
 
@@ -142,7 +142,7 @@ Aksar log poochte hain: *"Bhaisahab, 2000 Watt ka geyser lein ya 3000 Watt ka?"*
 
 > 📌 **Recommended Guide:**  
 > Apne ghar ke total appliances ka wattage jodkar sahi meter load aur MCB calculate karein:  
-> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation)
+> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation/)
 
 ---
 
@@ -164,11 +164,11 @@ Khare paani ke liye **Glass-Lined inner tank** aur **Incoloy/Titanium heating el
 
 ## ⚡ Related Electrical Safety & Saving Guides
 
-- ⚡ [Geyser Lagane Se Pehle Kya Dhyan Rakhe? (Wire Size & Safety)](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe)
-- ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare)
+- ⚡ [Geyser Lagane Se Pehle Kya Dhyan Rakhe? (Wire Size & Safety)](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe/)
+- ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare/)
 - ⚡ [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Safety Guide)](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
-- ⚡ [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye?](/articles/home-electrical-load-calculation)
-- ⚡ [3kW Solar System Price in India with Subsidy (Reality Guide)](/articles/3kw-solar-system-price-india-subsidy)
+- ⚡ [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye?](/articles/home-electrical-load-calculation/)
+- ⚡ [3kW Solar System Price in India with Subsidy (Reality Guide)](/articles/3kw-solar-system-price-india-subsidy/)
 
 ---
 
