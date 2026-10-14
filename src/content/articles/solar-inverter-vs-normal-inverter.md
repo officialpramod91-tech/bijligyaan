@@ -88,7 +88,7 @@ Agar aap chahte hain ki poora system automatically decide kare ki kab solar use 
 >  
 > PM Surya Ghar Yojana ke tehat subsidy calculation aur apne exact daily usage ke hisaab se sahi panel size janne ke liye Solar Sathi AI ka use karein:  
 > 👉 [Solar Sathi AI – Free Solar & Subsidy Calculator Check Karein →](https://officialpramod91-tech.github.io/solar-sathi-ai/)  
-> 👉 [3kW Solar System Price in India with Subsidy (Complete Reality Guide) →](/articles/3kw-solar-system-price-india-subsidy)
+> 👉 [3kW Solar System Price in India with Subsidy (Complete Reality Guide) →](/articles/3kw-solar-system-price-india-subsidy/)
 
 ---
 
@@ -126,7 +126,7 @@ Agar aap purane ko convert karne ke bajaye naya dedicated solar inverter lena ch
 
 > 📌 **Recommended Guide:**  
 > Ghar ke pure appliances ka wattage jodkar sahi load nikalne ke liye yeh master guide padhein:  
-> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation)
+> 👉 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye? →](/articles/home-electrical-load-calculation/)
 
 ---
 
@@ -143,7 +143,7 @@ Single battery (12V) ke normal inverter par AC nahi chal sakta. Inverter AC chal
 
 > 📌 **Recommended Guide:**  
 > Garmi me AC chalane par bijli consumption aur star rating ka farq samjhein:  
-> 👉 [5 Star AC vs 3 Star AC vs Inverter AC: Kaun Sa AC Sabse Kam Bijli Khata Hai? →](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison)
+> 👉 [5 Star AC vs 3 Star AC vs Inverter AC: Kaun Sa AC Sabse Kam Bijli Khata Hai? →](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison/)
 
 ### Q4. Solar inverter conversion se bijli bill kitna kam ho sakta hai?
 Agar aap din bhar chalne wale appliances (Fridge, Fans, TV, Work setup) ko solar battery par shift kar dete hain, toh mahine ke 100 se 180 units tak ki seedhi bachat ho sakti hai.
@@ -152,11 +152,11 @@ Agar aap din bhar chalne wale appliances (Fridge, Fans, TV, Work setup) ko solar
 
 ## ⚡ Related Solar & Electrical Guides
 
-- ⚡ [3kW Solar System Price in India with Subsidy (Reality Guide)](/articles/3kw-solar-system-price-india-subsidy)
-- ⚡ [Home Electrical Load Calculation: Step-by-Step Formula](/articles/home-electrical-load-calculation)
-- ⚡ [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison)
-- ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare)
-- ⚡ [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Safety Guide)](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai)
+- ⚡ [3kW Solar System Price in India with Subsidy (Reality Guide)](/articles/3kw-solar-system-price-india-subsidy/)
+- ⚡ [Home Electrical Load Calculation: Step-by-Step Formula](/articles/home-electrical-load-calculation/)
+- ⚡ [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison/)
+- ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare/)
+- ⚡ [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Safety Guide)](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 
 ---
 
