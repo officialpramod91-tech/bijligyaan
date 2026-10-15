@@ -44,6 +44,16 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://www.bijl
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={image} />
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6TXGZJ0XEC"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6TXGZJ0XEC');
+</script>
   </head>
   <body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col justify-between selection:bg-amber-200 selection:text-slate-900">
     <Header />
