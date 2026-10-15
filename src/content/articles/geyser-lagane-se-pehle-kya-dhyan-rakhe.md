@@ -96,6 +96,8 @@ Neeche diye gaye table se aap easily samajh sakte hain ki geyser ke liye kaunsa 
 
 > **Electrician Advice:** Agar aap 2kW geyser use kar rahe hain to 2.5 sq mm minimum hai. Agar 3kW geyser hai to 4 sq mm copper wire use karein.  
 > **Yaad rakhein:** Sahi wire ek baar ka kharcha hai, galat wire lifetime ka risk.
+> 🔌 **Wiring Check:** Geyser ke 16A switchboard tak hamesha distribution board se direct dedicated line kheenche. 2 kW geyser ke liye 2.5 mm² aur 3 kW instant geyser ke liye 4.0 mm² copper wire zaroori hai. Poori wire sizing detail:  
+> 👉 [Geyser Aur AC Ke Liye Kaunsi Wire Best Hai? Complete Chart →](/articles/ghar-ki-wiring-wire-size-guide/)
 
 > 📌 **Recommended Guide:**  
 > Ghar ke pure load ke mutabiq sahi meter aur main wire calculate karne ke liye yeh guide padhein:  

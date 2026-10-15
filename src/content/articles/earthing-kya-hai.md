@@ -126,6 +126,8 @@ Bureau of Indian Standards ke mutabiq residential installations ke liye earth re
 * **Colour:** Hamesha **Green** ya **Green-Yellow** insulation wali wire use karein.
 * **Internal Sub-Circuits:** Normal light/fan circuit me 1.0 ya 1.5 sq mm copper earth wire lagti hai. Power socket (16A) ke liye minimum 2.5 sq mm copper wire honi chahiye.
 * **Main DB Se Earth Pit:** Distribution board se pit tak minimum 4.0 sq mm se 6.0 sq mm copper wire ya GI strip lagayi jaati hai.
+> 🌿 **Earth Wire Size Rule (IS 732):** Switchboard aur 3-pin socket tak sirf patli green wire daalna kaafi nahi hota. Standard niyam ke hisaab se power sockets mein phase wire ke barabar hi earth wire honi chahiye. Pura chart dekhein:  
+> 👉 [House Wiring Wire Size Chart: Phase, Neutral Aur Earth Wire Selection →](/articles/ghar-ki-wiring-wire-size-guide/)
 
 ---
 

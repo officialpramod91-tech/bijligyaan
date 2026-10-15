@@ -61,6 +61,8 @@ Agar aap naya geyser install kar rahe hain, toh safety ke liye RCCB zaroor lagwa
 
 ### 3. Short Circuit Se Hone Wali Aag Se Bachav
 Purani wiring, chooha kaatna, loose connection — yeh sab dheere-dheere leakage create karte hain. Leakage se wire garam hoti hai… aur phir aag lag sakti hai. RCCB shuruaati stage mein hi micro leakage ko pakad leti hai.
+> ⚠️ **RCCB Nuisance Tripping:** Agar ghar ki wiring me neutral share kiya gaya ho ya patli wire heat hokar insulation leak kare, toh RCCB baar-baar trip hota hai. Sahi circuit separation aur wire standard ke liye padhein:  
+> 👉 [Concealed House Wiring Wire Sizing Aur Conduit Rules (2026) →](/articles/ghar-ki-wiring-wire-size-guide/)
 
 ### 4. Bachhon Aur Buzurgon Ki Suraksha
 Bachhe switchboard aur loose plugs ke sath experiment karte hain, jabki buzurgon ka reaction time slow hota hai. RCCB un "Invisible Dangers" se bachati hai jo aankhon se dikhte nahi.

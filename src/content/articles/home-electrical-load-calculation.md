@@ -105,6 +105,8 @@ Maan lijiye aapke ghar me peak time par ek sath ye chal raha hai:
 | **3BHK / Kothi** | 5.0 kW – 8.0 kW | **5 kW – 8 kW (3-Phase)** | 40A – 63A | 10 sq mm copper |
 
 *Zaroori Note: Agar aapka load 5kW cross karta hai, toh hamesha 3-Phase connection hi lein, warna single phase wire par overload se voltage drop ki problem shuru ho jayegi.*
+> 📌 **Agla Step:** Apne ghar ka total connected load (Wattage) calculate karne ke baad, usi load ke hisaab se har kamre ke liye sahi motai ki copper wire select karein taaki voltage drop na ho:  
+> 👉 [Ghar Ki Wiring Ke Liye Sahi Wire Size (1mm se 6mm) Complete Guide →](/articles/ghar-ki-wiring-wire-size-guide/)
 
 > 📌 **Heavy Appliances Wiring & Safety Guides:**  
 > - 👉 [Geyser Lagane Se Pehle Kya Dhyan Rakhe? (Wire Size, MCB & RCCB) →](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe/)  

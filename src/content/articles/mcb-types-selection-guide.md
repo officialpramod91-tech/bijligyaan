@@ -106,6 +106,8 @@ Yani MCB ki rating circuit ke running load se badi honi chahiye, par conduit ke 
 | **6.0 sq mm** | Lagbhag 34 A | **32A** |
 | **10.0 sq mm** | Lagbhag 46 A | **40A** |
 
+> ⚡ **Safety Tip:** MCB tabhi sahi kaam karegi jab wo wire ki current capacity ke mutabiq match ho. Agar aapne 1.5 mm² wire par 25A MCB laga di toh wire pehle jal jayegi par MCB trip nahi hogi. Wire aur MCB ki sahi pairing ke liye dekhein:  
+> 👉 [House Wiring Wire Size Chart Aur Sahi MCB Match Guide →](/articles/ghar-ki-wiring-wire-size-guide/)
 ---
 
 ## MCB Selection Chart For House Wiring
