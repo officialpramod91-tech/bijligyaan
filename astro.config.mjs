@@ -36,6 +36,8 @@ export default defineConfig({
 
     // 8. Cooler Buying Guide
     '/2026/04/cooler-kharidne-se-pehle-kya-dhyan-de.html': '/articles/cooler-kharidne-se-pehle-kya-dhyan-de/',
+
+    '/p/about-us.html': '/about/',
   },
 
   integrations: [sitemap()],
