@@ -15,8 +15,16 @@ const {
   image = "/logo.png"
 } = Astro.props;
 
+// Domain base URL
+const siteBaseURL = Astro.site || 'https://www.bijligyaan.in';
+
 // Auto-clean Canonical URL (removes query parameters like ?m=1 for SEO)
-const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://www.bijligyaan.in');
+const canonicalURL = new URL(Astro.url.pathname, siteBaseURL);
+
+// WhatsApp / Facebook ke liye absolute full image URL banana
+const ogImageURL = image.startsWith('http') 
+  ? image 
+  : new URL(image, siteBaseURL).href;
 ---
 <!doctype html>
 <html lang="hi" class="scroll-smooth">
@@ -24,7 +32,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://www.bijl
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/logo.png" />
-<link rel="apple-touch-icon" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
     
     <!-- Primary SEO Meta Tags -->
     <title>{title}</title>
@@ -33,28 +41,31 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://www.bijl
     <link rel="canonical" href={canonicalURL} />
 
     <!-- Open Graph / Facebook / WhatsApp -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={image} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:image:secure_url" content={ogImageURL} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
     <!-- Twitter Card -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={canonicalURL} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={image} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={canonicalURL} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL} />
 
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6TXGZJ0XEC"></script>
-<script is:inline>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6TXGZJ0XEC"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-6TXGZJ0XEC');
-</script>
+      gtag('config', 'G-6TXGZJ0XEC');
+    </script>
   </head>
   <body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col justify-between selection:bg-amber-200 selection:text-slate-900">
     <Header />
