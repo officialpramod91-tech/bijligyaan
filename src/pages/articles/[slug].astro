@@ -1,6 +1,8 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
+import ShareButtons from '../../components/ShareButtons.astro';
+import Comments from '../../components/Comments.astro';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
@@ -93,6 +95,9 @@ const categoryTitle = article?.data?.category ? (categoryMap[article.data.catego
       <article class="article-content">
         <Content />
       </article>
+
+      <ShareButtons title={article.data.title} url={Astro.url.href} />
+<Comments />
 
       <!-- Standard Author Safety Footer -->
       <aside class="mt-14 p-6 bg-slate-900 text-white rounded-xl text-xs space-y-2">
