@@ -19,7 +19,7 @@ Is practical guide me hum Bureau of Indian Standards (**IS/IEC 60898-1**), **IS 
 
 ---
 
-## Short Mein (Key Takeaways)
+## Short Summary (Key Takeaways)
 
 * **Golden Rule:** MCB ki rating hamesha wire ki safe current carrying capacity se kam ya barabar honi chahiye, kabhi zyada nahi.
 * **Lighting/Fans:** Aamtaur par 6A ya 10A (B-Type Curve).
@@ -164,6 +164,9 @@ Agar aapko kisi kamre ya appliance ka load (Watt) pata hai, toh current nikalne 
 2. **Dead Short Circuit:** Phase aur neutral wire bina resistance ke aapas me touch ho jayein, toh instant high magnetic field banta hai aur MCB 'chatak' awaz ke sath girti hai.
 3. **Appliance Internal Short:** Geyser element phat jana ya water pump coil body-short hona. Device switch on karte hi specific MCB girti hai.
 4. **Loose Terminals (Heat Generation):** MCB ke terminal screws dheele hone par sparking aur continuous heat banti hai, jisse MCB bina load ke bhi overheat hokar trip hoti hai.
+
+> ⚡ **Festive Load Alert:** Diwali par ek hi socket ya extension cord par bohot saari lights lagane se sub-circuit MCB baar-baar trip hone lagti hai ya line overheat ho jati hai. Isse bachne ke liye dekhein:  
+> 👉 [Diwali Lights Lagate Samay Short Circuit Aur Overload Se Kaise Bachein? →](/articles/diwali-decorative-lights-safety-tips/)
 
 ---
 

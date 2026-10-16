@@ -56,6 +56,8 @@ Har appliance ke peeche ek silver sticker ya manual hota hai jahan uska rated wa
 | **Geyser (Storage Water Heater)** | 1500W – 2000W | High Resistive Load |
 | **Induction Cooktop** | 1500W – 2000W | Peak High Load |
 
+* 🪔 **[Diwali Festive Lights Load Aur Electrical Safety Guide](/articles/diwali-decorative-lights-safety-tips/):** Janein kitni jhalar lagane par kitna load aur current badhta hai aur extension board overload se kaise bachein.
+
 ---
 
 ## Connected Load vs Sanctioned Load: Asli Antar Samajhiye
@@ -161,6 +163,7 @@ Ghar ki bijli aur equipment ko safe rakhne ke liye hamari yeh guides zaroor chec
 - ⚡ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare/)
 - ⚡ [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison/)
 - ⚡ [Cooler Kharidne Se Pehle Kya Dhyan De? (2026 Buying Guide)](/articles/cooler-kharidne-se-pehle-kya-dhyan-de/)
+- ⚡ [Diwali Festive Lights Load Aur Electrical Safety Guide](/articles/diwali-decorative-lights-safety-tips/)
 
 ---
 

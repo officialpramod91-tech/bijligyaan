@@ -17,7 +17,7 @@ Is guide me hum simple Hindi me samjhenge ki earthing kaise kaam karti hai, pipe
 
 ---
 
-## Short Mein (Key Takeaways)
+## Short Summary (Key Takeaways)
 
 * **Earthing Ka Maksad:** Fault aur leakage current ko zameen (earth) tak ka zero-resistance raasta dena.
 * **Ghar Ke Liye Best Type:** Aam ghar ke liye GI Pipe Earthing kaafi hai; sookhi/pathreeli zameen aur costly electronics ke liye Chemical Earthing behtar hai.
@@ -37,6 +37,8 @@ Maan lijiye aapke geyser ka internal heating element andar se break hokar metal 
 
 1. **Agar Earthing Nahi Hai:** Geyser ki poori metal body aur nal ka paani "Live" (current se bhar) ho jayega. Jaise hi koi insaan geyser ya nal ko chhuhega, current uske sharir se hokar zameen me jayega—jisse jaanleva shock lagta hai.
 2. **Agar Proper Earthing Hai:** Jaise hi coil body se touch hogi, current ko green earth wire ke zariye zameen me jane ka aasan raasta mil jayega. High leakage current behte hi distribution board me lagi MCB ya RCCB usi millisecond me trip hokar line cut kar degi.
+
+> ⚠️ **Field Reality:** Diwali par balcony ki lohe ki railing par decorative lights lapetne se agar insulation chhil jaye, toh poori grill me 230V phase utar aata hai. Railing par safe lighting technique ke liye padhein — **[Diwali Decorative Lights Railing Safety Guide](/articles/diwali-decorative-lights-safety-tips/)**.
 
 ---
 

@@ -120,6 +120,9 @@ Residential gharon ke liye **hamesha 30mA** hi choose karein.
 - Agar switch trip hota hai → Device properly working hai.
 - Agar trip nahi hota → Device kharab ho chuka hai, use turant replace karein.
 
+> 💡 **Festive Safety Tip:** Diwali ke dino me outdoor lights aur balcony jhalar lagane se pehle apne distribution board ka RCCB test button zaroor dabayein. Tyohar me shock aur short circuit se bachne ke practical rules ke liye padhein:  
+> 👉 [Diwali Decorative Lights Safety Tips: Short Circuit Se Kaise Bachein →](/articles/diwali-decorative-lights-safety-tips/)
+
 ---
 
 ## RCCB Ki Approx Price Kitni Hoti Hai?
