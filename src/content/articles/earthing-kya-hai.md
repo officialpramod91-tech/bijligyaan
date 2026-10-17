@@ -99,6 +99,8 @@ Isme copper-bonded rod ke charo taraf conductive compound (Bentonite compound) d
 | **Plate Earthing** | ₹6,000 – ₹9,000 | Badi kothi, heavy commercial load | Regular moisture check |
 | **Chemical Earthing** | ₹8,000 – ₹14,000 | Sookhi zameen, IT setup, sensitive electronics | Low maintenance (saal me 1 baar test) |
 
+> 📌 **Complete House Wiring Estimate:** Earthing pit ke sath-sath pure ghar ki concealed conduit wiring, modular switches aur per sq ft electrician charges ke complete breakdown ke liye padhein — **[Ghar Ki Wiring Cost Estimate Guide (2026)](/articles/ghar-ki-wiring-cost-per-sq-ft/)**.
+
 ---
 
 ## Indian Standards Aur CEA Regulations: Earthing Ke Rules

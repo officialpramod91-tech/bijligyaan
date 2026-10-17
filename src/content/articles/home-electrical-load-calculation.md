@@ -152,6 +152,8 @@ Ghar ko voltage fluctuation aur spike se surakshit rakhne ke liye ye padhein →
 - **20% Future Scope:** Agar aaj aapka running load 2kW nikal raha hai, toh meter hamesha 3kW ka sanction karwayein taaki future me naya appliance lene par bar-bar bijli daftar na daudna pade.
 - **Purana Inverter Upgrade:** Agar power cut ke dauran basic load backup ke liye soch rhe hain, toh dekhein → [Solar Inverter vs Normal Inverter: Purana Inverter Solar Kaise Banaye?](/articles/solar-inverter-vs-normal-inverter/)
 
+* 📋 **[Ghar Ki Wiring Ka Per Sq Ft Kharcha (2026)](/articles/ghar-ki-wiring-cost-per-sq-ft/):** Apne calculate kiye huye load ke aadhar par janein 1BHK, 2BHK aur 3BHK ke liye kitna wire, modular switch aur electrician labour theka(contract) lagega.
+
 ---
 
 ## ⚡ Related Electrical Safety & Saving Guides

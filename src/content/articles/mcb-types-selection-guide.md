@@ -124,6 +124,9 @@ Yani MCB ki rating circuit ke running load se badi honi chahiye, par conduit ke 
 
 *Dhyan dein: 1.5 Ton AC par kabhi 32A MCB na lagayein. AC ki electricity understanding ke liye dekhein — **[5 Star vs 3 Star vs Inverter AC](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison/)**.*
 
+> 💡 **Budget Tip:** Naye distribution board (DB) me incomer MCB aur individual circuit breakers lagate waqt pure panel board ka kharcha aur overall concealed wiring ka estimate janne ke liye padhein:  
+> 👉 [Naye Ghar Ki Wiring Ka Total Kharcha Aur MCB Box Cost Breakdown →](/articles/ghar-ki-wiring-cost-per-sq-ft/)
+
 ---
 
 ## MCB Rating Kaise Calculate Karein? (Aasan Tarika)

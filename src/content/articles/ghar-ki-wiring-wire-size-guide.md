@@ -285,6 +285,9 @@ Standard 2BHK ghar (lagbhag 900–1100 sq ft) ke liye ek average estimate:
 - **Earth Wire (Green 1.5/2.5 mm²):** 1 se 2 Coil
 - **6.0 mm² (Main Line):** As per meter distance (Meter se DB ki naap)
 
+> 💰 **Planning House Wiring?** Wire size decide karne ke sath-sath agar aap naye makaan (1BHK, 2BHK, 3BHK) ka total wire coil budget aur thekedar ke labour charges samajhna chahte hain, toh dekhein:  
+> 👉 [Ghar Ki Wiring Cost 2026: 1BHK, 2BHK, 3BHK Per Sq Ft Estimate + Labour Charges →](/articles/ghar-ki-wiring-cost-per-sq-ft/)
+
 ---
 
 ## Aksar Pooche Jaane Wale Sawal (FAQs)
