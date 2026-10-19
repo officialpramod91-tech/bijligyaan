@@ -195,6 +195,8 @@ RCCB aur MCB ki technical detail ke liye padhein:
 4. **Paani Bilkul Na Daalein:** Bijli ki aag par paani daalne se current paani ke raste aapke shareer me daud sakta hai. Chhoti aag bujhane ke liye **Sukhi Ret (Dry Sand)** ya **ABC Dry Powder / CO2 Fire Extinguisher** use karein.
 5. Agar vyakti behosh hai aur saans nahi chal rahi ho, toh turant CPR shuru karein aur ambulance ka intezaar karein.
 
+Festive season me loose wiring ki wajah se panel me aag lagne par kaun sa extinguisher use karein? Dekhein [Electrical Fire Safety Aur Emergency Actions Guide](/articles/electric-shock-and-fire-safety-guide/).
+
 ---
 
 ## Quick Checklist: Diwali Lighting Do's And Don'ts

@@ -89,6 +89,8 @@ Cooler khareedte waqt in 2 internal cheezon ko zaroor dekhein:
 > Agar aapke ilaqe me voltage 160V se niche chali jaati hai, toh cooler ki motor slow hokar jam ho sakti hai:  
 > 👉 [Stabilizer Kya Hota Hai? Kya Har Ghar Me Lagana Zaroori Hai? →](/articles/stabilizer-kya-hota-hai-ac-fridge-tv-guide/)
 
+Metal body cooler me leakage current aane par sharir par kya asar hota hai? Padhie: [Current Ka Human Body Par Asar Aur First Aid Steps](/articles/electric-shock-and-fire-safety-guide/).
+
 ---
 
 ## 5. Humidity Aur Cross-Ventilation (AC Jaisi Cooling Ka Secret)

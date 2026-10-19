@@ -166,6 +166,7 @@ Ghar ki bijli aur equipment ko safe rakhne ke liye hamari yeh guides zaroor chec
 - ⚡ [5 Star AC vs 3 Star AC vs Inverter AC: Bijli Bill Comparison](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison/)
 - ⚡ [Cooler Kharidne Se Pehle Kya Dhyan De? (2026 Buying Guide)](/articles/cooler-kharidne-se-pehle-kya-dhyan-de/)
 - ⚡ [Diwali Festive Lights Load Aur Electrical Safety Guide](/articles/diwali-decorative-lights-safety-tips/)
+- ⚡[Electrical Shock Aur Fire Safety Master Guide](/articles/electric-shock-and-fire-safety-guide/).
 
 ---
 

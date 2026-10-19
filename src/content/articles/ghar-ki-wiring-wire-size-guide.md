@@ -206,6 +206,8 @@ Market me darjanon local aur duplicate brands hain. Lekin 10 saal ke practical f
 6. **Joints Deewar Ke Pipe Ke Andar Chhod Dena:** Wire me jodh (joints) hamesha accessible junction box ke andar hone chahiye, conduit pipe ke andar kabhi nahi.
 7. **Colour Code Follow Na Karna:** Galat colour wiring se future maintenance me shock lagne aur phase-neutral short hone ka khatra badh jata hai.
 
+Galat wire size se insulation pighalne aur short circuit se aag lagne ka khatra rehta hai. Suraksha niyam janein: [Ghar Ki Electrical Safety Aur Fire Prevention](/articles/electric-shock-and-fire-safety-guide/).
+
 ### Standard Wiring Color Code (IS Niyam)
 
 Indian Standard practice ke mutabiq hamesha standard color coding follow karein taaki kisi anjaan electrician ko bhi circuit samajhne me aasani ho:

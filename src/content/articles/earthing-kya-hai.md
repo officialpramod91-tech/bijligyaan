@@ -40,6 +40,8 @@ Maan lijiye aapke geyser ka internal heating element andar se break hokar metal 
 
 > ⚠️ **Field Reality:** Diwali par balcony ki lohe ki railing par decorative lights lapetne se agar insulation chhil jaye, toh poori grill me 230V phase utar aata hai. Railing par safe lighting technique ke liye padhein — **[Diwali Decorative Lights Railing Safety Guide](/articles/diwali-decorative-lights-safety-tips/)**.
 
+Agar earthing weak ho to geyser ya cooler ki metal body se current aane lagta hai. Padhie: [Electric Shock Kyun Lagta Hai Aur Turant First Aid Kaise Karein](/articles/electric-shock-and-fire-safety-guide/).
+
 ---
 
 ## Phase, Neutral Aur Earth Me Kya Farq Hai?

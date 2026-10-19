@@ -171,6 +171,8 @@ Agar aapko kisi kamre ya appliance ka load (Watt) pata hai, toh current nikalne 
 > ⚡ **Festive Load Alert:** Diwali par ek hi socket ya extension cord par bohot saari lights lagane se sub-circuit MCB baar-baar trip hone lagti hai ya line overheat ho jati hai. Isse bachne ke liye dekhein:  
 > 👉 [Diwali Lights Lagate Samay Short Circuit Aur Overload Se Kaise Bachein? →](/articles/diwali-decorative-lights-safety-tips/)
 
+Dhyan rahe ki MCB shock se nahi bachati aur loose connection par trip nahi hoti. Detail safety guide yahan padhein: [Short Circuit Se Aag Lagne Par Kya Karein Aur Bachav Ke Niyam](/articles/electric-shock-and-fire-safety-guide/).
+
 ---
 
 ## Aksar Pooche Jane Wale Sawal (FAQs)

@@ -120,6 +120,8 @@ Bahut log sirf MCB laga dete hain, par RCCB nahi lagate — ye sabse badi galti 
 > Current leakage hone par RCCB kaise turant trip karta hai aur human life bachata hai, yahan detail me jaanein:  
 > 👉 [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Electrical Safety Guide) →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 
+Bathroom me nal chhoone par current aane se bachne ke liye hamara real field case aur safety guide zaroor padhein: [Electric Shock Aur Aag Se Bachav Guide](/articles/electric-shock-and-fire-safety-guide/).
+
 ---
 
 ## Geyser Ke Liye MCB Rating

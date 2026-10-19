@@ -66,6 +66,8 @@ Purani wiring, chooha kaatna, loose connection — yeh sab dheere-dheere leakage
 > ⚠️ **RCCB Nuisance Tripping:** Agar ghar ki wiring me neutral share kiya gaya ho ya patli wire heat hokar insulation leak kare, toh RCCB baar-baar trip hota hai. Sahi circuit separation aur wire standard ke liye padhein:  
 > 👉 [Concealed House Wiring Wire Sizing Aur Conduit Rules (2026) →](/articles/ghar-ki-wiring-wire-size-guide/)
 
+Ghar me electric shock lagne par first aid kaise de aur bijli ki aag se bachne ke niyam janne ke liye hamari complete guide padhein: [Ghar Ki Electrical Safety: Shock Aur Aag Se Bachav Guide](/articles/electric-shock-and-fire-safety-guide/)
+
 ### 4. Bachhon Aur Buzurgon Ki Suraksha
 Bachhe switchboard aur loose plugs ke sath experiment karte hain, jabki buzurgon ka reaction time slow hota hai. RCCB un "Invisible Dangers" se bachati hai jo aankhon se dikhte nahi.
 
