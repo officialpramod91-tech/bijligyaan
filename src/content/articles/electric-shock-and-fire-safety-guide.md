@@ -212,13 +212,13 @@ Medical science aur cardiology guidelines ke mutabiq, AC current body se guzarne
 
 Bijli ki aag bujhane ke liye sahi extinguisher ka chunav karna behad zaroori hai, kyunki galat type ka extinguisher chalana ulta jaanleva ho sakta hai:
 
-* **Carbon Dioxide (CO2) Extinguisher — Sabse Best (First Choice):** Yeh live electrical safety ke liye sabse surakshit mana jata hai[cite: 18]. Yeh koi residue ya powder nahi chhodta, jisse costly circuits aur appliances safe rehte hai[cite: 18].
+* **Carbon Dioxide (CO2) Extinguisher — Sabse Best (First Choice):** Yeh live electrical safety ke liye sabse surakshit mana jata hai. Yeh koi residue ya powder nahi chhodta, jisse costly circuits aur appliances safe rehte hai.
 
-* **ABC Dry Powder (MAP) — Effective & Multipurpose:** Yeh aag ko turant kabu kar leta hai aur multipurpose use ke liye effective hai[cite: 18]. Lekin iska white powder residue panel aur electronics ko kharab kar sakta hai[cite: 18].
+* **ABC Dry Powder (MAP) — Effective & Multipurpose:** Yeh aag ko turant kabu kar leta hai aur multipurpose use ke liye effective hai. Lekin iska white powder residue panel aur electronics ko kharab kar sakta hai.
 
-* **Water / Water Mist — Khatarnak (STRICT NO):** Normal paani current conduct karta hai, isliye live supply par paani ya water extinguisher ka istemal kabhi na karein[cite: 18].
+* **Water / Water Mist — Khatarnak (STRICT NO):** Normal paani current conduct karta hai, isliye live supply par paani ya water extinguisher ka istemal kabhi na karein.
 
-* **Foam Type (AFFF) — Khatarnak (STRICT NO):** Foam based liquid conductive hota hai, isliye live electrical panel par foam extinguisher chalana bilkul mana hai[cite: 18].
+* **Foam Type (AFFF) — Khatarnak (STRICT NO):** Foam based liquid conductive hota hai, isliye live electrical panel par foam extinguisher chalana bilkul mana hai.
 
 ### Extinguisher Chalane Ka PASS Formula
 - **P (Pull):** Handle par lagi plastic seal todkar safety pin kheenchein.
