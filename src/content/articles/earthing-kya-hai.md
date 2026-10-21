@@ -147,6 +147,8 @@ Jab maine Digital Earth Tester se test kiya toh:
 
 **Solution:** Humne board ke internal earth loop ko theek kiya, purane pit me nami restore ki aur earth resistance ko wapas **2.8 Ohm** par laaye. Iske baad testing bulb lagate hi RCCB turant trip ho gaya aur geyser ka shock 100% khatam ho gaya.
 
+Modern smart switches aur DB me lagne wale Surge Protective Devices (SPD) tabhi theek se kaam karte hain jab ghar ki earthing line mazboot ho, warna voltage spike se sensitive microchips turant kharab ho jati hain. Smart devices me grounding ke niyam detail me padhein: [Smart Home Electrical Safety Guide (2026): Neutral Aur Earthing Ke Rules](/articles/smart-home-electrical-safety-guide/).
+
 ---
 
 ## Solar Aur Smart Energy Setup Me Earthing

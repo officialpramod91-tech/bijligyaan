@@ -257,6 +257,8 @@ Bijli ki aag bujhane ke liye sahi extinguisher ka chunav karna behad zaroori hai
 **Important Fact:** MCB insaan ko electric shock se nahi bacha sakti! 16A ki MCB tab trip hogi jab 16 ampere se zyada current guzrega, jabki insaan ka dil sirf 0.05 ampere (50mA) par hi fail ho jata hai. Isliye DB box mein 30mA RCCB hona mandatory hai.  
 👉 [Ghar Mein RCCB Lagana Kyun Zaroori Hai? Full Guide](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 
+Modern gharon mein automation aur Wi-Fi switches ka chalan badh raha hai, lekin galat plug rating ya missing neutral se switchboard mein spark aur heat ka khatra rehta hai. Detail mein samajhne ke liye padhein: [Smart Home Electrical Safety Guide (2026): 7 Zaroori Niyam](/articles/smart-home-electrical-safety-guide/).
+
 ### Electrical Maintenance Checklist
 
 Ghar ki wiring aur breakers ko lambe samay tak safe rakhne ke liye routine maintenance calendar follow karein:

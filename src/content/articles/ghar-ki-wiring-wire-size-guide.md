@@ -194,6 +194,8 @@ Market me darjanon local aur duplicate brands hain. Lekin 10 saal ke practical f
 > ⚡ **Senior Electrician Tip:**  
 > Koi bhi brand tabhi safe hai jab wo **original licensed IS 694 mark aur CM/L number** ke sath pakke bill par kharida gaya ho. Saste ke chakkar me wholesale market se inhi brands ke 'duplicate rolls' khareedne se bachein!
 
+Agar aap ghar mein future automation ya Wi-Fi touch panels lagane ka soch rahe hain, toh har switchboard tak dedicated neutral wire zaroor daalein. Smart automation wiring ke niyam yahan padhein: [Smart Home Electrical Safety: Neutral Wire Aur Wiring Rules](/articles/smart-home-electrical-safety-guide/).
+
 ---
 
 ## Wire Kharidte Aur Lagate Waqt 7 Common Galtiyan

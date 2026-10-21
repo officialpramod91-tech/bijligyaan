@@ -187,6 +187,8 @@ Geyser lagane se pehle teen cheezein kabhi ignore na karein:
 
 Thodi si planning aapko electric shock, fire aur oxygen risk se bacha sakti hai. **Safety ek baar ka kharcha hai, accident lifetime ka nuksan.**
 
+Geyser ko mobile app se on/off karne ke liye saste smart plug lagane se bachein, kyunki continuous heating load se socket pighal sakta hai. Smart automation ke sahi tareeqe ke liye padhein: [Smart Plug 6A vs 16A: Geyser Ke Liye Smart Safety Rules](/articles/smart-home-electrical-safety-guide/).
+
 ---
 
 ## 🔗 Aapke Liye Useful Guides (Must Read)
