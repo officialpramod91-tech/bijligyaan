@@ -10,13 +10,13 @@ interface Props {
 }
 
 const {
-  title = "Bijli Gyaan - Home Electrical Guide",
-  description = "Electrical safety, home wiring guides, load calculation, aur rooftop solar information in Hindi by Er. Pramod Kumar.",
+  title = "Bijli Gyaan | Electrical Safety, Wiring & Solar in Hindi",
+  description = "Bijli Gyaan par paayein ghar ki wiring, electrical safety, load calculation aur solar system ki practical jankari Hindi me by Er. Pramod Kumar.",
   image = "/logo.png"
 } = Astro.props;
 
 // Domain base URL
-const siteBaseURL = Astro.site || 'https://www.bijligyaan.in';
+const siteBaseURL = Astro.site || 'https://bijligyaan.in';
 
 // Auto-clean Canonical URL (removes query parameters like ?m=1 for SEO)
 const canonicalURL = new URL(Astro.url.pathname, siteBaseURL);
@@ -31,8 +31,12 @@ const ogImageURL = image.startsWith('http')
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="/logo.png" />
-    <link rel="apple-touch-icon" href="/logo.png" />
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
     
     <!-- Primary SEO Meta Tags -->
     <title>{title}</title>
