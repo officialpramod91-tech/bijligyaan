@@ -231,6 +231,8 @@ Ek achhi wire tabhi saalon-saal safe rehti hai jab use deewar ke andar sahi tare
 - **Terminals Ko Mazbooti Se Kasein:** Switch aur MCB ke brass screw terminals par loose connection sparking aur heat ka sabse pehla kaaran hota hai.
 - **Labelling Aur Single Line Diagram:** Wiring poori hone par Distribution Board ke har circuit breaker par marker se label karein (jaise: Bed-1 AC, Geyser, Kitchen) taaki emergency mein kisi ko pareshani na ho.
 
+> 🔌 **Wiring Layout:** Meter se aane wali main incoming cable seedha distribution board ke DP isolator par lagti hai. Panel ke andar busbar aur proper module arrangement dekhne ke liye padhein: [House Electrical DB Box Wiring Diagram Aur Rules](/articles/mcb-box-db-box-kaise-chune/).
+
 ---
 
 ## Earthing Aur Neutral Wire Ke Niyam

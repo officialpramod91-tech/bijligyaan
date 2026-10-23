@@ -180,6 +180,8 @@ Smart TV ho ya na ho…
 
 Yeh sirf ek device nahi — yeh aapke parivaar ki **Life Insurance without EMI** hai. Aaj hi apne ghar ka DB check karwayein. Safety ko kal par mat chhodiye!
 
+> ⚠️ **Field Tip:** Kayi baar log RCCB khareed lete hain par purane DB box mein space na hone ke karan electrician ise install nahi kar pata. RCCB aur DP ke hisaab se sahi panel select karne ke liye dekhein: [MCB Box (DB) Ways Calculation Aur Sahi Size Guide](/articles/mcb-box-db-box-kaise-chune/).
+
 ---
 
 ### Disclaimer & Affiliate Disclosure

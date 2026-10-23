@@ -154,6 +154,8 @@ Ghar ko voltage fluctuation aur spike se surakshit rakhne ke liye ye padhein →
 
 * 📋 **[Ghar Ki Wiring Ka Per Sq Ft Kharcha (2026)](/articles/ghar-ki-wiring-cost-per-sq-ft/):** Apne calculate kiye huye load ke aadhar par janein 1BHK, 2BHK aur 3BHK ke liye kitna wire, modular switch aur electrician labour theka(contract) lagega.
 
+> 📌 **Next Step:** Jab aap poore ghar ka load calculate karke circuits divide kar lete hain, toh agla step un circuits ke mutabiq SPN ya TPN panel decide karna hota hai. Detailed calculation ke liye padhein: [Ghar Ke Load Ke Mutabiq Sahi MCB Box Kaise Chune?](/articles/mcb-box-db-box-kaise-chune/).
+
 ---
 
 ## ⚡ Related Electrical Safety & Saving Guides

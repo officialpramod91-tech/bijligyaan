@@ -281,6 +281,9 @@ Pichle saal Rohtak ki ek residential kothi mein geyser chalane par steel tap (na
 
 - **Field Inspection:** Jab humne Earth Tester se ground pit check kiya, toh resistance **48 Ohm** mila (jo standard 5 Ohm se bohot zyada tha). Bathroom ke switchboard tak aane wala 1.0 sq mm earth wire andar conduit pipe mein chuhon ke kaatne se open ho chuka tha. Geyser ke 2kW heating element ki magnesium oxide insulation leak ho chuki thi, jisse nal aur geeli tile ke beech multimeter se **85V AC** leakage voltage record hua!
 - **Field Solution:** Naya 2.5 sq mm multi-strand copper earth wire pipe ke andar pull kiya gaya, earth pit mein chemical compound daalkar resistance 2.8 Ohm par laya gaya, aur main DB mein **30mA RCCB** lagaya gaya. Leakage hote hi circuit ne trip hona shuru kiya aur geyser element replace karke customer ka ghar 100% safe hua.
+
+> ⚠️ **Fire Safety Alert:** DB box ke andar loose terminals aur jumper wires aag lagne ka sabse bada kaaran bante hain. Safe panel standard aur field inspection case dekhne ke liye padhein: [MCB Box Wiring Aur Standard Safety Guide](/articles/mcb-box-db-box-kaise-chune/).
+
 - **Field Rule:** Geyser jaisi heavy body ke liye 1 sq mm nahi balki dedicated 2.5 sq mm circuit wire honi chahiye. (Padhein: [Geyser Installation Guide 2026](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe/))
 
 ### Case 2: Festive Season Mein Neutral Loose Hone Se Distribution Panel Me Aag

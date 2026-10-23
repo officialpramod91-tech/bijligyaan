@@ -82,6 +82,8 @@ IS/IEC 60898-1 ke mutabiq tripping curve yeh batata hai ki fault current aane pa
 * **B-Type:** Fault aane par bohot fast trip hoti hai. Lighting, electronics aur pure ghar ke general switchboards ke liye safe hai.
 * **C-Type:** Refrigerator, water motor aur AC start hote waqt pehle 1–2 second ke liye motor rated load se 4–5 guna zyada inrush starting current kheenchti hai. Inpar B-Type lagane se device on karte hi tripping hone lagegi, isliye motor loads par C-Type standard hai.
 
+> 💡 **Related Guide:** Ghar ke circuits ke hisaab se sahi rating aur curve ki MCB chunne ke baad, unhe mount karne ke liye sahi size ka enclosure zaroori hota hai. Sahi distribution board chunne ke liye hamari complete guide padhein: [MCB Box (DB Box) Kaise Chune? Ways Aur Wiring Rules](/articles/mcb-box-db-box-kaise-chune/).
+
 > **Geyser Par Kaunsi Lagayein?** Geyser ek resistive heating element hai (motor nahi). Isliye ispar 16A B-Type bilkul certified hai, par market me na milne par 16A C-Type lagayi ja sakti hai. Wiring guideline ke liye padhein — **[Geyser Lagane Se Pehle Kya Dhyan Rakhein?](/articles/geyser-lagane-se-pehle-kya-dhyan-rakhe/)**.
 
 ---

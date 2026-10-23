@@ -25,6 +25,8 @@ Is guide me hum Bureau of Indian Standards (**IS 732:2019**, **IS 694**, **IS 95
 * **Safety First:** Distribution board me incomer ke baad RCD (ghar ke liye aam taur par 30mA RCCB) lagana chahiye. CEA Regulations 2023 ke mutabiq installation ki supply RCD se control honi chahiye.
 * **Electrician's Rule:** Deewar todkar bar-bar taar badla nahi ja sakta. Isliye wire aur MCB/RCCB hamesha certified ISI mark hi lagayein; paisa bachana ho toh fancy plates ke bajaye standard modular plate chunein.
 
+> 💡 **Budget Tip:** Wiring budget banate waqt sirf 6 ya 8-way box lene ki galti na karein. Future expansion aur double door safety ke liye sahi box lene ka kharcha aur tarika jaanein: [MCB Box (DB Box) Price Aur Selection Guide (2026)](/articles/mcb-box-db-box-kaise-chune/).
+
 ---
 
 ## 1BHK, 2BHK Aur 3BHK Wiring Ka Total Kharcha (2026 Estimate)
