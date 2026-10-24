@@ -10,291 +10,332 @@ const botUrl = "https://officialpramod91-tech.github.io/solar-sathi-ai/";
 const allArticles = await getCollection('articles');
 const latestArticles = allArticles
   .sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime())
-  .slice(0, 4); // Homepage par top 4 latest guides
+  .slice(0, 4); // Top 4 latest guides
 
 const categories = [
   {
     title: 'Home Electrical Guide',
     desc: 'House wiring, single/three phase connection, load calculation aur distribution ki practical guidelines.',
     icon: '🏠',
-    href: '/category/home-electrical-guide/'
+    href: '/category/home-electrical-guide/',
+    color: 'from-blue-500/20 to-cyan-500/5',
+    border: 'border-cyan-500/30 hover:border-cyan-400',
+    iconBg: 'bg-cyan-500/20 text-cyan-400 border-cyan-500/30'
   },
   {
     title: 'Electrical Safety',
     desc: 'MCB vs RCCB selection, electric shock protection, earthing standards aur home safety tips.',
     icon: '🛡️',
-    href: '/category/electrical-safety/'
+    href: '/category/electrical-safety/',
+    color: 'from-rose-500/20 to-red-500/5',
+    border: 'border-rose-500/30 hover:border-rose-400',
+    iconBg: 'bg-rose-500/20 text-rose-400 border-rose-500/30'
   },
   {
     title: 'Solar & Smart Energy',
     desc: 'Solar panel sizing, PM Surya Ghar subsidy calculation, net metering aur inverter guides.',
     icon: '☀️',
-    href: '/category/solar-smart-energy/'
+    href: '/category/solar-smart-energy/',
+    color: 'from-amber-500/20 to-yellow-500/5',
+    border: 'border-amber-500/30 hover:border-amber-400',
+    iconBg: 'bg-amber-500/20 text-amber-400 border-amber-500/30'
   },
   {
     title: 'Electricity Bill Guide',
     desc: 'Unit consumption calculation, meter reading rules aur power bill kam karne ke verified methods.',
     icon: '💡',
-    href: '/category/electricity-bill-guide/'
+    href: '/category/electricity-bill-guide/',
+    color: 'from-emerald-500/20 to-teal-500/5',
+    border: 'border-emerald-500/30 hover:border-emerald-400',
+    iconBg: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30'
   },
   {
     title: 'Home Appliances Guide',
     desc: 'AC, geyser, cooler, stabilizer aur heavy load appliances ka power consumption aur safety standards.',
     icon: '🔌',
-    href: '/category/home-appliances-guide/'
+    href: '/category/home-appliances-guide/',
+    color: 'from-violet-500/20 to-purple-500/5',
+    border: 'border-violet-500/30 hover:border-violet-400',
+    iconBg: 'bg-violet-500/20 text-violet-400 border-violet-500/30'
   }
 ];
+
+const fallbackThumbnails: Record<string, string> = {
+  'home-electrical-guide': '/images/electrician-inspecting-old-mcb-distribution-board.webp',
+  'electrical-safety': '/images/electrician-inspecting-old-mcb-distribution-board.webp',
+  'solar-smart-energy': '/images/electrician-inspecting-old-mcb-distribution-board.webp',
+  'electricity-bill-guide': '/images/electrician-inspecting-old-mcb-distribution-board.webp',
+  'home-appliances-guide': '/images/electrician-inspecting-old-mcb-distribution-board.webp'
+};
 ---
 
 <Layout 
   title="Bijli Gyaan | Electrical Safety, Wiring & Solar in Hindi"
   description="Bijli Gyaan par paayein ghar ki wiring, electrical safety, load calculation aur solar system ki practical jankari Hindi me by Er. Pramod Kumar."
 >
-  <!-- SEO Hero Section -->
-  <header class="bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white pt-14 pb-12 px-4 border-b border-slate-800/80">
-    <div class="max-w-4xl mx-auto text-center space-y-5">
-      <div class="inline-flex items-center gap-2 bg-amber-500/10 text-amber-400 border border-amber-500/30 text-xs font-semibold px-3 py-1 rounded-full">
+  <!-- Hero Section -->
+  <header class="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white pt-10 pb-8 px-4 border-b border-slate-800">
+    <div class="max-w-4xl mx-auto text-center space-y-4">
+      <div class="inline-flex items-center gap-1.5 bg-amber-500/10 text-amber-400 border border-amber-500/30 text-[11px] sm:text-xs font-semibold px-3 py-1 rounded-full">
         <span>⚡</span> Practical Field Knowledge Base
       </div>
 
-      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-        Bijli Gyaan <span class="text-amber-400">⚡</span> Practical Electrical Guides
+      <h1 class="text-2xl sm:text-5xl font-black tracking-tight text-white leading-tight">
+        Bijli Gyaan <span class="text-amber-400">⚡</span> Practical Guides
       </h1>
       
-      <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-        Safe Ghar. Smart Wiring. Practical Electrical Knowledge.
+      <p class="text-slate-300 text-sm sm:text-lg max-w-2xl mx-auto leading-relaxed">
+        Safe Ghar. Smart Wiring. Ground-Level Electrical Reality.
       </p>
 
-      <div class="pt-2 flex flex-wrap justify-center gap-3">
+      <div class="pt-2 flex flex-wrap justify-center gap-2.5">
         <a 
           href="#latest-articles" 
-          class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-7 py-3 rounded-xl text-sm transition-all shadow-lg hover:shadow-emerald-600/20"
+          class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-5 sm:px-7 py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm transition-all shadow-lg active:scale-95"
         >
           Explore Latest Guides ↓
         </a>
         <a 
           href="https://youtube.com/@BijliGyaanOfficial" 
-          target="_blank"
+          target="_blank" 
           rel="noopener noreferrer"
-          class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold px-5 py-3 rounded-xl text-sm transition-all flex items-center gap-2"
+          class="bg-slate-800/90 hover:bg-slate-800 text-slate-200 border border-slate-700 font-semibold px-4 sm:px-5 py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm transition-all flex items-center gap-2 active:scale-95"
         >
           <span class="text-rose-500">▶</span> YouTube Channel
         </a>
       </div>
 
-      <!-- Trust Badges (E-E-A-T) -->
-      <div class="pt-6 flex flex-wrap justify-center items-center gap-5 text-xs sm:text-sm text-slate-400">
-        <div class="flex items-center gap-2">
-          <span>👨‍🔧</span>
-          <span class="text-slate-200">10+ Saal Ka Field Experience</span>
-        </div>
-        <span class="text-slate-700 hidden sm:inline">•</span>
-        <div class="flex items-center gap-2">
-          <span>📑</span>
-          <span class="text-slate-200">Verified Practical Guides</span>
-        </div>
-        <span class="text-slate-700 hidden sm:inline">•</span>
-        <div class="flex items-center gap-2">
-          <span>🇮🇳</span>
-          <span class="font-semibold text-amber-400">100% Hindi Content</span>
-        </div>
+      <!-- Trust Badges -->
+      <div class="pt-4 flex flex-wrap justify-center items-center gap-2 sm:gap-4 text-[11px] sm:text-xs text-slate-400">
+        <span class="bg-slate-800/80 px-2.5 py-1 rounded-md border border-slate-700/60 text-slate-300">
+          👨‍🔧 10+ Saal Field Experience
+        </span>
+        <span class="bg-slate-800/80 px-2.5 py-1 rounded-md border border-slate-700/60 text-slate-300">
+          📑 Verified Practical Guides
+        </span>
+        <span class="bg-slate-800/80 px-2.5 py-1 rounded-md border border-slate-700/60 text-amber-400 font-semibold">
+          🇮🇳 100% Hindi Content
+        </span>
       </div>
     </div>
   </header>
 
-  <!-- Field Proof Auto Slider -->
+  <!-- Field Proof Slider -->
   <WorkSlider />
 
-  <!-- Side-by-Side Dual Power Tools Hub (Desktop 2-Col Grid) -->
-  <section class="max-w-6xl mx-auto px-4 py-12">
-    <div class="text-center mb-8">
+  <!-- Dual Interactive Tools Hub -->
+  <section class="max-w-6xl mx-auto px-4 py-8 sm:py-12">
+    <div class="text-center mb-6 sm:mb-8">
       <h2 class="text-xl sm:text-2xl font-black text-slate-900 flex items-center justify-center gap-2">
         <span class="text-amber-500">⚡</span> Free Interactive Tools
       </h2>
-      <p class="text-xs text-slate-500 mt-1">Ghar ka kharcha calculate karein aur bill zero karne ka plan banayein</p>
+      <p class="text-xs text-slate-500 mt-1">Ghar ka load calculate karein aur bill zero karne ka plan banayein</p>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 items-stretch">
       
-      <!-- CARD 1: Free Electricity Bill Calculator -->
-      <div class="bg-gradient-to-br from-slate-950 via-slate-900 to-cyan-950/60 rounded-3xl p-6 sm:p-7 border-2 border-cyan-400/40 shadow-xl text-white relative overflow-hidden flex flex-col justify-between">
-        <div class="space-y-3">
-          <div class="inline-flex items-center gap-2 bg-cyan-500/20 text-cyan-300 text-xs font-bold px-3 py-1 rounded-full border border-cyan-400/30">
-            <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+      <!-- CARD 1: Bill Calculator -->
+      <div class="bg-gradient-to-br from-slate-950 via-slate-900 to-cyan-950/70 rounded-2xl sm:rounded-3xl p-5 sm:p-7 border border-cyan-400/30 shadow-lg text-white flex flex-col justify-between">
+        <div class="space-y-2.5">
+          <div class="inline-flex items-center gap-2 bg-cyan-500/20 text-cyan-300 text-[11px] font-bold px-2.5 py-0.5 rounded-full border border-cyan-400/30">
+            <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span>
             Smart Appliance Calculator
           </div>
-          <h3 class="text-xl sm:text-2xl font-extrabold text-white">
+          <h3 class="text-lg sm:text-2xl font-extrabold text-white leading-tight">
             Ghar Ka Bijli Bill <span class="text-cyan-400">Turant Calculate</span> Karein
           </h3>
           <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
-            BLDC Fan, Inverter AC, Geyser, Induction aur Motor ke actual running wattage ke hisab se exact units aur slab bill jaanein.
+            BLDC Fan, Inverter AC, Geyser aur Motor ke running wattage ke hisaab se exact units aur slab bill jaanein.
           </p>
         </div>
 
-        <div class="pt-6">
+        <div class="pt-5">
           <a 
             href="/calculator" 
-            class="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-400 hover:to-cyan-500 text-slate-950 font-black px-6 py-3.5 rounded-xl text-sm shadow-lg transition-transform active:scale-95 group"
+            class="w-full inline-flex items-center justify-center gap-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-black px-5 py-3 rounded-xl text-xs sm:text-sm shadow-md transition-transform active:scale-95"
           >
-            <span>⚡</span>
-            <span>Calculate Bill Now</span>
-            <span class="group-hover:translate-x-1 transition-transform">→</span>
+            <span>⚡ Calculate Bill Now</span>
+            <span>→</span>
           </a>
-          <p class="text-[11px] text-slate-400 mt-2 text-center">All Modern Appliances Supported • 100% Free</p>
+          <p class="text-[10px] sm:text-[11px] text-slate-400 mt-2 text-center">Modern Appliances Supported • 100% Free</p>
         </div>
       </div>
 
-      <!-- CARD 2: Solar Sathi AI Lead Hook with Chat Preview UI -->
-      <div class="bg-gradient-to-br from-slate-950 via-slate-900 to-amber-950/60 rounded-3xl p-6 sm:p-7 border-2 border-amber-400/50 shadow-xl text-white relative overflow-hidden flex flex-col justify-between">
-        <div class="space-y-3">
-          <div class="inline-flex items-center gap-2 bg-amber-500/20 text-amber-300 text-xs font-bold px-3 py-1 rounded-full border border-amber-400/30">
-            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      <!-- CARD 2: Solar Sathi AI -->
+      <div class="bg-gradient-to-br from-slate-950 via-slate-900 to-amber-950/70 rounded-2xl sm:rounded-3xl p-5 sm:p-7 border border-amber-400/30 shadow-lg text-white flex flex-col justify-between">
+        <div class="space-y-2.5">
+          <div class="inline-flex items-center gap-2 bg-amber-500/20 text-amber-300 text-[11px] font-bold px-2.5 py-0.5 rounded-full border border-amber-400/30">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
             PM Surya Ghar AI Assistant
           </div>
-          <h3 class="text-xl sm:text-2xl font-extrabold text-white">
+          <h3 class="text-lg sm:text-2xl font-extrabold text-white leading-tight">
             Bijli Bill Zero Karna Hai? <span class="text-amber-400">Solar Sathi AI</span>
           </h3>
           
-          <div class="bg-slate-950/90 rounded-xl p-3 border border-slate-800 space-y-2 text-xs">
+          <div class="bg-slate-950/80 rounded-xl p-3 border border-slate-800 space-y-1.5 text-xs">
             <div class="flex items-start gap-2">
               <span class="w-5 h-5 rounded-full bg-amber-400 text-slate-950 text-[10px] font-black flex items-center justify-center shrink-0">AI</span>
-              <div class="bg-slate-800 text-slate-200 px-3 py-1.5 rounded-lg rounded-tl-none text-[11px]">
+              <div class="bg-slate-800 text-slate-200 px-3 py-1 rounded-lg rounded-tl-none text-[11px] leading-snug">
                 Namaste! Mahine ka bijli bill kitna aata hai? Main subsidy nikal kar deta hoon.
               </div>
             </div>
-            <div class="flex items-center justify-end gap-1.5 text-[10px] text-amber-400 font-semibold pr-1">
-              <span>⚡ ₹78,000 tak sarkari subsidy</span>
-              <span>•</span>
-              <span>30 Sec Result</span>
+            <div class="text-[10px] text-amber-400 font-semibold text-right pr-1">
+              ⚡ ₹78,000 sarkari subsidy • 30 Sec Result
             </div>
           </div>
         </div>
 
-        <div class="pt-6">
+        <div class="pt-5">
           <a 
-            href={botUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black px-6 py-3.5 rounded-xl text-sm shadow-lg transition-transform active:scale-95 group"
+            href={botUrl} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="w-full inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-5 py-3 rounded-xl text-xs sm:text-sm shadow-md transition-transform active:scale-95"
           >
-            <span>☀️</span>
-            <span>Check Subsidy & System</span>
-            <span class="group-hover:translate-x-1 transition-transform">→</span>
+            <span>☀️ Check Subsidy & System</span>
+            <span>→</span>
           </a>
-          <p class="text-[11px] text-slate-400 mt-2 text-center">Instant AI Analysis • 100% Free Subsidy Report</p>
+          <p class="text-[10px] sm:text-[11px] text-slate-400 mt-2 text-center">Instant AI Analysis • 100% Free Subsidy Report</p>
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- LATEST ARTICLES GRID (100% Dynamic & Real Indexed Content) -->
-  <section id="latest-articles" class="max-w-6xl mx-auto px-4 py-10">
-    <div class="flex items-center justify-between mb-8 border-b border-slate-200 pb-4">
+  <!-- LATEST ARTICLES: Compact & Clean Mobile Cards -->
+  <section id="latest-articles" class="max-w-6xl mx-auto px-4 py-6">
+    <div class="flex items-center justify-between mb-4 border-b border-slate-200 pb-2.5">
       <div>
-        <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+        <h2 class="text-lg sm:text-2xl font-bold text-slate-900 flex items-center gap-1.5">
           <span>📑</span> Latest Practical Guides
         </h2>
-        <p class="text-xs text-slate-500 mt-1">Real field issues aur cost-saving technical articles</p>
+        <p class="text-[11px] sm:text-xs text-slate-500">Real field issues aur cost-saving guides</p>
       </div>
-      <a href="#categories-section" class="text-xs sm:text-sm font-semibold text-emerald-700 hover:text-emerald-800">
-        Browse by Category →
+      <a href="#categories-section" class="text-xs sm:text-sm font-semibold text-emerald-700 hover:text-emerald-800 shrink-0">
+        Categories →
       </a>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      {latestArticles.map((article) => (
-        <article class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md hover:border-amber-400 transition-all flex flex-col justify-between group">
-          <div>
-            <div class="flex items-center justify-between gap-2 mb-3">
-              <span class="text-[11px] font-bold px-2.5 py-0.5 rounded-full border bg-amber-500/10 text-amber-700 border-amber-500/20 uppercase">
-                {article.data.category?.replace(/-/g, ' ')}
-              </span>
-              <span class="text-[11px] text-slate-400 font-medium">
-                {article.data.readTime || '6 min read'}
-              </span>
+    <!-- 1 Col on mobile, 2 Cols on desktop -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5 sm:gap-5">
+      {latestArticles.map((article) => {
+        const catSlug = article.data.category || 'home-electrical-guide';
+        const cardThumb = article.data.image || fallbackThumbnails[catSlug] || '/images/electrician-inspecting-old-mcb-distribution-board.webp';
+        
+        return (
+          <article class="bg-white rounded-xl p-3 sm:p-4 border border-slate-200 shadow-sm hover:shadow-md hover:border-amber-400 transition-all group flex flex-col justify-between">
+            
+            <div>
+              <!-- 16:9 Banner (Clean without overlay badge) -->
+              <a 
+                href={`/articles/${article.id}`} 
+                class="block relative w-full aspect-video overflow-hidden rounded-lg bg-slate-100 mb-2.5"
+              >
+                <img 
+                  src={cardThumb} 
+                  alt={article.data.title} 
+                  loading="lazy"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </a>
+
+              <!-- Category Badge & Read Time (Image Ke Bahar) -->
+              <div class="flex items-center justify-between gap-2 mb-1.5 text-[11px]">
+                <span class="font-bold text-amber-700 bg-amber-500/10 border border-amber-500/20 px-2 py-0.5 rounded uppercase tracking-wide text-[10px]">
+                  {article.data.category?.replace(/-/g, ' ')}
+                </span>
+                <span class="text-slate-400 font-medium">
+                  ⏱️ {article.data.readTime || '5 min'}
+                </span>
+              </div>
+
+              <!-- Title (Bold & Crisp) -->
+              <h3 class="text-sm sm:text-base font-bold text-slate-900 group-hover:text-amber-600 transition-colors leading-snug line-clamp-2">
+                <a href={`/articles/${article.id}`}>
+                  {article.data.title}
+                </a>
+              </h3>
             </div>
 
-            <h3 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-amber-600 transition-colors leading-snug">
-              <a href={`/articles/${article.id}`}>
-                {article.data.title}
+            <!-- Simple Clean Read Link (Bijli Gyaan Guide removed) -->
+            <div class="pt-2.5 mt-2 border-t border-slate-100 flex items-center justify-between text-xs">
+              <a 
+                href={`/articles/${article.id}`} 
+                class="font-bold text-emerald-700 inline-flex items-center gap-1 group-hover:translate-x-1 transition-transform"
+              >
+                Poora Guide Padhein <span>→</span>
               </a>
-            </h3>
+              <span class="text-emerald-700 font-semibold text-[11px]">Field Verified ✓</span>
+            </div>
 
-            <p class="text-xs sm:text-sm text-slate-600 mt-2.5 leading-relaxed line-clamp-3">
-              {article.data.description}
-            </p>
-          </div>
-
-          <div class="pt-5 mt-4 border-t border-slate-100 flex items-center justify-between text-xs">
-            <a 
-              href={`/articles/${article.id}`} 
-              class="font-bold text-emerald-700 group-hover:translate-x-1 transition-transform inline-flex items-center gap-1"
-            >
-              Poora Guide Padhein <span>→</span>
-            </a>
-            <span class="text-slate-400 text-[11px]">Field Verified ✓</span>
-          </div>
-        </article>
-      ))}
+          </article>
+        );
+      })}
     </div>
   </section>
 
-  <!-- Categories Section -->
-  <section id="categories-section" class="max-w-6xl mx-auto px-4 py-12">
-    <div class="flex items-center justify-between mb-8 border-b border-slate-200 pb-4">
+  <!-- Modern Deep-Theme Categories Section -->
+  <section id="categories-section" class="max-w-6xl mx-auto px-4 py-8">
+    <div class="flex items-center justify-between mb-5 border-b border-slate-200 pb-3">
       <div>
-        <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+        <h2 class="text-xl sm:text-2xl font-black text-slate-900 flex items-center gap-2">
           <span class="text-amber-500">⚡</span> Explore Categories
         </h2>
-        <p class="text-xs text-slate-500 mt-1">Verified technical guides structured for easy learning</p>
+        <p class="text-xs text-slate-500 mt-0.5">Verified technical guides structured for easy learning</p>
       </div>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      {categories.map((cat) => (
+    <!-- 2 Cols on mobile, 5 on desktop -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 sm:gap-4">
+      {categories.map((cat, idx) => (
         <a 
           href={cat.href} 
-          class="bg-white p-6 rounded-xl border border-slate-200/90 shadow-sm hover:shadow-md hover:border-amber-400 transition-all group flex flex-col justify-between"
+          class={`bg-gradient-to-br ${cat.color} bg-slate-900 p-3 sm:p-4 rounded-xl sm:rounded-2xl border ${cat.border} shadow-lg transition-all active:scale-95 group flex flex-col justify-between ${idx === 4 ? 'col-span-2 sm:col-span-1' : ''}`}
         >
           <div>
-            <div class="text-3xl mb-3 group-hover:scale-110 transition-transform w-fit">{cat.icon}</div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2 group-hover:text-amber-600 transition-colors">
+            <!-- Glowing Icon Badge -->
+            <div class={`w-9 h-9 sm:w-11 sm:h-11 rounded-lg sm:rounded-xl flex items-center justify-center text-lg sm:text-xl mb-2 sm:mb-3 border ${cat.iconBg} shadow-inner group-hover:scale-110 transition-transform`}>
+              {cat.icon}
+            </div>
+
+            <!-- Title: 2 lines me pura aayega, bilkul nahi katega -->
+            <h3 class="text-xs sm:text-sm font-bold text-white group-hover:text-amber-400 transition-colors leading-tight min-h-[2rem]">
               {cat.title}
             </h3>
-            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+
+            <!-- Desktop Short Desc -->
+            <p class="hidden sm:block text-slate-400 text-xs mt-1.5 line-clamp-2 leading-relaxed">
               {cat.desc}
             </p>
           </div>
-          <span class="text-xs font-semibold text-emerald-700 mt-4 inline-flex items-center gap-1">
-            Padhein <span>→</span>
-          </span>
+
+          <!-- Bottom Action Indicator -->
+          <div class="pt-2 sm:pt-3 mt-2 border-t border-slate-800/80 flex items-center justify-between text-[11px] font-semibold text-slate-300 group-hover:text-amber-400 transition-colors">
+            <span>Explore</span>
+            <span class="group-hover:translate-x-1 transition-transform">→</span>
+          </div>
         </a>
       ))}
     </div>
   </section>
 
   <!-- Author Authority Block (E-E-A-T) -->
-  <section class="max-w-4xl mx-auto px-4 pb-16">
-    <article class="bg-slate-900 text-slate-200 rounded-2xl p-6 sm:p-8 border border-slate-800 shadow-md">
-      <div class="flex flex-col sm:flex-row items-center sm:items-start gap-5">
-        <div class="w-16 h-16 rounded-full bg-slate-800 border-2 border-amber-400 flex items-center justify-center text-3xl shrink-0">
+  <section class="max-w-4xl mx-auto px-4 pb-14 pt-4">
+    <article class="bg-gradient-to-r from-slate-950 to-slate-900 text-slate-200 rounded-2xl p-5 sm:p-7 border border-slate-800 shadow-md">
+      <div class="flex flex-row items-center gap-4">
+        <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-slate-800 border-2 border-amber-400 flex items-center justify-center text-2xl sm:text-3xl shrink-0 shadow-inner">
           👨‍🔧
         </div>
-        <div class="space-y-3 text-center sm:text-left">
-          <p class="text-xs font-bold uppercase tracking-wider text-amber-400">Authentic Field Knowledge</p>
-          <p class="text-sm sm:text-base leading-relaxed text-slate-300">
-            Yeh platform real field experience par based hai — sirf kitaabi gyaan nahi. Isme aapko wiring, safety, solar, aur electricity bill se juda practical, sach mein kaam aane wala content milega.
+        <div class="space-y-1">
+          <p class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-amber-400">Authentic Field Knowledge</p>
+          <h4 class="text-sm sm:text-base font-bold text-white">Er. Pramod Kumar</h4>
+          <p class="text-[11px] sm:text-xs text-slate-300 leading-relaxed">
+            10+ saal ka industrial electrical maintenance aur practical residential wiring experience. Yahan sirf ground reality milti hai, kitaabi gyaan nahi.
           </p>
-          <div class="pt-1">
-            <span class="font-bold text-white text-sm">Er. Pramod Kumar</span>
-            <span class="text-xs text-slate-400 block sm:inline sm:ml-2">
-              (10+ saal ka industrial electrical maintenance experience)
-            </span>
-          </div>
         </div>
       </div>
     </article>
   </section>
+
   <SolarFloatWidget />
 </Layout>
