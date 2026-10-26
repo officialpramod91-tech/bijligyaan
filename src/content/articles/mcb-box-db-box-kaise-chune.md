@@ -192,7 +192,7 @@ Brand, ways, material (metal ya plastic), door type, busbar aur standard spec. S
 **Meter → Incomer (DP MCB/isolator) → RCCB → Outgoing MCBs → Circuits**
 
 - **Incomer:** poore ghar ko band karne ke liye. Phase aur neutral dono kaat'ta hai.
-- **RCCB:** incomer ke baad, taaki saare circuits shock se protected rahein. CEA Regulations 2023 ke mutabiq installation ki supply RCD se control honi chahiye, aur ghar ke liye aam taur par 30 mA RCCB lagta hai: [RCCB Kya Hai Aur Ghar me Lagana Kyun Zaruri Hai?](/articles/ghar-me-rccb-lagana-kyun-zaruri-hai/)
+- **RCCB:** incomer ke baad, taaki saare circuits shock se protected rahein. CEA Regulations 2023 ke mutabiq installation ki supply RCD se control honi chahiye, aur ghar ke liye aam taur par 30 mA RCCB lagta hai: [RCCB Kya Hai Aur Ghar me Lagana Kyun Zaruri Hai?](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 - **Outgoing MCBs:** lights/fans, sockets, kitchen, geyser aur har AC ke circuit alag rakhna achhi practice hai.
 
 ### Neutral Aur Earth Alag Bar me
@@ -450,7 +450,7 @@ Jab box me RCCB ke liye jagah na ho, kisi MCB ka terminal kaala ya pighla ho, MC
 
 > ## ⚡ Related Articles
 > - [MCB Selection Guide: Ghar Ke Liye Sahi MCB Kaise Chune?](/articles/mcb-types-selection-guide/)
-> - [RCCB Kya Hai Aur Ghar me Lagana Kyun Zaruri Hai?](/articles/ghar-me-rccb-lagana-kyun-zaruri-hai/)
+> - [RCCB Kya Hai Aur Ghar me Lagana Kyun Zaruri Hai?](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 > - [Earthing Kya Hai? Ghar me Earthing Kaise Kare (2026 Guide)](/articles/earthing-kya-hai/)
 > - [House Wiring Wire Size Chart: Kaunsi Wire Best Hai? (2026)](/articles/ghar-ki-wiring-wire-size-guide/)
 > - [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye](/articles/home-electrical-load-calculation/)
