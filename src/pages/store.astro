@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import products from '../data/products.json';
 
 interface Product {
   id: string;
@@ -13,107 +14,11 @@ interface Product {
   image: string;
 }
 
-const products: Product[] = [
-  // 1. Essential Tools
-  {
-    id: 'ncv-tester',
-    name: 'JPT Non-Contact Smart Voltage Tester Pen',
-    category: 'tools',
-    badge: 'Dual Sensitivity / NCV',
-    rating: 'Tested for 12V - 1000V AC',
-    specs: [
-      'Non-contact live & neutral wire detection',
-      'Audible buzzer & visual LED alarm indicator',
-      'Built-in bright LED torch for dark panels'
-    ],
-    verdict: 'Bina taar ka insulation chhile ya kate live phase aur neutral detect karne ke liye har ghar me yeh sabse safe tool hai.',
-    affiliateUrl: 'https://www.amazon.in/dp/B0D1XXXXXX?tag=YOURTAG-21',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80'
-  },
-  {
-    id: 'taparia-screwdriver',
-    name: 'Taparia 1000V Insulated Screwdriver Set',
-    category: 'tools',
-    badge: 'IS 8378 / VDE Tested',
-    rating: 'Dielectric Tested up to 1000V',
-    specs: [
-      'High-grade alloy steel hardened magnetic tips',
-      'Fully insulated blade prevents short circuit bridging',
-      'Heavy-duty non-slip ergonomic safety grip'
-    ],
-    verdict: 'Ghar ke switchboard ya switchgear par kaam karte waqt normal screw-driver use karna risk hai; 1000V insulated shaft shock se bachata hai.',
-    affiliateUrl: 'https://www.amazon.in/dp/B00VXXXXXX?tag=YOURTAG-21',
-    image: 'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80'
-  },
-  {
-    id: 'digital-multimeter',
-    name: 'AstroAI Digital Multimeter 2000 Counts',
-    category: 'tools',
-    badge: 'CAT III 600V Rated',
-    rating: 'Voltage, Resistance & Continuity',
-    specs: [
-      'Fast continuity buzzer for checking broken wiring',
-      'Large backlit digital display for low-light panels',
-      'Measures AC/DC voltage and current accurately'
-    ],
-    verdict: 'Ghar me neutral cut, socket voltage fluctuation aur wire continuity test karne ke liye sabse reliable pocket-friendly meter.',
-    affiliateUrl: 'https://www.amazon.in/dp/B071XXXXXX?tag=YOURTAG-21',
-    image: 'https://images.unsplash.com/photo-1606206591513-adbfce711b7d?auto=format&fit=crop&w=600&q=80'
-  },
-
-  // 2. Switchgear & Protection
-  {
-    id: 'schneider-rccb',
-    name: 'Schneider Acti9 40A 30mA Double Pole RCCB',
-    category: 'switchgear',
-    badge: 'IS/IEC 61008-1 Certified',
-    rating: '30mA Human Life Protection',
-    specs: [
-      'Instant tripping (<30ms) on earth leakage current',
-      'Double pole isolation (cuts both Phase & Neutral)',
-      'High endurance mechanical trip indicator window'
-    ],
-    verdict: 'MCB sirf short circuit se bachata hai, lekin current lagne par jaan sirf 30mA RCCB hi bachata hai. Har ghar me lagna anivarya hai.',
-    affiliateUrl: 'https://www.amazon.in/dp/B07DXXXXXX?tag=YOURTAG-21',
-    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80'
-  },
-  {
-    id: 'havells-dp-mcb',
-    name: 'Havells 32A C-Curve Double Pole MCB',
-    category: 'switchgear',
-    badge: 'IS/IEC 60898-1 Standard',
-    rating: '10kA Breaking Capacity',
-    specs: [
-      '10kA heavy fault short circuit breaking capacity',
-      'C-Curve profile suitable for home inductive surges',
-      'Simultaneous dual isolation for distribution boards'
-    ],
-    verdict: 'Main distribution box me saste 6kA single pole ke bajaye 10kA double pole lagayein taaki neutral fault me bhi ghar safe rahe.',
-    affiliateUrl: 'https://www.amazon.in/dp/B08FXXXXXX?tag=YOURTAG-21',
-    image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80'
-  },
-
-  // 3. Heavy Home Appliances
-  {
-    id: 'havells-geyser',
-    name: 'Havells Velora+ 25L 5-Star Storage Water Heater',
-    category: 'appliances',
-    badge: 'BEE 5-Star / IS 2082',
-    rating: '0.8 MPa High Pressure',
-    specs: [
-      'Thick rolled steel tank with feroglas coating',
-      'Incoloy glass-coated heavy duty heating element',
-      'Multi-functional safety valve for pressure relief'
-    ],
-    verdict: 'High-rise apartments aur hard water ke liye ideal hai; iska element normal copper elements ke mukable jaldi scale nahi hota.',
-    affiliateUrl: 'https://www.amazon.in/dp/B0CLXXXXXX?tag=YOURTAG-21',
-    image: 'https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=600&q=80'
-  }
-];
+const productList: Product[] = products as Product[];
 ---
 
 <Layout title="Bijli Gyaan Verified Store | IS Standards Tested Electrical Tools">
-  <main class="min-h-screen bg-slate-950 text-slate-100 py-10 px-4 sm:px-6 lg:px-8 font-sans">
+  <main class="min-h-screen bg-slate-900 text-slate-100 py-10 px-4 sm:px-6 lg:px-8 font-sans">
     <div class="max-w-6xl mx-auto">
       
       <!-- Top Authority Hero Header -->
@@ -124,13 +29,13 @@ const products: Product[] = [
         <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-white mb-4">
           Bijli Gyaan <span class="text-amber-400">Verified Store</span>
         </h1>
-        <p class="max-w-3xl mx-auto text-base sm:text-lg text-slate-200 leading-relaxed font-normal">
-          Indian electrical market me 50%+ duplicate aur substandard saman milta hai. Yeh equipment list&nbsp;<strong class="text-white">Er. Pramod Kumar</strong>&nbsp;ke 10 saal ke practical field experience aur&nbsp;<span class="text-amber-300 font-medium">IS/BIS safety codes</span>&nbsp;ki jaanch ke baad chuni gayi hai.
+        <p class="max-w-3xl mx-auto text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
+          Indian electrical market me 50%+ duplicate aur substandard saman milta hai. Yeh equipment list <strong class="text-white">Er. Pramod Kumar</strong> ke 10 saal ke practical field experience aur <span class="text-amber-300 font-medium">IS/BIS safety codes</span> ki jaanch ke baad chuni gayi hai.
         </p>
       </header>
 
-      <!-- Emergency Quick Alert Banner (Linked to Live Pillar Guide) -->
-      <aside aria-label="Electrical Emergency Alert" class="mb-10 p-5 sm:p-6 rounded-2xl bg-gradient-to-r from-rose-950/80 via-slate-900 to-slate-900 border border-rose-500/40 flex flex-col sm:flex-row items-center justify-between gap-5 shadow-xl">
+      <!-- Emergency Quick Alert Banner -->
+      <aside aria-label="Electrical Emergency Alert" class="mb-10 p-5 sm:p-6 rounded-2xl bg-gradient-to-r from-rose-950/80 via-slate-800 to-slate-800 border border-rose-500/40 flex flex-col sm:flex-row items-center justify-between gap-5 shadow-xl">
         <div class="flex items-center gap-4 text-left">
           <div class="w-14 h-14 rounded-2xl bg-rose-500/20 border border-rose-500/40 flex items-center justify-center text-rose-400 text-3xl shrink-0">
             🚨
@@ -142,7 +47,7 @@ const products: Product[] = [
             <h2 class="text-lg sm:text-xl font-bold text-white mb-1">
               Ghar Me Current Lagne Ya Aag Lagne Par Turant Kya Karein?
             </h2>
-            <p class="text-sm sm:text-base text-slate-200">
+            <p class="text-sm sm:text-base text-slate-300">
               Electric shock first aid, short circuit aag bujhane ke niyam aur IS 2190 / CEA 2023 safety guide padhein.
             </p>
           </div>
@@ -161,37 +66,37 @@ const products: Product[] = [
       <nav aria-label="Category Filters" class="flex flex-wrap justify-center gap-2.5 sm:gap-4 mb-10">
         <button 
           data-filter="all" 
-          class="filter-btn active px-5 py-2.5 rounded-xl text-sm sm:text-base font-semibold transition-all duration-200 bg-amber-500 text-slate-950 shadow-md">
+          class="filter-btn active px-5 py-2.5 rounded-xl text-sm sm:text-base font-semibold transition-all duration-200 bg-amber-400 text-slate-950 shadow-md">
           All Tested Equipment
         </button>
         <button 
           data-filter="tools" 
-          class="filter-btn px-5 py-2.5 rounded-xl text-sm sm:text-base font-semibold transition-all duration-200 bg-slate-800 text-slate-200 hover:bg-slate-700 hover:text-white border border-slate-700">
+          class="filter-btn px-5 py-2.5 rounded-xl text-sm sm:text-base font-semibold transition-all duration-200 bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border border-slate-700">
           🧰 Essential Home Tools
         </button>
         <button 
           data-filter="switchgear" 
-          class="filter-btn px-5 py-2.5 rounded-xl text-sm sm:text-base font-semibold transition-all duration-200 bg-slate-800 text-slate-200 hover:bg-slate-700 hover:text-white border border-slate-700">
+          class="filter-btn px-5 py-2.5 rounded-xl text-sm sm:text-base font-semibold transition-all duration-200 bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border border-slate-700">
           ⚡ Switchgear & Protection
         </button>
         <button 
           data-filter="appliances" 
-          class="filter-btn px-5 py-2.5 rounded-xl text-sm sm:text-base font-semibold transition-all duration-200 bg-slate-800 text-slate-200 hover:bg-slate-700 hover:text-white border border-slate-700">
+          class="filter-btn px-5 py-2.5 rounded-xl text-sm sm:text-base font-semibold transition-all duration-200 bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border border-slate-700">
           🏠 Safe Heavy Appliances
         </button>
       </nav>
 
       <!-- Products Grid -->
       <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-       {products.map((item) => (
+        {productList.map((item) => (
           <article 
             id={item.id}
             data-category={item.category} 
-            class="product-card flex flex-col justify-between bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-amber-400/50 transition-all duration-300 shadow-lg scroll-mt-28 target:border-amber-400 target:ring-2 target:ring-amber-400/50">
+            class="product-card flex flex-col justify-between bg-slate-800/90 border border-slate-700/80 rounded-2xl overflow-hidden hover:border-amber-400/50 transition-all duration-300 shadow-xl scroll-mt-28 target:border-amber-400 target:ring-2 target:ring-amber-400/50">
             
             <div>
               <!-- Standard Verification Badge -->
-              <div class="px-5 pt-5 flex items-center justify-between">
+              <div class="px-5 pt-5 flex items-center justify-between gap-2">
                 <span class="inline-block bg-amber-400/15 text-amber-300 border border-amber-400/30 text-xs sm:text-sm px-3 py-1.5 rounded-md font-bold">
                   {item.badge}
                 </span>
@@ -200,26 +105,26 @@ const products: Product[] = [
                 </span>
               </div>
 
-              <!-- Product Image Container -->
-              <div class="p-6 flex justify-center items-center h-52 bg-slate-950/50 my-3">
+              <!-- Product Image Container (Clean White Showcase) -->
+              <div class="p-4 mx-5 my-4 flex justify-center items-center h-52 bg-white rounded-xl shadow-inner overflow-hidden">
                 <img 
                   src={item.image} 
                   alt={item.name} 
                   loading="lazy" 
-                  class="max-h-full object-contain rounded-lg"
+                  class="max-h-full max-w-full object-contain transition-transform duration-300 hover:scale-105"
                 />
               </div>
 
               <!-- Product Title -->
               <div class="px-5 pb-3">
-                <h3 class="text-lg sm:text-xl font-bold text-white hover:text-amber-400 transition-colors">
+                <h3 class="text-lg sm:text-xl font-bold text-white hover:text-amber-400 transition-colors leading-snug">
                   {item.name}
                 </h3>
               </div>
 
-              <!-- Technical Specifications (Bada Aur Khula Text) -->
+              <!-- Technical Specifications -->
               <div class="px-5 pb-4">
-                <ul class="text-sm text-slate-200 space-y-2 list-disc list-inside leading-relaxed">
+                <ul class="text-sm text-slate-300 space-y-2 list-disc list-inside leading-relaxed">
                   {item.specs.map((spec) => (
                     <li>{spec}</li>
                   ))}
@@ -227,7 +132,7 @@ const products: Product[] = [
               </div>
 
               <!-- Er. Pramod's Field Note Box -->
-              <div class="mx-5 mb-5 p-4 bg-slate-950 border-l-4 border-amber-400 rounded-r-xl">
+              <div class="mx-5 mb-5 p-4 bg-slate-900/90 border-l-4 border-amber-400 rounded-r-xl border border-slate-700/50">
                 <p class="text-xs sm:text-sm font-bold text-amber-400 uppercase tracking-wider mb-1.5">
                   👨‍🔧 Er. Pramod's Field Verdict:
                 </p>
@@ -237,13 +142,13 @@ const products: Product[] = [
               </div>
             </div>
 
-            <!-- CTA Action Button (Google Compliant rel="nofollow sponsored noopener") -->
+            <!-- CTA Action Button -->
             <div class="p-5 pt-0">
               <a 
                 href={item.affiliateUrl} 
                 target="_blank" 
                 rel="nofollow sponsored noopener" 
-                class="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-bold py-3.5 px-4 rounded-xl text-sm sm:text-base transition-all duration-200 shadow-md active:scale-95">
+                class="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 active:scale-[0.98] text-slate-950 font-bold py-3.5 px-4 rounded-xl text-sm sm:text-base transition-all duration-200 shadow-md">
                 Check Genuine Price on Amazon
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -268,21 +173,21 @@ const products: Product[] = [
           <h2 class="text-2xl sm:text-4xl font-extrabold text-white mb-4">
             Indian Electrical Standards (IS Code) Guide: <span class="text-amber-400">Ghar Ki Suraksha Kyu Zaroori Hai?</span>
           </h2>
-          <p class="text-base sm:text-lg text-slate-200 leading-relaxed">
+          <p class="text-base sm:text-lg text-slate-300 leading-relaxed">
             Market me milne wale substandard aur bina certification wale electrical equipment aag (electrical fire) aur fatal electric shock ka sabse bada kaaran bante hain. Central Electricity Authority (CEA) aur Bureau of Indian Standards (BIS) ke niyam har nagrik ko janna zaroori hai.
           </p>
         </div>
 
-        <!-- 3 Core Engineering Pillars (Bade Aur Saaf Text Ke Sath) -->
+        <!-- 3 Core Engineering Pillars -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           
           <!-- Pillar 1 -->
-          <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-7 shadow-lg">
+          <div class="bg-slate-800/80 border border-slate-700/80 rounded-2xl p-6 sm:p-7 shadow-lg">
             <div class="w-12 h-12 rounded-xl bg-amber-400/10 border border-amber-400/30 flex items-center justify-center text-amber-400 font-bold text-lg mb-4">
               01
             </div>
             <h3 class="text-lg sm:text-xl font-bold text-white mb-3">IS 732: Wiring Code of Practice</h3>
-            <p class="text-sm sm:text-base text-slate-200 leading-relaxed mb-4">
+            <p class="text-sm sm:text-base text-slate-300 leading-relaxed mb-4">
               Bureau of Indian Standards ka IS 732 residential aur commercial buildings ke electrical wiring installation ka base standard hai.
             </p>
             <ul class="text-sm text-slate-300 space-y-2 list-disc list-inside leading-relaxed">
@@ -293,12 +198,12 @@ const products: Product[] = [
           </div>
 
           <!-- Pillar 2 -->
-          <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-7 shadow-lg">
+          <div class="bg-slate-800/80 border border-slate-700/80 rounded-2xl p-6 sm:p-7 shadow-lg">
             <div class="w-12 h-12 rounded-xl bg-amber-400/10 border border-amber-400/30 flex items-center justify-center text-amber-400 font-bold text-lg mb-4">
               02
             </div>
             <h3 class="text-lg sm:text-xl font-bold text-white mb-3">IS/IEC 61008-1: Life Protection</h3>
-            <p class="text-sm sm:text-base text-slate-200 leading-relaxed mb-4">
+            <p class="text-sm sm:text-base text-slate-300 leading-relaxed mb-4">
               MCB sirf short-circuit se taar bachata hai, jabki RCCB (Residual Current Circuit Breaker) insani jaan bachata hai.
             </p>
             <ul class="text-sm text-slate-300 space-y-2 list-disc list-inside leading-relaxed">
@@ -309,12 +214,12 @@ const products: Product[] = [
           </div>
 
           <!-- Pillar 3 -->
-          <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-7 shadow-lg">
+          <div class="bg-slate-800/80 border border-slate-700/80 rounded-2xl p-6 sm:p-7 shadow-lg">
             <div class="w-12 h-12 rounded-xl bg-amber-400/10 border border-amber-400/30 flex items-center justify-center text-amber-400 font-bold text-lg mb-4">
               03
             </div>
             <h3 class="text-lg sm:text-xl font-bold text-white mb-3">IS 3043: Earthing Regulations</h3>
-            <p class="text-sm sm:text-base text-slate-200 leading-relaxed mb-4">
+            <p class="text-sm sm:text-base text-slate-300 leading-relaxed mb-4">
               Proper Earthing kisi bhi installation ki backbone hoti hai. Bina proper earthing ke koi bhi safety device sahi se trigger nahi hota.
             </p>
             <ul class="text-sm text-slate-300 space-y-2 list-disc list-inside leading-relaxed">
@@ -327,7 +232,7 @@ const products: Product[] = [
         </div>
 
         <!-- Technical Verification Table -->
-        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 sm:p-8 mb-16 shadow-lg">
+        <div class="bg-slate-800/80 border border-slate-700/80 rounded-2xl p-5 sm:p-8 mb-16 shadow-lg">
           <h3 class="text-lg sm:text-2xl font-bold text-white mb-2">
             Standard Reference Guide: Equipment vs Required Indian Standard
           </h3>
@@ -335,42 +240,42 @@ const products: Product[] = [
             Ghar ke liye koi bhi saman lete waqt packaging par diye gaye BIS License (CM/L number) aur IS Code ko verify karein:
           </p>
 
-          <div class="overflow-x-auto rounded-xl border border-slate-800">
+          <div class="overflow-x-auto rounded-xl border border-slate-700">
             <table class="w-full text-left text-sm sm:text-base text-slate-200 border-collapse min-w-[650px]">
               <thead>
-                <tr class="border-b border-slate-700 bg-slate-950 text-amber-400 font-bold uppercase text-xs sm:text-sm tracking-wider">
+                <tr class="border-b border-slate-700 bg-slate-900 text-amber-400 font-bold uppercase text-xs sm:text-sm tracking-wider">
                   <th class="py-4 px-4 sm:px-6">Equipment / Item</th>
                   <th class="py-4 px-4 sm:px-6">Applicable Standard</th>
                   <th class="py-4 px-4 sm:px-6">Safety Parameter</th>
                   <th class="py-4 px-4 sm:px-6">Substandard Lene Ka Risk</th>
                 </tr>
               </thead>
-              <tbody class="divide-y divide-slate-800 bg-slate-900/60 font-sans">
-                <tr class="hover:bg-slate-800/40 transition-colors">
+              <tbody class="divide-y divide-slate-700/70 bg-slate-850 font-sans">
+                <tr class="hover:bg-slate-700/40 transition-colors">
                   <td class="py-4 px-4 sm:px-6 font-semibold text-white">Miniature Circuit Breaker (MCB)</td>
                   <td class="py-4 px-4 sm:px-6 font-bold text-amber-300">IS/IEC 60898-1</td>
                   <td class="py-4 px-4 sm:px-6 text-slate-300">10kA Breaking Capacity & C-Curve</td>
                   <td class="py-4 px-4 sm:px-6 text-rose-300 font-medium">Contact weld hona, aag lagne ka khatra</td>
                 </tr>
-                <tr class="hover:bg-slate-800/40 transition-colors">
+                <tr class="hover:bg-slate-700/40 transition-colors">
                   <td class="py-4 px-4 sm:px-6 font-semibold text-white">Residual Current Breaker (RCCB)</td>
                   <td class="py-4 px-4 sm:px-6 font-bold text-amber-300">IS/IEC 61008-1</td>
                   <td class="py-4 px-4 sm:px-6 text-slate-300">30mA Sensitivity, &lt;30ms cutoff</td>
                   <td class="py-4 px-4 sm:px-6 text-rose-300 font-medium">Trip na hona, fatal electric shock</td>
                 </tr>
-                <tr class="hover:bg-slate-800/40 transition-colors">
+                <tr class="hover:bg-slate-700/40 transition-colors">
                   <td class="py-4 px-4 sm:px-6 font-semibold text-white">FR / FRLS Copper Wires</td>
                   <td class="py-4 px-4 sm:px-6 font-bold text-amber-300">IS 694</td>
                   <td class="py-4 px-4 sm:px-6 text-slate-300">Class 5 flexible bare copper, 70°C PVC</td>
                   <td class="py-4 px-4 sm:px-6 text-rose-300 font-medium">Wire garam hona, zehrila dhuwan nikalna</td>
                 </tr>
-                <tr class="hover:bg-slate-800/40 transition-colors">
+                <tr class="hover:bg-slate-700/40 transition-colors">
                   <td class="py-4 px-4 sm:px-6 font-semibold text-white">Storage Water Heaters (Geyser)</td>
                   <td class="py-4 px-4 sm:px-6 font-bold text-amber-300">IS 2082 & BEE 5-Star</td>
                   <td class="py-4 px-4 sm:px-6 text-slate-300">Safety valve, 0.8 MPa pressure test</td>
                   <td class="py-4 px-4 sm:px-6 text-rose-300 font-medium">Tank phatna, pani ke pipe me current aana</td>
                 </tr>
-                <tr class="hover:bg-slate-800/40 transition-colors">
+                <tr class="hover:bg-slate-700/40 transition-colors">
                   <td class="py-4 px-4 sm:px-6 font-semibold text-white">Insulated Screwdrivers</td>
                   <td class="py-4 px-4 sm:px-6 font-bold text-amber-300">IS 8378 / IEC 60900</td>
                   <td class="py-4 px-4 sm:px-6 text-slate-300">10,000V tested (1,000V safe work)</td>
@@ -384,8 +289,8 @@ const products: Product[] = [
           </p>
         </div>
 
-        <!-- Why Use This Page (Value & Trust Proposition) -->
-        <div class="bg-slate-900 border border-amber-400/30 rounded-2xl p-6 sm:p-10 mb-12 shadow-xl">
+        <!-- Why Use This Page -->
+        <div class="bg-slate-800/80 border border-amber-400/30 rounded-2xl p-6 sm:p-10 mb-12 shadow-xl">
           <div class="flex flex-col md:flex-row gap-6 items-start">
             <div class="w-14 h-14 rounded-2xl bg-amber-500/15 border border-amber-400/40 shrink-0 flex items-center justify-center text-3xl">
               🛡️
@@ -394,24 +299,24 @@ const products: Product[] = [
               <h3 class="text-xl sm:text-2xl font-bold text-white mb-3">
                 Bijli Gyaan Verified Hub Use Karne Ka Fayda Kya Hai?
               </h3>
-              <p class="text-base sm:text-lg text-slate-200 leading-relaxed mb-6 font-normal">
+              <p class="text-base sm:text-lg text-slate-300 leading-relaxed mb-6 font-normal">
                 Internet par hazaron affiliate websites sirf product ke features copy-paste karke buy link chipka deti hain. Bijli Gyaan isse alag kyu hai?
               </p>
               
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 text-sm sm:text-base text-slate-200 leading-relaxed">
-                <div class="flex items-start gap-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800">
+                <div class="flex items-start gap-3 bg-slate-900/80 p-4 rounded-xl border border-slate-700/60">
                   <span class="text-amber-400 font-black text-lg">✓</span>
                   <span><strong class="text-white font-semibold">Field-Tested Only:</strong> Koi bhi sponsored promotion nahi; sirf wahi models jinka real mechanism aur build quality field me proven hai.</span>
                 </div>
-                <div class="flex items-start gap-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800">
+                <div class="flex items-start gap-3 bg-slate-900/80 p-4 rounded-xl border border-slate-700/60">
                   <span class="text-amber-400 font-black text-lg">✓</span>
                   <span><strong class="text-white font-semibold">Original Specifications:</strong> Aam dukandar dwara diye jane wale local aluminum mix wire ya duplicate MCB se bachav.</span>
                 </div>
-                <div class="flex items-start gap-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800">
+                <div class="flex items-start gap-3 bg-slate-900/80 p-4 rounded-xl border border-slate-700/60">
                   <span class="text-amber-400 font-black text-lg">✓</span>
                   <span><strong class="text-white font-semibold">Direct Sizing Match:</strong> Hamare load calculation articles aur wiring sizing guides ke sath 100% compatible recommendations.</span>
                 </div>
-                <div class="flex items-start gap-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800">
+                <div class="flex items-start gap-3 bg-slate-900/80 p-4 rounded-xl border border-slate-700/60">
                   <span class="text-amber-400 font-black text-lg">✓</span>
                   <span><strong class="text-white font-semibold">Full Transparency:</strong> Sahi IS Code aur CM/L standards ka khulasa taaki aap official BIS Care App se authenticity check kar sakein.</span>
                 </div>
@@ -422,9 +327,9 @@ const products: Product[] = [
 
       </section>
 
-      <!-- Google Transparency & FTC Affiliate Disclosure (Clear & Bold Text) -->
-      <footer class="mt-16 p-6 sm:p-8 rounded-2xl bg-slate-900 border border-slate-800 text-center shadow-lg">
-        <p class="text-sm sm:text-base text-slate-200 max-w-3xl mx-auto leading-relaxed">
+      <!-- Transparency Disclosure -->
+      <footer class="mt-16 p-6 sm:p-8 rounded-2xl bg-slate-800/80 border border-slate-700/80 text-center shadow-lg">
+        <p class="text-sm sm:text-base text-slate-300 max-w-3xl mx-auto leading-relaxed">
           <strong class="text-amber-400 font-bold">Transparency Disclosure:</strong> Bijli Gyaan par hum genuine field standards ko promote karte hain. Jab aap diye gaye links se verified products khareedte hain, toh platform ko bina aapke koi extra cost lage chhota sa referral commission mil sakta hai, jo is educational website aur free tools ko chalane me madad karta hai.
         </p>
       </footer>
@@ -442,11 +347,11 @@ const products: Product[] = [
     btn.addEventListener('click', () => {
       // Toggle button active classes
       buttons.forEach((b) => {
-        b.classList.remove('bg-amber-500', 'text-slate-950');
-        b.classList.add('bg-slate-800', 'text-slate-200');
+        b.classList.remove('bg-amber-400', 'text-slate-950');
+        b.classList.add('bg-slate-800', 'text-slate-300');
       });
-      btn.classList.remove('bg-slate-800', 'text-slate-200');
-      btn.classList.add('bg-amber-500', 'text-slate-950');
+      btn.classList.remove('bg-slate-800', 'text-slate-300');
+      btn.classList.add('bg-amber-400', 'text-slate-950');
 
       const filterValue = btn.getAttribute('data-filter');
 

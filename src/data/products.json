@@ -1,0 +1,109 @@
+[
+  {
+    "id": "ao-smith-geyser",
+    "name": "AO Smith HSE-SHS-015 15L Storage Water Heater",
+    "category": "appliances",
+    "badge": "BEE 5-Star / IS 2082",
+    "rating": "8 Bar High Pressure",
+    "specs": [
+      "Blue Diamond glass-lined inner tank",
+      "High-grade glass-coated heating element",
+      "Hard water aur high TDS borewell paani ke liye best"
+    ],
+    "verdict": "High-TDS borewell paani me scaling rokne ke liye iska Blue Diamond coating market me sabse durable mana jata hai.",
+    "affiliateUrl": "https://link.amazon/B061fAvJB",
+    "image": "https://m.media-amazon.com/images/I/61-1uGZPi2L._SL1500_.jpg"
+  },
+  {
+    "id": "racold-geyser",
+    "name": "Racold Eterno Pro SP 15L Vertical Water Heater",
+    "category": "appliances",
+    "badge": "BEE 5-Star / IS 2082",
+    "rating": "8 Bar Pressure Ready",
+    "specs": [
+      "Titanium Plus technology with enamel coating",
+      "Smart Bath Logic technology (energy saving)",
+      "Multi-storey apartments ke high pressure ke liye sturdy"
+    ],
+    "verdict": "High-rise apartments jahan pressure pump ka continuous load hota hai, wahan iska titanium tank welding leak proof safety deta hai.",
+    "affiliateUrl": "https://link.amazon/B040sE7LK",
+    "image": "https://m.media-amazon.com/images/I/51cjBLsymcL._SL1500_.jpg"
+  },
+  {
+    "id": "havells-geyser",
+    "name": "Havells Monza Pro 15L Storage Geyser",
+    "category": "appliances",
+    "badge": "BEE 4/5-Star / IS 2082",
+    "rating": "8 Bar Working Pressure",
+    "specs": [
+      "Feroglas coated inner tank with single weld design",
+      "Heavy-duty Incoloy 800 glass-coated heating element",
+      "Whirlflow technology for faster heating & energy saving"
+    ],
+    "verdict": "Nationwide reliable service network aur durable build quality ke sath aam family ke liye ek safe aur budget-friendly model.",
+    "affiliateUrl": "https://link.amazon/B0dreGCXr",
+    "image": "https://m.media-amazon.com/images/I/51EqN9kOscL._SL1500_.jpg"
+  },
+  {
+    "id": "vguard-geyser",
+    "name": "V-Guard Divino DG 15L Storage Water Heater",
+    "category": "appliances",
+    "badge": "BEE 5-Star / IS 2082",
+    "rating": "8 Bar Pressure Rated",
+    "specs": [
+      "Advanced vitreous enamel tank coating",
+      "Extra thick magnesium anode rod for tank protection",
+      "Digital temperature display & compact vertical design"
+    ],
+    "verdict": "Digital display, thick PUF insulation aur lowest running electricity bill ke liye value-for-money choice.",
+    "affiliateUrl": "https://link.amazon/B00vCnxiC",
+    "image": "https://m.media-amazon.com/images/I/51-yWEeZGCL._SL1500_.jpg"
+  },
+  {
+    "id": "schneider-rccb",
+    "name": "Schneider Acti9 40A 30mA Double Pole RCCB",
+    "category": "switchgear",
+    "badge": "IS/IEC 61008-1",
+    "rating": "30mA Human Life Protection",
+    "specs": [
+      "Instant tripping (<30ms) on earth leakage current",
+      "Double pole isolation (cuts both Phase & Neutral)",
+      "High endurance mechanical trip indicator window"
+    ],
+    "verdict": "MCB sirf taar bachata hai, insani jaan sirf 30mA RCCB hi bachata hai. Geyser aur bathroom circuits ke liye anivarya device.",
+    "affiliateUrl": "https://link.amazon/B0e1SbFqX",
+    "image": "https://m.media-amazon.com/images/I/612LTO2AFzL._SL1500_.jpg"
+  },
+ {
+    "id": "schneider-dp-mcb",
+    "name": "Schneider Acti9 40A DP C-Curve 10kA MCB",
+    "category": "switchgear",
+    "badge": "IS/IEC 60898-1",
+    "rating": "10kA Heavy Breaking Capacity",
+    "specs": [
+      "10kA fault level short-circuit protection",
+      "C-Curve profile: Inductive home load aur AC surges ke liye safe",
+      "Double Pole (DP) dual isolation: Phase aur Neutral dono ek sath cut"
+    ],
+    "verdict": "Schneider ka Acti9 mechanism contact welding ke khilaf market me sabse reliable hai. Ghar ke main distribution board incomer ke liye top-grade breaker.",
+    "affiliateUrl": "https://link.amazon/B02h7Jk4z",
+    "image": "https://m.media-amazon.com/images/I/718-EuN2zZL._SL1500_.jpg"
+  },
+  
+  {
+    "id": "ncv-tester",
+    "name": "JPT Non-Contact Smart Voltage Tester Pen",
+    "category": "tools",
+    "badge": "Dual Sensitivity / NCV",
+    "rating": "Tested for 12V - 1000V AC",
+    "specs": [
+      "Non-contact live & neutral wire detection",
+      "Audible buzzer & visual dual LED alarm indicator",
+      "Built-in bright LED torch for dark distribution boards"
+    ],
+    "verdict": "Bina taar ka insulation chhile ya kate live phase aur neutral detect karne ke liye har electrician aur ghar ke liye sabse safe tool.",
+    "affiliateUrl": "https://link.amazon/B0fwSHaoc",
+    "image": "https://m.media-amazon.com/images/I/713HsLFdz6L._SL1500_.jpg"
+  }
+
+]
