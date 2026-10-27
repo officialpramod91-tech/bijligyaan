@@ -196,7 +196,10 @@ Brand, ways, material (metal ya plastic), door type, busbar aur standard spec. S
 - **Outgoing MCBs:** lights/fans, sockets, kitchen, geyser aur har AC ke circuit alag rakhna achhi practice hai.
 
 ### Neutral Aur Earth Alag Bar me
-Neutral aur earth ke wires ko **alag-alag bar** par lagayein. Dono ko kabhi ek hi terminal par na jodein. Earth bar ko earthing se jodein: [Earthing Kya Hai? Ghar me Earthing Kaise Kare (2026 Guide)](/articles/earthing-kya-hai/)
+Neutral aur earth ke wires ko **alag-alag bar** par lagayein. Dono ko kabhi ek hi terminal par na jodein. Earth bar ko earthing se jodein: [Earthing Type & Kharcha: Ghar Ke Liye Sahi Earthing Aur Cost Guide (2026 Guide)](/articles/earthing-kya-hai/)
+
+> ⚡ **DB Wiring Rule:** Distribution board mein Neutral link aur Earth strip ko aapas mein kabhi touch ya short na karein. Janein kyu neutral aur ground ka isolated rehna zaroori hai:  
+> 👉 [Neutral Aur Earth Wire Mein Antar: DB Wiring Aur Safety Rules →](/articles/neutral-aur-earth-wire-mein-kya-antar-hai/)
 
 ### Busbar Ya Jumper Wire?
 Mere case me maine jumper wires hatakar **copper comb busbar** lagayi. Jumper wire se har MCB par ek aur connection point badhta hai, aur jahan connection zyada, wahan dheela hone ka khatra zyada. Busbar se connections kam aur mazboot hote hai.

@@ -54,6 +54,9 @@ Agar earthing weak ho to geyser ya cooler ki metal body se current aane lagta ha
 
 > ⚠️ **Warning:** Neutral aur Earth wire ko aapas me kabhi mix na karein. Neutral ki jagah earth wire ko return banana ya socket me neutral-earth short karna Indian Standard ke khilaf aur behad khatarnak hai.
 
+> ⚡ **Zaroori Jankari:** Bahut se log Neutral aur Earth ko ek hi samajh lete hain, jabki dono ka circuit flow aur electrical kaam bilkul alag hai. Inka technical antar samajhne ke liye dekhein:  
+> 👉 [Neutral Aur Earth Wire Mein Kya Antar Hai? Difference & Safety Guide →](/articles/neutral-aur-earth-wire-mein-kya-antar-hai/)
+
 ---
 
 ## Ghar Mein Earthing Kyun Zaroori Hai?

@@ -295,6 +295,9 @@ Diwali ke dauran ek 3-storey building mein decorative lighting aur halogen ka he
 ![Er. Pramod Kumar electrical distribution panel me loose wiring check karte hue](/images/er-pramod-kumar-mcb-troubleshooting-electrical-panel.webp)
 *Field Report: Distribution panel (DB) mein terminal connections aur safety breakers ki jaanch karte hue Er. Pramod Kumar (Bijli Gyaan).*
 
+> ⚠️ **Field Diagnostic:** Ghar ke appliances me halka shock ya vibration aana missing earthing ka sanket hota hai. Return current aur fault bypass ke basic fark ko samajhne ke liye padhein hamari complete guide:  
+> 👉 [Neutral vs Earth Conductor: Suraksha Aur Circuit Flow Guide →](/articles/neutral-aur-earth-wire-mein-kya-antar-hai/)
+
 ---
 
 <a id="part-6-indian-standards-aur-cea-regulations-2023"></a>

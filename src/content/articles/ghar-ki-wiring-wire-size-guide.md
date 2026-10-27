@@ -243,6 +243,9 @@ Sirf Phase wire sahi chunna kaafi nahi hai:
 - **Neutral Sharing Se Bachein:** Do alag-alag kamron ka neutral aapas me kabhi loop na karein. Har circuit ka dedicated neutral DB panel tak jana chahiye, warna aapka RCCB baar-baar trip hota rahega:  
   👉 [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Safety Guide) →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 
+  > 📌 **Wire Selection Tip:** Circuit me Neutral wire pure load ka current wapas le jaati hai, jabki Earth wire sirf fault leakage ke waqt kaam aati hai. Wiring karne se pehle in dono ke alag-alag role zaroor samjhein:  
+> 👉 [Neutral vs Earth Wire: Dono Ka Kaam Aur Wiring Niyam →](/articles/neutral-aur-earth-wire-mein-kya-antar-hai/)
+
 ---
 
 ## Field Case Study: Ek Real Ground Incident (Electrician Ki Diary)
