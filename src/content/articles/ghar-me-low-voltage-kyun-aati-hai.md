@@ -98,12 +98,24 @@ Load ON condition me Neutral link aur Grounded Earth busbar ke beech voltage che
 * **Healthy Reading:** 1V se 3V AC.
 * **Fault Sign:** Agar yeh reading 15V se 45V tak shoot karti hai, toh iska matlab neutral line par high contact resistance ya loose terminal hai.
 
-| Testing Scenario | Phase-Neutral (Under Load) | Neutral-Earth (Under Load) | Root Cause | Kise Theek Karna Hai? |
-|---|---|---|---|---|
-| **No-load par bhi 160V–180V** | 160V–180V | 1V–3V | Transformer / Grid fault | DISCOM Helpline (1912) |
-| **Load ON hote hi DB drop** | 225V girkar 175V | Normal (1V–3V) | Service Line / Outer joint | DISCOM Lineman |
-| **DB incoming safe, Socket drop** | Point A: 225V, Point B: 170V | 20V–45V | **DB Neutral loose / Internal wire** | Certified Electrician |
-| **Padosi normal, aapka dim** | Padosi: 225V, Aapka: 170V | Normal | Phase Imbalance | DISCOM (Phase shift) |
+* **Case 1: No-Load par bhi 160V–180V**
+  * **Neutral-Earth Voltage:** 1V–3V (Normal)
+  * **Wajah:** Transformer / Grid supply low hai
+  * **Solution:** DISCOM Helpline par complaint karein (Call 1912)
+
+* **Case 2: Heavy Load ON hote hi DB par drop**
+  * **Reading:** 225V girkar 175V ho gayi (Neutral-Earth: 1V–3V)
+  * **Wajah:** Bahar ki service line ya cutout joint loose hai
+  * **Solution:** DISCOM Lineman se outer service line check karwayein
+
+* **Case 3: DB Incoming theek (225V), lekin Room Socket par drop (170V)**
+  * **Neutral-Earth Voltage:** 20V se 45V tak badh gayi
+  * **Wajah:** Ghar ke Main DB me loose neutral ya patli circuit wire
+  * **Solution:** Certified electrician se DB neutral strip tight aur lug crimp karwayein
+
+* **Case 4: Padosi ki light normal (225V), aapki dim (170V)**
+  * **Wajah:** 3-Phase line me aapka phase overloaded hai
+  * **Solution:** DISCOM se phase shift karwayein
 
 > ⚠️ **Technical Warning:** Conductor resistance ya continuity testing **sirf main power switch OFF** karke karein. Live line par resistance mode lagane se multimeter ka fuse blast ho sakta hai.
 
