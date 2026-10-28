@@ -279,6 +279,9 @@ Neutral fault ko sirf screwdriver tester se diagnose karna reliable ya safe meth
 
 Neutral aur Earth ke beech system-defined bonding kuch electrical supply arrangements mein specified location par hoti hai. Iska matlab yeh nahi ki consumer installation ke kisi bhi socket ya DB mein dono conductors ko jodna allowed ya safe hai.
 
+Kayi jagah log low voltage ko theek karne ke liye neutral aur earth wire ko aapas mein loop kar dete hain, jo ki kanoonan galat aur jaanleva shock ka kaaran banta hai. Low voltage ka sahi tareeqa neutral tight karna ya DISCOM se phase shift karwana hota hai:  
+👉 [Ghar Me Low Voltage Aane Par Kya Karein? 5 Asli Wajah Aur Sahi Testing](https://bijligyaan.in/articles/ghar-me-low-voltage-kyun-aati-hai/)
+
 ### Galat Neutral-Earth Bonding Se Kya Problems Ho Sakti Hain?
 
 - Normal Neutral current ka kuch hissa protective earth conductor ya bonded metal parts se flow kar sakta hai.

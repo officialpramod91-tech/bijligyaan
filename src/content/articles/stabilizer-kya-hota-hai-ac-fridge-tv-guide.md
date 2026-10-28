@@ -31,6 +31,9 @@ Simple shabdon me:
 - **High Voltage (260V–300V):** Stabilizer ise step-down karke safe limit me rakhta hai.
 - **Extreme Spikes (>280V ya <130V):** Stabilizer me laga High/Low cut-off relay turant power disconnect kar deta hai.
 
+> ⚡ **Dhyan Dein:** Agar aapke ghar mein voltage baar-baar 180V se neeche gir rahi hai, toh sirf stabilizer lagana kaafi nahi hota. Pehle multimeter se yeh check karein ki samasya transformer ki hai ya ghar ke distribution board mein neutral loose hai. Poori diagnostic step-by-step yahan padhein:  
+👉 [Ghar Me Low Voltage Kyun Aati Hai? Asli Kaaran Aur Testing Guide](https://bijligyaan.in/articles/ghar-me-low-voltage-kyun-aati-hai/)
+
 ---
 
 ## Voltage Fluctuation Kyu Hota Hai?

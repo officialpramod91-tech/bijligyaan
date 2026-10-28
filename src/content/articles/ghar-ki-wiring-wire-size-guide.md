@@ -113,8 +113,12 @@ Agar aapke distribution board se appliance ki doori **20–25 meter (70+ feet)**
 
 ![Lambi wiring par voltage drop calculation aur 2.5mm vs 4mm wire AC load comparison chart](/images/voltage-drop-calculation-house-wiring.webp)
 
+Heavy appliances (jaise AC ya geyser) ke liye patli wire lagane par line resistance badh jata hai, jisse appliance chalte hi socket par heavy voltage drop dekhne ko milta hai. Agar AC start hote hi aapke kamre ki lights achanak dim ho jaati hain, toh yeh guide zaroor padhein:  
+👉 [Low Voltage Kyun Aati Hai? Wiring Drop Aur Multimeter Testing Guide](https://bijligyaan.in/articles/ghar-me-low-voltage-kyun-aati-hai/)
+
 ### Simple Voltage Drop Formula:
-$$\text{Voltage Drop (Volts)} = \frac{2 \times \text{Current (A)} \times \text{Length (m)} \times 0.021}{\text{Wire Size (mm²)}}$$
+
+> **Voltage Drop (Volts) = (2 × Current × Length × 0.021) ÷ Wire Size**
 
 *(Yahan 0.021 copper ka operating resistance hai, aur 2 isliye kyunki current phase se jaakar neutral se wapas aata hai).*
 

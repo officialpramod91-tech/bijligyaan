@@ -76,6 +76,9 @@ Galat wire ka matlab:
 - Bijli ka bill badhega
 - Fire ka risk
 
+Sardi ke dino mein jaise hi 2000W ka water geyser start hota hai, purani wiring ya loose joint wale gharon mein achanak light dim padne lagti hai. Agar geyser chalate hi aapke board par voltage 200V se neeche gir rahi hai, toh iska diagnosis yahan samjhein:  
+👉 [Geyser Chalte Hi Low Voltage Kyun Aati Hai? Step-by-Step Testing Guide](https://bijligyaan.in/articles/ghar-me-low-voltage-kyun-aati-hai/)
+
 ### Geyser Ke Liye Wire Size Table
 
 Neeche diye gaye table se aap easily samajh sakte hain ki geyser ke liye kaunsa wire size sahi hota hai:

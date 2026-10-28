@@ -53,6 +53,9 @@ Ye kahani bahut gharon ki hai. Log MCB box (distribution board) ko "bas ek dabba
 - **DIN rail:** jis par MCB aur RCCB clip hote hai.
 - **Spare jagah:** bhavishya ke circuits ya SPD ke liye.
 
+Distribution board ke andar neutral busbar terminal hamesha proper torque ke sath tight hona chahiye. Neutral connection mein halki si bhi looseness contact resistance paida karti hai, jo poore ghar mein low voltage aur lights flicker hone ka sabse bada kaaran banti hai:  
+👉 [Loose Neutral Se Low Voltage Kaise Aati Hai? Safe Testing Aur Solution](https://bijligyaan.in/articles/ghar-me-low-voltage-kyun-aati-hai/)
+
 MCB, RCCB aur earthing teeno alag kaam karte hai. MCB wiring ko bachati hai, RCCB insaan ko, aur earthing leakage ko surakshit raasta deti hai. MCB ki rating aur curve ka detail: [MCB Selection Guide: Ghar Ke Liye Sahi MCB Kaise Chune?](/articles/mcb-types-selection-guide/)
 
 ---
