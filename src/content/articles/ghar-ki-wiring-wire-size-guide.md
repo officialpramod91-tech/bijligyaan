@@ -50,11 +50,13 @@ Neeche diya gaya master chart Indian residential homes ke liye standard temperat
 | **6.0 mm²** | ~34–36 Amp | 32A DP MCB | Upto 6500 Watts | Main Incomer Line (Meter se DB Board tak) |
 | **10.0 mm²** | ~46–50 Amp | 40A / 63A Isolator | Upto 9000 Watts | Heavy Villa / 3-Phase Independent Floors |
 
+Wire ka sahi gauge chunne ke sath-sath lenter aur deewar jhirri (wall chipping) ke waqt heavy conduit pipe, modular boxes aur chemical earthing ki sahi planning hona zaroori hai. Complete material aur checklist ke liye hamara detailed guide [Ghar Ki Wiring Ka Saman List](/articles/ghar-ki-wiring-ka-saman-list/) check karein.
+
 ---
 
 ## Wire Aur MCB Ka Match (Sabse Zaroori Niyam)
 
-Electrical engineering ka sabse basic rule hai: **Circuit ka load current $\le$ MCB rating $\le$ Wire ki safe capacity.**
+Electrical engineering ka sabse basic rule hai: **Load Current se badi MCB honi chahiye, aur MCB se zyada Wire ki safe current capacity honi chahiye.** (Load Current < MCB Rating < Wire Safe Capacity)
 
 Bohot se electricians 1.5 mm² wire par 16A ya 25A ki MCB laga dete hain. Yeh sabse badi laparwahi hai! Agar wire ki safe capacity 14 Ampere hai aur MCB 20 Ampere ki hai, toh wire pehle overheat hokar pighal jayegi, lekin MCB trip hi nahi karegi!
 

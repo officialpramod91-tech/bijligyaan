@@ -184,6 +184,9 @@ Brand, ways, material (metal ya plastic), door type, busbar aur standard spec. S
 
 *"Branded" ka matlab sirf brand nahi, uski spec aur build quality bhi hai.*
 
+Distribution board ke sath-sath ghar ki concealed piping, pure copper wires aur modular switches ka sahi तालमेल hona chahiye taaki breaker par extra load na pade. Poore ghar ke zaroori electrical saman aur stage-wise checklist ke liye padhein hamara [Ghar Ki Wiring Ka Saman List](/articles/ghar-ki-wiring-ka-saman-list/) article.
+
+
 ---
 
 <a id="db-ke-andar-ka-layout-aur-wiring"></a>

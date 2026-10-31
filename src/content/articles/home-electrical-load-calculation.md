@@ -92,6 +92,8 @@ Maan lijiye aapke ghar me peak time par ek sath ye chal raha hai:
 2. **Safety Margin (+25% Add Karein):** `10.22 × 1.25 = 12.77 Amperes`
 3. **Result:** Is load ke liye market me standard **16 Ampere ya 20 Ampere ki C-Type MCB** lagana standard electrician practice hai, aur **4 sq mm copper wire** safe rehti hai.
 
+Ek baar jab aap apne ghar ka total running load nikal lete hain, tab agla kadam us load ke anusaar sahi wire coils, double-door DB aur MCB rating khareedna hota hai. Market se saman lene se pehle stage-wise [Ghar Ki Wiring Ka Saman List](/articles/ghar-ki-wiring-ka-saman-list/) verify kar lein taaki koi zaroori item miss na ho.
+
 > ⚡ **Life Saving Tip:**  
 > MCB sirf short circuit aur wire ko bachati hai, shock lagne par trip nahi hoti. Family safety ke liye main DB me 30mA RCCB mandatory hai:  
 > 👉 [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Complete Electrical Safety Guide) →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)

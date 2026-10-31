@@ -42,6 +42,8 @@ Neeche diya gaya calculation ek standard concealed conduit modular wiring ke his
 
 *Note: Is budget me switches, deewar ke andar ki wiring, main panel DB aur earthing shamil hai. Ceiling fans, decorative chandeliers, AC units ya appliances ki qeemat isme shamil nahi hai. GST (18%) material ke brand bill par depend karta hai.*
 
+> **💡 Pro Tip:** Wiring ka budget banate waqt sirf estimation kafi nahi hota, lenter se lekar switchboard tak lagne wale har ek item ki jankari hona zaroori hai. 1BHK, 2BHK aur 3BHK ke liye wire bundles, pipes aur MCB ki quantity samajhne ke liye padhein hamara [Ghar Ki Wiring Ka Saman Check List](/articles/ghar-ki-wiring-ka-saman-list/) guide.
+
 ---
 
 ## City-Wise Wiring Cost Variation (Per Sq Ft)
