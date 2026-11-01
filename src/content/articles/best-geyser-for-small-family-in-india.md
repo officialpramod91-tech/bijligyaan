@@ -103,31 +103,51 @@ Storage geyser mein star rating ka sabse bada aadhar hota hai **Standing Loss** 
 
 Field reliability, tank welding, inner tank glass coating aur after-sales service ke hisaab se yeh chaar models 15-Litre segment mein sabse dependable hain:
 
-| Model | Star Rating | Power | Tank & Element Protection | Pressure Rating | Verified Link |
-|---|---|---|---|---|---|
-| **AO Smith HSE-SHS-015** | BEE 5-Star | 2 kW | Blue Diamond Glass-Lined Tank | 8 Bar (High-Rise Ready) |
-| **Racold Eterno Pro SP 15L** | BEE 5-Star | 2 kW | Titanium Enamel Coating + Smart Bath | 8 Bar |
-| **Havells Monza Pro 15L** | BEE 4/5-Star | 2 kW | Feroglas Coated Tank + Incoloy Element | 8 Bar |
-| **V-Guard Divino DG 15L** | BEE 5-Star | 2 kW | Advanced Vitreous Enamel + Magnesium Anode | 8 Bar |
+| Model | Star Rating | Power & Pressure | Tank & Element Protection |
+|---|---|---|---|
+| **AO Smith HSE-SHS-015** | BEE 5-Star | 2 kW (8 Bar) | Blue Diamond Glass-Lined Tank |
+| **Racold Eterno Pro SP 15L** | BEE 5-Star | 2 kW (8 Bar) | Titanium Enamel Coating + Smart Bath |
+| **Havells Monza Pro 15L** | BEE 4/5-Star | 2 kW (8 Bar) | Corrosion-Resistant Coated Tank |
+| **V-Guard Divino DG 15L** | BEE 5-Star | 2 kW (8 Bar) | Advanced Vitreous Enamel + Extra Anode |
 
 ### 1. AO Smith HSE-SHS-015 (Hard Water Ke Liye Best)
 * **Khasiyat:** Iska Blue Diamond glass-lined tank borewell ke khare paani (high TDS) aur scaling ke khilaf market mein sabse durable mana jata hai.
 * **Kiske Liye:** High-rise apartments aur aisi jagahon ke liye jahan paani mein calcium/namak zyada aata hai.
-<p><a href="https://link.amazon/B061fAvJB" target="_blank" rel="sponsored nofollow noopener">Amazon par AO Smith HSE-SHS-015 dekhein (affiliate link)</a></p>
+<p style="margin: 18px 0 24px 0;">
+  <a href="https://link.amazon/B061fAvJB" target="_blank" rel="sponsored nofollow noopener" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #f59e0b; color: #0f172a; font-weight: 700; font-size: 14px; padding: 10px 18px; border-radius: 10px; text-decoration: none; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <span>🛒 Check Price on Amazon</span>
+    <span style="font-size: 11px; background: #0f172a; color: #fbbf24; padding: 2px 6px; border-radius: 4px; font-weight: 600;">(Official Link)</span>
+  </a>
+</p>
 
 ### 2. Racold Eterno Pro SP 15L (Durable & High Pressure)
 * **Khasiyat:** Titanium enamel tank coating aur high-pressure withstand capacity (8 Bar) ke sath aata hai. Isme heat retention kaafi lambe samay tak rehta hai.
 * **Kiske Liye:** Modern bathrooms aur pressure pump lage hue apartments ke liye.
-<p><a href="https://link.amazon/B040sE7LK" target="_blank" rel="sponsored nofollow noopener">Amazon par Racold Eterno Pro SP 15L dekhein (affiliate link)</a></p>
+<p style="margin: 18px 0 24px 0;">
+  <a href="https://link.amazon/B040sE7LK" target="_blank" rel="sponsored nofollow noopener" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #f59e0b; color: #0f172a; font-weight: 700; font-size: 14px; padding: 10px 18px; border-radius: 10px; text-decoration: none; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <span>🛒 Check Price on Amazon</span>
+    <span style="font-size: 11px; background: #0f172a; color: #fbbf24; padding: 2px 6px; border-radius: 4px; font-weight: 600;">(Official Link)</span>
+  </a>
+</p>
 
 ### 3. Havells Monza Pro 15L (Popular Family Choice)
 * **Khasiyat:** Heavy Incoloy glass-coated heating element aur Feroglas tank jo corrosion se lamba bachav deta hai. Iska nationwide service network bohot strong hai.
 * **Kiske Liye:** Budget-friendly aur solid brand service chahne wali small families ke liye.
-<p><a href="https://link.amazon/B0dreGCXr" target="_blank" rel="sponsored nofollow noopener">Amazon par Havells Monza Pro 15L dekhein (affiliate link)</a></p>
+<p style="margin: 18px 0 24px 0;">
+  <a href="https://link.amazon/B0dreGCXr" target="_blank" rel="sponsored nofollow noopener" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #f59e0b; color: #0f172a; font-weight: 700; font-size: 14px; padding: 10px 18px; border-radius: 10px; text-decoration: none; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <span>🛒 Check Price on Amazon</span>
+    <span style="font-size: 11px; background: #0f172a; color: #fbbf24; padding: 2px 6px; border-radius: 4px; font-weight: 600;">(Official Link)</span>
+  </a>
+</p>
 
 ### 4. V-Guard Divino DG 15L (Value for Money)
 * **Khasiyat:** Compact vertical design, 5-Star rating aur multi-layered corrosion protection rod. Low running cost aur budget purchase ke liye behtar model hai.
-<p><a href="https://link.amazon/B00vCnxiC" target="_blank" rel="sponsored nofollow noopener">Amazon par V-Guard Divino DG 15L dekhein (affiliate link)</a></p>
+<p style="margin: 18px 0 24px 0;">
+  <a href="https://link.amazon/B00vCnxiC" target="_blank" rel="sponsored nofollow noopener" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #f59e0b; color: #0f172a; font-weight: 700; font-size: 14px; padding: 10px 18px; border-radius: 10px; text-decoration: none; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <span>🛒 Check Price on Amazon</span>
+    <span style="font-size: 11px; background: #0f172a; color: #fbbf24; padding: 2px 6px; border-radius: 4px; font-weight: 600;">(Official Link)</span>
+  </a>
+</p>
 
 ---
 
