@@ -187,8 +187,6 @@ Geyser khareedne ke baad agar installation local jugad se karwaya, toh sabse meh
 
 ## Geyser Mahine Mein Kitni Bijli Khata Hai? (Bill Calculation)
 
-## Geyser Mahine Mein Kitni Bijli Khata Hai? (Bill Calculation)
-
 Ek practical example se samajhte hain:  
 Maan lijiye **15L, 2000W (2kW)** geyser 4 logon ki family mein subah aur shaam milakar roz lagbhag **1 ghanta** chalta hai:
 
@@ -252,4 +250,5 @@ Tested aur IS-certified electrical tools, testers aur switchgear selection ke li
 
 ### Disclaimer & Disclosure
 - **Electrical Safety Disclaimer:** Yeh guide educational awareness aur general engineering practice ke liye hai. Geyser mounting, internal plumbing aur panel wiring hamesha certified electrician aur authorized technician se hi karwayein.
-- **Store & Affiliate Disclosure:** Hamare verified store aur articles mein diye gaye recommendation links trusted platforms se affiliated ho sakte hain, jisse blog maintain karne mein support milta hai bina aapki purchase price par koi asar dale.
+
+ **Affiliate Disclosure:** Bijli Gyaan par diye gaye kuch product links Amazon Associate / affiliate links ho sakte hain. Agar aap in links ke zariye khareedari karte hain, toh bina kisi extra cost ke hume ek chhota commission mil sakta hai, jo is educational platform ko chalane mein madad karta hai. As an Amazon Associate, I earn from qualifying purchases.
