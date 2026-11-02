@@ -87,7 +87,7 @@ Agar aap chahte hain ki poora system automatically decide kare ki kab solar use 
 > Purane inverter ko solar banane se pehle kya aapne check kiya ki aapke ghar ke daily appliances (Fridge, TV, AC) ke hisaab se **kitne Watt ke solar panel** lagenge?  
 >  
 > PM Surya Ghar Yojana ke tehat subsidy calculation aur apne exact daily usage ke hisaab se sahi panel size janne ke liye Solar Sathi AI ka use karein:  
-> 👉 [Solar Sathi AI – Free Solar & Subsidy Calculator Check Karein →](https://officialpramod91-tech.github.io/solar-sathi-ai/)  
+> 👉 [Solar Sathi AI – Free Solar & Subsidy Calculator Check Karein →](https://solar.bijligyaan.in/)  
 > 👉 [3kW Solar System Price in India with Subsidy (Complete Reality Guide) →](/articles/3kw-solar-system-price-india-subsidy/)
 
 ---

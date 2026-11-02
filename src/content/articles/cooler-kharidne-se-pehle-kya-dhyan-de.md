@@ -74,7 +74,7 @@ Bijli ki khapat ke maamle me cooler AC ke mukable bohot sasta padta hai:
 > ☀️ **Summer Power & Cooling Hook: Light Cut Hone Par Bhi Thandak Chahiye?**  
 > Garmi me baar-baar power cut hona aam baat hai. Agar aap chahte hain ki light jaane par cooler bina kisi battery stress ke direct suraj ki dhoop se chale, toh apne normal inverter ko solar me upgrade karein ya rooftop solar lagwayein:  
 > 👉 [Solar Inverter vs Normal Inverter: Purana Inverter Solar Kaise Banaye? →](/articles/solar-inverter-vs-normal-inverter/)  
-> 👉 [Solar Sathi AI – Check Your Solar Capacity & Free Subsidy Estimate →](https://officialpramod91-tech.github.io/solar-sathi-ai/)
+> 👉 [Solar Sathi AI – Check Your Solar Capacity & Free Subsidy Estimate →](https://solar.bijligyaan.in/)
 
 ---
 

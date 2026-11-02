@@ -96,7 +96,7 @@ Maan lijiye aapka 1.5 Ton AC daily **8 ghante** chalta hai, aur aapke state me b
 > Agar aap garmi me 2 ya 3 AC chalate hain, toh bhale hi aap 5-Star AC le lein, mahine ka bill ₹5,000–₹8,000 cross kar hi jayega. Inverter AC bill kam karta hai, lekin **Rooftop Solar System bill ko lagbhag ZERO kar deta hai!**  
 >  
 > Sarkari PM Surya Ghar Yojana ke tehat ₹78,000 tak ki central subsidy mil rahi hai. Aapke ghar ke AC load ke liye kitne kW ka solar panel lagega aur kitna kharcha aayega, yeh abhi 30 seconds me check karein:  
-> 👉 [Solar Sathi AI – Check Your Solar Capacity & Subsidy (Free) →](https://officialpramod91-tech.github.io/solar-sathi-ai/)  
+> 👉 [Solar Sathi AI – Check Your Solar Capacity & Subsidy (Free) →](https://solar.bijligyaan.in/)  
 > 👉 [3kW Solar System Price in India with Subsidy (Complete Reality Guide) →](/articles/3kw-solar-system-price-india-subsidy/)
 
 ---

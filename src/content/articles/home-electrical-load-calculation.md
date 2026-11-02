@@ -131,7 +131,7 @@ Jab ghar me naya AC lagta hai aur load 3kW se upar nikalne lagta hai, toh do raa
 > Kya aap janne chahte hain ki aapke is calculated running load (AC, Fridge, Pump) ke hisaab se **kitne kW ka rooftop solar panel** lagega aur PM Surya Ghar Yojana ke tehat kitni subsidy milegi?  
 >  
 > Hamare custom AI chatbot se sirf 30 seconds me free calculation karein:  
-> 👉 [Solar Sathi AI – Check Your Solar Capacity & Subsidy Calculator →](https://officialpramod91-tech.github.io/solar-sathi-ai/)  
+> 👉 [Solar Sathi AI – Check Your Solar Capacity & Subsidy Calculator →](https://solar.bijligyaan.in/)  
 > 👉 [3kW Solar System Price in India With Subsidy 2026 Guide →](/articles/3kw-solar-system-price-india-subsidy)
 
 ---
