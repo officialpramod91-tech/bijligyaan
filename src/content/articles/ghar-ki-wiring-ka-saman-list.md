@@ -116,6 +116,8 @@ Yeh aapke ghar ka main defence system hai:
 - **Modular Blank Plates (Dummy covers):** Switchboard me khali bache hue extra slots ko pack karne ke liye.
 - **Coaxial TV & RJ-45 LAN Ports:** Wi-Fi router aur dish cable ki deewar ke bahar latakti wiring se chhutkara pane ke liye.
 
+Solar-ready DB aur inverter ki alag line ka plan banate waqt pehle yeh tay karein ki aapko [solar-ready wiring ke liye system type](/articles/on-grid-vs-off-grid-vs-hybrid-solar-system/) kaunsa chahiye: on-grid, hybrid ya off-grid.
+
 ---
 
 ## 5. Earthing Aur Chemical Grounding Material (IS 3043)

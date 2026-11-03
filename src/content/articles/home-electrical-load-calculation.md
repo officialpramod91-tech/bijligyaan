@@ -125,6 +125,8 @@ Jab ghar me naya AC lagta hai aur load 3kW se upar nikalne lagta hai, toh do raa
 1. **Bijli Board me Sanction Badhwana:** Isme fixed charges har mahine badh jate hain aur unit rates bhi higher slab me chale jaate hain.
 2. **Rooftop Solar Ka Sahara:** Agar aap on-grid solar system lagwate hain, toh din ke waqt AC aur pure ghar ka heavy load direct solar se chalta hai, jisse grid meter par peak load nahi padta aur bill 80-90% tak kam ho jata hai.
 
+Load nikalne ke baad agla sawal aata hai ki agar solar lagwana hai to kaunsa system lein. Agar aapko power cut me bhi backup chahiye to [hybrid ya off-grid solar system](/articles/on-grid-vs-off-grid-vs-hybrid-solar-system/) par vichar karna padega, aur sirf bill kam karna hai to on-grid kaafi hota hai.
+
 ---
 
 > ☀️ **Solar Sathi AI Interactive Tool: Apne Load Ke Hisaab Se Solar Check Karein!**  

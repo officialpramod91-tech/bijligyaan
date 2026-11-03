@@ -40,6 +40,8 @@ In dono ke kaam karne ke tarike aur efficiency me zameen-aasman ka fark hota hai
 - **Normal Inverter:** Yeh sirf ek emergency backup system hai. Jab tak sarkari bijli rehti hai, yeh battery charge karta rehta hai aur bill badhata hai.
 - **Solar Inverter:** Yeh direct suraj ki dhoop se bijli banakar pehle ghar ka running load chalata hai, bachi hui bijli se battery charge karta hai, aur grid supply par aapki dependence khatam karta hai.
 
+Inverter chunne se pehle ye tay karna zaroori hai ki aapko grid-tie, hybrid ya off-grid system chahiye. Power cut me backup chahiye ya sirf bill kam karna hai, iska seedha asar inverter ke type par padta hai. Teeno ka comparison [ghar ke liye on-grid ya hybrid solar kaunsa behtar hai](/articles/on-grid-vs-off-grid-vs-hybrid-solar-system/) guide me hai.
+
 ---
 
 ## Kya Purana Inverter Solar Ban Sakta Hai?

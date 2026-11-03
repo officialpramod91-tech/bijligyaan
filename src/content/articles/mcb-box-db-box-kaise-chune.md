@@ -253,6 +253,8 @@ Wiring ke baad megger test aam practice me 500 V se hota hai, aur CEA Regulation
 - Box ko geeli deewar ya bathroom ke paas lagana.
 - Khud DB kholkar kaam karna.
 
+Agar aap future me inverter ya solar lagwane ka soch rahe hain, to DB me 2–4 spare way rakhein. Solar ke liye kaunsa system sahi rahega, iska [on-grid ya hybrid solar ka comparison](/articles/on-grid-vs-off-grid-vs-hybrid-solar-system/) pehle dekh lein.
+
 ---
 
 <a id="field-case-study"></a>

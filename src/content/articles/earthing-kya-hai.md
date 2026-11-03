@@ -128,6 +128,8 @@ Bureau of Indian Standards ke mutabiq residential installations ke liye earth re
 5. **Connection & Clamp:** Pipe ke top par brass/copper clamp se 8 SWG copper wire ya GI strip ko mazbooti se tight karein.
 6. **Inspection Chamber:** Zameen ke upar eent (brick) ka chota chamber banayein jisme dhakkan laga ho, taaki garmiyon me paani dala ja sake aur resistance check ho sake.
 
+Earthing sirf ghar ki wiring ke liye nahi, rooftop solar ke liye bhi zaroori hoti hai. Panel structure, inverter aur DB ki earthing aur surge protection ke bina solar system risky ho jata hai. [Rooftop solar ke safety points](/articles/on-grid-vs-off-grid-vs-hybrid-solar-system/#safety) us guide me alag se diye gaye hain.
+
 ---
 
 ## Earth Wire Size Aur Colour Coding

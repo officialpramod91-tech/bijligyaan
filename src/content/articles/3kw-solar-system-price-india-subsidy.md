@@ -40,6 +40,8 @@ Is scheme mein sirf On-Grid Solar System lagta hai.
 - Extra bijli grid mein export hoti hai
 - Net metering se bill adjust hota hai
 
+Price aur subsidy ka hisaab system type par bhi depend karta hai. On-grid sabse sasta padta hai, jabki hybrid aur off-grid me battery ki wajah se kharcha badhta hai. Aapke ghar ke liye kaunsa theek rahega, ye [on-grid, off-grid aur hybrid solar me fark](/articles/on-grid-vs-off-grid-vs-hybrid-solar-system/) wale guide me bataya hai.
+
 Agar aap confused hain ki purane inverter battery setup ko hi solar banayein ya naya solar inverter lein, toh yeh practical guide padhein → [Solar Inverter vs Normal Inverter: Purana Inverter Solar Kaise Banaye?](/articles/solar-inverter-vs-normal-inverter/)
 
 ---

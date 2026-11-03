@@ -123,6 +123,8 @@ Ghar ki bijli aur equipment ko safe rakhne ke liye hamari yeh guides zaroor chec
 
 Winter me bijli bill badhna koi jaadu nahi hai — yeh sirf heating appliances ke galat timing aur use ka result hota hai. Agar aap geyser ko nahane se 20 minute pehle chalayein, room warm hote hi heater band karein aur LED par shift ho jayein, toh bina kisi pareshani ke har mahine achhe khase paise bacha sakte hain.
 
+Agar har mahine ka bill phir bhi bhaari lagta hai, to lambe samay ka upaay rooftop solar bhi ho sakta hai. Ye sochne se pehle [solar ka kaunsa type aapke ghar ke liye sahi hai](/articles/on-grid-vs-off-grid-vs-hybrid-solar-system/) ye samajh lein, taaki galat system par paisa na lage.
+
 ---
 
 > **Electrical Safety Disclaimer:** Is article mein di gayi jankari educational purpose ke liye hai. Main pichle 10 saalon se certified technician hoon, lekin har ghar ke electrical panel aur wiring load alag hote hain. Kisi bhi major heavy load appliance ya DB panel modification se pehle licensed electrician se visit zaroor karwayein.
