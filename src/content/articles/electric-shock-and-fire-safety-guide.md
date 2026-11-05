@@ -107,6 +107,8 @@ In cheezon ko kabhi ignore na kare:
 - Board ya switchboard se halki plastic jalne ki smell aana.
 - Barish ya nami ke mausam mein appliances se current aane lagna.
 
+Kitchen me geeli jagah par chalne wale heavy load appliances ki safety sabse zaroori hai; jaanein ki [fridge me current aane par turant kya karein](/articles/fridge-me-current-kyun-aata-hai/) aur safe testing kaise hoti hai.
+
 ---
 
 <a id="static-shock-aur-asli-electric-shock-mein-antar"></a>

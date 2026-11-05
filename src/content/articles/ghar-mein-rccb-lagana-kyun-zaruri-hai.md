@@ -74,6 +74,8 @@ Bachhe switchboard aur open plug sockets ke sath shararat karte hain, jabki buzu
 ### 5. Metal Body Appliances Ki Safety
 Kabhi fridge, cooler ya washing machine ko chhu kar halki jhanjhanahat ya vibration mehsoos hua hai? Yeh current leakage ka sign hai. Sahi protective earthing aur RCCB milkar is danger ko turant khatam karte hain.
 
+Agar kitchen me kisi appliance se leakage current flow ho raha ho, jaise [fridge se electric shock aane ke kaaran](/articles/fridge-me-current-kyun-aata-hai/), toh 30mA RCCB turant trip hokar insani jaan ko bacha leti hai.
+
 > ⚠️ **Field Warning:**  
 > Metal body coolers aur fridge me voltage fluctuation ya current leakage se bachav ke liye sahi earth line aur stabilizer zaroori hota hai:  
 > 👉 [Cooler Kharidne Se Pehle Kya Dhyan De? (Safety & Buying Guide) →](/articles/cooler-kharidne-se-pehle-kya-dhyan-de/)  

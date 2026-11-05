@@ -64,6 +64,8 @@ Agar earthing weak ho to geyser ya cooler ki metal body se current aane lagta ha
 ### 1. Electric Shock Se Complete Bachav
 Jis appliance ki body metal ki hoti hai (geyser, iron, cooler, fridge), unme insulation fail hone par earthing hi parivar ko electric shock se bachati hai.
 
+Ghar me proper earth na hone par inverter appliances me floating current banne lagta hai, jaise [fridge chhoone par current ya jhanjhanahat](/articles/fridge-me-current-kyun-aata-hai/) aana ek aam samasya hai.
+
 ### 2. Earthing Aur RCCB Ka Rishta
 RCCB leakage current ko detect karke power cut karta hai. Lekin solid earthing hone par RCCB body ko haath lagane se **pehle hi** trip ho jata hai. Bina earthing ke RCCB tab trip hota hai jab current insaan ke sharir se guzar chuka hota hai. Dono milkar hi complete protection dete hain: padhein — **[RCCB Kya Hai Aur Ghar Me Lagana Kyu Jaruri Hai?](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)**.
 

@@ -48,6 +48,8 @@ India ke aam grids me voltage fluctuation aana behad common hai. Iske main techn
 > Agar aapke ghar me neutral wire loose ya earthing weak hai, toh voltage achanak 300V tak chhalang maar sakti hai.  
 > 👉 [Ghar Mein RCCB Lagana Kyun Zaruri Hai? (Shock & Leakage Protection) →](/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/)
 
+Fridge ke sath stabilizer lagate waqt hamesha 3-pin earth connection wala socket hi chunein, warna [fridge me jhanjhanahat aur shock ka khatra](/articles/fridge-me-current-kyun-aata-hai/) bana rehta hai.
+
 ---
 
 ## Stabilizer-Free AC Sach Hai Ya Sirf Marketing?

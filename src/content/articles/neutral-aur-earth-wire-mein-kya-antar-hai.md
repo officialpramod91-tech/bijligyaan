@@ -123,6 +123,8 @@ Neutral aur Earth ka antar sirf wire ke colour se nahi samjha ja sakta. Dono ka 
 
 **Nateeja:** Neutral circuit ka normal return conductor hai, jabki Earth protective conductor hai. Dono ek doosre ka replacement nahi hain.
 
+Socket ke peeche neutral aur earth ko aapas me jodna kitna khatarnak ho sakta hai, iski live case study aap [fridge me leakage current aane ki wajah](/articles/fridge-me-current-kyun-aata-hai/) me detail se dekh sakte hain.
+
 ## 4. Neutral Aur Earth Wire Ka Colour Kya Hota Hai?
 
 Ghar ki wiring mein wire colour identification helpful hoti hai, lekin colour dekhkar conductor ko 100% confirm nahi karna chahiye.
