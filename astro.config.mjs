@@ -37,6 +37,12 @@ export default defineConfig({
     // 8. Cooler Buying Guide
     '/2026/04/cooler-kharidne-se-pehle-kya-dhyan-de.html': '/articles/cooler-kharidne-se-pehle-kya-dhyan-de/',
 
+    // 9. Smart Home Safety Guide (Legacy Blogger URL)
+    '/2026/01/smart-home-safety-guide-2026-wiring-se.html': '/articles/smart-home-electrical-safety-guide/',
+
+    // 10. RCCB Typo Path Fix
+    '/articles/ghar-me-rccb-lagana-kyun-zaruri-hai/': '/articles/ghar-mein-rccb-lagana-kyun-zaruri-hai/',
+
     '/p/about-us.html': '/about/',
   },
 
