@@ -73,7 +73,7 @@ Ye wo part hai jo zyadatar articles mention hi nahi karte — kuch states centra
 
 ---
 
-> ☀️ **Solar Sathi AI Hook: Aapke Ghar Ke Hisaab Se Exact Subsidy Kitni Milegi?**  
+> ☀️ **Solar Sathi AI: Aapke Ghar Ke Hisaab Se Exact Subsidy Kitni Milegi?**  
 > Har state aur bijli bill ke mutabiq subsidy aur system capacity badal jaati hai. Apne ghar ke monthly electricity bill aur chhat ke area ke hisaab se **30 seconds me free calculation karein**:  
 > 👉 [Solar Sathi AI – Check Free Solar Capacity & Subsidy Calculator →](https://solar.bijligyaan.in/)
 
