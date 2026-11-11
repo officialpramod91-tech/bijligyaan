@@ -166,6 +166,8 @@ Agar aap din bhar chalne wale appliances (Fridge, Fans, TV, Work setup) ko solar
 
 Agar aapka budget limited hai toh naya mehnga solar inverter lene ke chakkar me na padein. Ek achhe quality ke **MPPT charge controller** ya **solar retrofit device** ki madad se aap apne usi purane inverter ko ek powerful solar generator me badal sakte hain. Isse aapki battery ki life bhi badhegi aur mahine ka bijli bill bhi substantial kam ho jayega.
 
+> **Note:** Grid-tie inverter grid ke voltage aur frequency se synchronize hokar extra bijli bahar bhejta hai. Export units ka hisaab aur bill me credit adjust hone ka process janne ke liye [net metering bill calculation aur export process](/articles/solar-net-metering-kya-hai/) padhein.
+
 ---
 
 > **Electrical Safety Disclaimer:** Is article me di gayi jankari educational awareness ke liye hai. Solar panels aur DC batteries me heavy DC arc ka khatra hota hai. Battery terminals ya panels connect karte samay insulated tools ka upyog karein aur final connection kisi qualified solar electrician se hi karwayein.

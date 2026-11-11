@@ -133,6 +133,8 @@ Price aur subsidy ka pura hisaab 3 kW ke liye: [3 KW Solar System Price in India
 
 > Bijli ka bill hamesha zero nahi hota. Fixed ya minimum charges aur billing rules ke hisaab se kuch amount lag sakta hai.
 
+> **Zaroori Jankari:** On-grid system ka sabse bada fayda tabhi milta hai jab extra bijli grid me export ho sake aur meter import-export dono nap sake. Iske pure setup, connection aur display reading ke liye hamara [solar net metering aur bi-directional meter guide](/articles/solar-net-metering-kya-hai/) zaroor padhein.
+
 ---
 
 ## <a id="price"></a>3 kW Solar System Price: On-Grid vs Hybrid vs Off-Grid (Rough)

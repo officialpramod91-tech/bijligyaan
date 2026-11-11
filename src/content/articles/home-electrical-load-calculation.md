@@ -127,6 +127,8 @@ Jab ghar me naya AC lagta hai aur load 3kW se upar nikalne lagta hai, toh do raa
 
 Load nikalne ke baad agla sawal aata hai ki agar solar lagwana hai to kaunsa system lein. Agar aapko power cut me bhi backup chahiye to [hybrid ya off-grid solar system](/articles/on-grid-vs-off-grid-vs-hybrid-solar-system/) par vichar karna padega, aur sirf bill kam karna hai to on-grid kaafi hota hai.
 
+> **Electrician Tip:** Rooftop solar lagwate waqt aapki plant capacity ghar ke sanctioned load se bandhi hoti hai. Load kam hone par net meter application atak sakti hai; iske niyam aur load enhancement ka tarika [net metering rules aur sanctioned load limit](/articles/solar-net-metering-kya-hai/) guide me dekhein.
+
 ---
 
 > ☀️ **Solar Sathi AI Interactive Tool: Apne Load Ke Hisaab Se Solar Check Karein!**  

@@ -127,6 +127,8 @@ Solar lagne ke baad aapke yahan **Net Meter** lagta hai jo bidirectional hota ha
 
 Mahine ke end me Discom export units ko import units se ghata deta hai aur bachi hui units ka hi bill banta hai. Agar aapne zyada bijli export ki hai, toh wo agle mahine ke bill me carry forward ho jaati hai.
 
+> **Tip:** Solar plant install hone ke baad DISCOM inspection aur bi-directional meter lagna anivarya hota hai. Portal par net meter ke steps aur inspection ke niyam samajhne ke liye [PM Surya Ghar net meter apply process](/articles/solar-net-metering-kya-hai/) dekhein.
+
 ---
 
 ## Solar Lagwane Ke Baad Bhi Bill Zyada Kyun Aata Hai?
