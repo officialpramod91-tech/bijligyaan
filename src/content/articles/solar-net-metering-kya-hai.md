@@ -255,6 +255,8 @@ Hybrid system grid-connected ho to net metering ho sakti hai, par configuration 
 
 Net metering on-grid solar ka asli fayda deti hai, par jeet usi ki hai jo state ke rules, sanctioned load aur meter ki reading ko pehle se samajh le. Pehle apna load aur bill dekhein, phir registered installer chunein, aur installation ke baad **meter ki photo-reading** rakhna na bhoolein. Aur solar me earthing, SPD aur RCCB ko extra na samjhein, ye wahi cheezein hain jo aapke ghar aur lineman dono ko bachati hain.
 
+> **Tip:** Rooftop solar lagwane se pehle ye confirm kar lein ki aapka bhaari bill kisi billing galti ya purane fault ki wajah se toh nahi aa raha. Pehle [smart meter creep test aur high bill troubleshooting](/articles/bijli-ka-bill-zyada-kyun-aata-hai/) karke apna asli consumption verify karein.
+
 ---
 
 <div style="background-color: #f8fafc; border-left: 4px solid #2563eb; padding: 1.25rem; margin: 1.5rem 0; border-radius: 4px;">

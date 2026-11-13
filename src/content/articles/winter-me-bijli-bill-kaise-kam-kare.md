@@ -88,6 +88,8 @@ Sardi me Electric Kettle aur Rod heater ka baar-baar use bill double kar deta ha
 - Pani garam hone ke baad kettle ka main plug switch off karein.
 - Jab appliance use na ho raha ho toh plug socket se nikaal dein taaki phantom load (standby power) waste na ho.
 
+> **Zaroori Tip:** Agar sardi ke alawa bhi har mahine aapke meter ki units tezi se badh rahi hain, toh sirf heater par dhyan dene ke bajay [bijli bill achanak badhne ke 10 asli kaaran aur 1-minute meter test](/articles/bijli-ka-bill-zyada-kyun-aata-hai/) zaroor check karein.
+
 ---
 
 > ⚠️ **Winter Special Warning (Overload Se Bachein):**  

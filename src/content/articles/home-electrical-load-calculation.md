@@ -74,6 +74,8 @@ Nahi! Ghar ke saare appliances kabhi bhi ek hi second me ek sath nahi chalte.
 
 > **Electrician Thumb Rule:** Real running load nikalne ke liye apne total connected wattage ka **70% se 75%** hi actual maximum running demand mana jata hai.
 
+> **Note:** Sanctioned load se zyada appliances chalane par kuch DISCOMs fixed charge penalty jod deti hain. Apne bill me extra charges aur load pakadne ke liye [ghar ka load audit aur bill padhne ke 5 step](/articles/bijli-ka-bill-zyada-kyun-aata-hai/) dekhein.
+
 ---
 
 ## Simple Step-by-Step Load & MCB Calculation Formula

@@ -36,6 +36,8 @@ Iska compressor cycle hamesha ek hi fixed speed par chalta hai — ya toh 100% f
 
 Yahi baar-baar on/off hona sabse zyada bijli (units) waste karta hai.
 
+> **Field Insight:** AC ko 24°C par chalane ke baad bhi agar bill control me nahi aa raha, toh iske peeche estimated reading ya slab jump ho sakta hai. Iske pure hisaab ke liye [meter reading aur high electricity bill audit guide](/articles/bijli-ka-bill-zyada-kyun-aata-hai/) padhein.
+
 ### Normal AC Kiske Liye Sahi Hai?
 - Agar aapka AC din me sirf **1 se 2 ghante** chalna ho
 - Budget bohot tight ho
