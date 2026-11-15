@@ -56,6 +56,8 @@ Har appliance ke peeche ek silver sticker ya manual hota hai jahan uska rated wa
 | **Geyser (Storage Water Heater)** | 1500W – 2000W | High Resistive Load |
 | **Induction Cooktop** | 1500W – 2000W | Peak High Load |
 
+2000W induction chulha mahine me kitni units khata hai aur gas se sasta padta hai ya nahi, ye [Induction vs Gas vs Infrared Cost Guide](/articles/induction-vs-gas-vs-infrared-chulha/) me samjhein.
+
 * 🪔 **[Diwali Festive Lights Load Aur Electrical Safety Guide](/articles/diwali-decorative-lights-safety-tips/):** Janein kitni jhalar lagane par kitna load aur current badhta hai aur extension board overload se kaise bachein.
 
 ---

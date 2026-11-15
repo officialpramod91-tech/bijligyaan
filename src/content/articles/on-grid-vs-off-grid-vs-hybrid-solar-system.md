@@ -260,6 +260,8 @@ Ghar ki aag/shock safety ka poora guide: [Ghar Ki Electrical Safety: Shock Aur A
 > **Humne Kaise Fix Kiya:** AC aur high-load circuits ko main grid busbar par chhod diya, aur sirf lighting, ceiling fans, computer setup aur refrigerator ko hybrid inverter ke critical load sub-panel se connect kiya.  
 > **Seekh:** Hybrid system lagwate waqt hamesha pehle load calculation karein aur non-essential heavy appliances ko backup line se alag rakhein. Backup me kaunsa load chalega, ye pehle tay karein: [Home Electrical Load Calculation guide](/articles/home-electrical-load-calculation/).
 
+Solar panel lagane ke baad LPG cylinder ka kharcha kaise kam karein, iske liye [Solar Par Induction Chalane Ka Asli Hisaab](/articles/induction-vs-gas-vs-infrared-chulha/) dekhein.
+
 ---
 
 ## Aam Galtiyan Jo Har 10 Me Se 7 Log Karte Hain (Aur Baad Me Pachhtate Hain)

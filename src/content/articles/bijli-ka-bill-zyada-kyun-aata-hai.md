@@ -106,6 +106,8 @@ Tariff ya fuel adjustment badhne par bill badhta hai. Agar ghar ka **connected l
 ### 4. Purane ya kam efficiency wale appliance
 8–10 saal purana fridge ya window AC zyada bijli khata hai. Naye BEE star wale appliance kam bijli lete hain. Geyser ke star aur capacity ka asar: [geyser ke star aur capacity ka bijli par asar](/articles/best-geyser-for-small-family-in-india/).
 
+Kitchen me induction chulha lagane se bijli ka kharcha badhta hai ya bachat hoti hai, iska hisaab aap hamari [Induction vs LPG Gas Cost Comparison (2026)](/articles/induction-vs-gas-vs-infrared-chulha/) guide me dekh sakte hain.
+
 ### 5. Standby (vampire) load
 TV, set-top box, router, charger aur microwave jaise device band dikhne par bhi kuch watt khate hain. Hisaab seedha hai: **10 W × 24 ghante × 30 din ≈ 7.2 units/mahina.** Asli load **plug-in watt meter** se napein, kisi ke "30–35 units" ke daave par bharosa na kare.
 
