@@ -1,7 +1,7 @@
 ---
 title: "Induction vs Gas vs Infrared Chulha: Kaun Sasta? (2026)"
 description: "Induction, LPG aur infrared chulha me kaun sasta hai? 14.2 kg cylinder ka unit hisaab, break-even bijli rate, 1 ghante ki khapat, slab jump aur kitchen wiring (IS/CEA) ke saath."
-pubDate: 2026-11-14
+pubDate: 2026-11-15
 author: "Er. Pramod Kumar"
 tags: ["Induction vs Gas", "इंडक्शन या गैस कौन सस्ता", "Infrared Cooktop", "Induction Bijli Bill", "Kitchen Wiring", "16A Socket"]
 category: "electricity-bill-guide"
