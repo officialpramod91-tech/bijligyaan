@@ -1,7 +1,7 @@
 ---
 title: "Best Induction Cooktop in India (2026): Kaunsa Lein?"
 description: "2026 me best induction cooktop kaunsa? Small family, 4 member family aur ₹2,000 se kam ke picks, 1600W vs 2000W, plug/socket safety aur IS/CEA ke saath."
-pubDate: 2026-11-16
+pubDate: 2026-11-18
 author: "Er. Pramod Kumar"
 tags: ["Best Induction Cooktop India", "इंडक्शन चूल्हा कौन सा अच्छा है", "Induction for Small Family", "Induction Under 2000", "1600W vs 2000W Induction", "Induction Socket Safety"]
 category: "home-appliances-guide"
@@ -310,4 +310,116 @@ Model koi bhi lein, **plug, socket aur wire pehle dekhein**, kyunki induction ka
 Ye article **sirf jaankari aur consumer awareness** ke liye hai. Product specs, warranty, plug rating aur prices **brand aur seller ke hisaab se badalte hain**; kharidne se pehle official page, box aur user manual par latest details verify karein. Hum ne in cooktops ka independent lab test nahi kiya. Bijli ki khapat cooking pattern, bartan aur power setting par depend karti hai. **Kitchen me socket, wiring, MCB, earthing aur 30 mA RCCB ka kaam licensed/qualified electrician** se karwayein, aur kaam se pehle supply band karein. Pacemaker ya medical implant wale log doctor aur manufacturer ki salah lein. BIS/CEA ke standards aur orders time ke saath update hote hain; latest edition aur exact clause ke liye official source dekhein. Ye legal ya engineering advice nahi hai, aur author is jaankari ke galat istemaal se hone wale nuksan ke liye zimmedar nahi hoga.
  
 ---
----
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "4 member family ke liye kaunsa induction best hai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "4–5 log ke liye 2000–2100 W ka induction practical hai, jaise Philips Viva HD4938/01 (2100 W) ya Prestige PIC 16.0 Plus (2000 W), kyunki isme boiling aur cooking jaldi hoti hai."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Small family (2–3 log) ke liye kaunsa induction lena chahiye?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choti family ke liye 1600 W ka induction practical hai, jaise Prestige PIC 20 Neo (1600 W). Plug ki rating box ya manual me zaroor dekhein."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "₹2,000 se kam me kaunsa induction theek hai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "₹2,000 ke neeche Pigeon Cruise (1800 W) ek budget option hai (lagbhag ₹1,500–₹1,700). Light cooking aur backup ke liye theek hai, par heavy daily use ke liye Philips, Prestige ya V-Guard behtar rehte hain."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kya 1600 W ya 2000 W induction ko normal 6A socket par chala sakte hain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nahi. 230 V par 1600 W lagbhag 6.96 A aur 2000 W lagbhag 8.70 A current leta hai, jo 6A socket ki limit se zyada hai. Apne model ke plug aur manual ke hisaab se heavy-duty socket lagwayein."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Induction me surge protection (3–4 kV) ka kya kaam hai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ye achanak aane wale voltage spike se circuit ko bachane ka feature hai. Lagatar zyada voltage (jaise 270 V ke upar) ke liye ye nahi hai, aise me electrician se supply aur neutral ki jaanch karwayein."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Induction par E0 ya E1 error kyun aata hai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Error codes brand ke hisaab se alag hote hain. Aksar E0 ka matlab bartan detect na hona (non-magnetic ya bahut chhota base) hota hai. Exact code ke liye apne model ka manual dekhein."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kya induction normal home inverter par chal sakta hai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aam 800–1100 VA inverter par 1600–2100 W induction nahi chalega aur inverter overload hokar trip ho jayega. Pehle inverter ki continuous watt capacity aur manufacturer compatibility check karein. Inverter chunne ka tareeka: heavy load ke liye inverter ka chunav."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Induction mahine me kitni bijli khata hai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Roz 1 ghanta average 1.2 kW par chale to lagbhag 36 units, 1.5 kW par 45 units aur 1.8 kW par 54 units. Ek LPG cylinder ke barabar cooking heat ke liye lagbhag 120 units lag sakti hain (illustrative)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Induction kharab hone ke mukhya kaaran kya hain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cooling vents band hona (neeche kapda ya akhbar), ubalte waqt doodh ya paani ka andar jana, aur bahut zyada voltage induction kharab hone ke mukhya kaaran hain."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Induction aur infrared cooktop me kya fark hai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Induction magnetic field se seedha magnetic bartan ko garam karta hai (zyada efficient). Infrared heating element se glass top garam karta hai, isliye aluminium bartan bhi chalte hain, par same cooking heat ke liye zyada units lagti hain."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kya induction ke liye alag wiring karwani padti hai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agar kitchen me pehle se heavy-duty circuit nahi hai, to DB se alag line (wire size aur MCB rating electrician IS 732:2019 ke hisaab se tay karega) aur 30 mA RCCB sabse safe rehta hai."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kya 2000 W induction ko extension board par chala sakte hain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nahi. Normal extension board me patli wire aur chhote switch hote hain, jo lagatar 8–9 A load par garam ho sakte hain. Wall-mounted heavy-duty socket hi use karein."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Induction ki warranty kitni milti hai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zyada tar models me product par 1 saal ki warranty hoti hai. V-Guard VIC 2.0 BRE me coil par 3 saal alag se likhi hai, aur Prestige ke official listing me bhi coil par 3 saal likha hai. Warranty card me coverage aur exclusions padh kar kharidein."
+      }
+    }
+  ]
+}
+</script>
