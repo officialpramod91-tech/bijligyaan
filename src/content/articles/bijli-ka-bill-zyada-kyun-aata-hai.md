@@ -108,6 +108,8 @@ Tariff ya fuel adjustment badhne par bill badhta hai. Agar ghar ka **connected l
 
 Kitchen me induction chulha lagane se bijli ka kharcha badhta hai ya bachat hoti hai, iska hisaab aap hamari [Induction vs LPG Gas Cost Comparison (2026)](/articles/induction-vs-gas-vs-infrared-chulha/) guide me dekh sakte hain.
 
+- **Induction Ka Asar:** Agar aap roz 1 ghanta induction chalate hain to mahine me 36–54 units badh sakti hain—apne ghar ke hisaab se [best induction stove aur monthly bijli kharch ka hisaab](/articles/best-induction-cooktop-in-india/) yahan dekhein.
+
 ### 5. Standby (vampire) load
 TV, set-top box, router, charger aur microwave jaise device band dikhne par bhi kuch watt khate hain. Hisaab seedha hai: **10 W × 24 ghante × 30 din ≈ 7.2 units/mahina.** Asli load **plug-in watt meter** se napein, kisi ke "30–35 units" ke daave par bharosa na kare.
 

@@ -58,6 +58,8 @@ Har appliance ke peeche ek silver sticker ya manual hota hai jahan uska rated wa
 
 2000W induction chulha mahine me kitni units khata hai aur gas se sasta padta hai ya nahi, ye [Induction vs Gas vs Infrared Cost Guide](/articles/induction-vs-gas-vs-infrared-chulha/) me samjhein.
 
+- **Kitchen Load Tip:** Ek 2000W induction cooktop ghar ke sanctioned load me seedha 2 kW jodta hai—kharidne se pehle [1600W vs 2000W induction models ka comparison](/articles/best-induction-cooktop-in-india/) zaroor dekhein.
+
 * 🪔 **[Diwali Festive Lights Load Aur Electrical Safety Guide](/articles/diwali-decorative-lights-safety-tips/):** Janein kitni jhalar lagane par kitna load aur current badhta hai aur extension board overload se kaise bachein.
 
 ---

@@ -245,6 +245,7 @@ Tested aur IS-certified electrical tools, testers aur switchgear selection ke li
 - 📏 [House Wiring Wire Size Chart: Kaunsi Wire Best Hai?](/articles/ghar-ki-wiring-wire-size-guide/)
 - 🧮 [Home Electrical Load Calculation: Ghar Ke Liye Kitna Load Chahiye?](/articles/home-electrical-load-calculation/)
 - ❄️ [Winter Me Bijli Bill Kaise Kam Kare? 7 Smart Tips](/articles/winter-me-bijli-bill-kaise-kam-kare/)
+- 🍳 [Best Induction Cooktop in India (2026): Small Family & 4 Members Guide](/articles/best-induction-cooktop-in-india/)
 
 ---
 

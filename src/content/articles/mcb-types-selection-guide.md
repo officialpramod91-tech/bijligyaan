@@ -124,6 +124,8 @@ Yani MCB ki rating circuit ke running load se badi honi chahiye, par conduit ke 
 | **2.0 Ton AC / 2HP Motor** | 20A ya 25A | 4.0 sq mm | C-Type |
 | **Main Incomer (Single Phase)** | 32A / 40A DP | 6.0 – 10.0 sq mm | DP MCB / Isolator |
 
+> **Practical Example:** Kitchen me 1600W–2100W induction ke liye dedicated MCB aur socket lagwane se pehle [induction cooktop ki plug rating aur wiring guide](/articles/best-induction-cooktop-in-india/) check karein.
+
 *Dhyan dein: 1.5 Ton AC par kabhi 32A MCB na lagayein. AC ki electricity understanding ke liye dekhein — **[5 Star vs 3 Star vs Inverter AC](/articles/5-star-vs-3-star-vs-inverter-ac-bijli-bill-comparison/)**.*
 
 > 💡 **Budget Tip:** Naye distribution board (DB) me incomer MCB aur individual circuit breakers lagate waqt pure panel board ka kharcha aur overall concealed wiring ka estimate janne ke liye padhein:  
