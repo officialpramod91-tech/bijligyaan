@@ -99,6 +99,7 @@ Garmi me AC aur cooler, sardi me geyser aur room heater. Thodi si extra units bh
 
 ### 2. Billing ya meter reading ki galti
 Estimated billing, galat reading, ya doosre meter ki reading apke consumer number par chadh jana. Bill ki reading ko meter ki photo se milayein.
+> **Kya Aapke Ghar Bhi Naya Smart Meter Laga Hai?** Smart meter lagne ke baad bill badhne ki asli wajah, OBIS reading codes aur testing process samajhne ke liye padhein: **[smart meter reading aur bill badhne ke asli kaaran](/articles/smart-meter-kya-hai/)**.
 
 ### 3. Tariff, fixed charge aur sanctioned load
 Tariff ya fuel adjustment badhne par bill badhta hai. Agar ghar ka **connected load sanctioned load se kaafi zyada** ho, to kuch DISCOM me fixed charge ya penalty alag se lag sakti hai (**ye sabhi DISCOM me nahi hota**). Apna load samjhein: [sanctioned load aur connected load ka fark](/articles/home-electrical-load-calculation/).
@@ -274,6 +275,7 @@ Bill zyada aane par pehle **bill padhein, meter ki reading milayein aur load aud
 -  [Earthing aur leakage current ka rishta](/articles/earthing-kya-hai/)
 -  [Net metering se bill ka hisaab](/articles/solar-net-metering-kya-hai/)
 -  [Geyser ke star aur capacity ka bijli par asar](/articles/best-geyser-for-small-family-in-india/)
+-  [smart meter reading aur bill badhne ke asli kaaran](/articles/smart-meter-kya-hai/)
 
 ---
 

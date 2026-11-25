@@ -459,6 +459,7 @@ Dono ki wiring, connection aur testing ka purpose alag hai. Neutral ko Earth se 
 Electrical installation mein correct wiring ke saath suitable protective devices aur proper testing bhi zaroori hain. Agar Neutral fault, missing earthing, appliance chassis par voltage ya repeated RCCB tripping ka doubt ho, to circuit ko safe condition mein rakhkar qualified electrician se inspection karayein.
 
 Bijli ki safety mein guesswork nahi, correct testing aur proper protection important hai.
+> **Electrician Tip:** Purane inverter ki galat neutral wiring se naye digital aur smart meters me abnormal current event record ho sakta hai—detail me samjhein [smart meter aur inverter neutral wiring ka asar](/articles/smart-meter-kya-hai/).
 
 ---
 

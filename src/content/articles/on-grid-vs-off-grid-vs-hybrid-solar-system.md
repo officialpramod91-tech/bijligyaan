@@ -135,6 +135,7 @@ Price aur subsidy ka pura hisaab 3 kW ke liye: [3 KW Solar System Price in India
 
 > **Zaroori Jankari:** On-grid system ka sabse bada fayda tabhi milta hai jab extra bijli grid me export ho sake aur meter import-export dono nap sake. Iske pure setup, connection aur display reading ke liye hamara [solar net metering aur bi-directional meter guide](/articles/solar-net-metering-kya-hai/) zaroor padhein.
 
+- **ToD Tariff & Smart Meter:** On-grid solar lagwane se pehle samjhein ki [smart meter me ToD tariff aur export reading kaise kaam karti hai](/articles/smart-meter-kya-hai/).
 ---
 
 ## <a id="price"></a>3 kW Solar System Price: On-Grid vs Hybrid vs Off-Grid (Rough)

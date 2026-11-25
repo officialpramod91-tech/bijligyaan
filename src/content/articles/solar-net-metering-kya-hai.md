@@ -118,6 +118,8 @@ Bijli vibhag ke engineer site par aakar do mukhya jaanch karte hain:
 - **Anti-Islanding Test:** Grid supply band karke dekha jata hai ki inverter turant band hota hai ya nahi.
 Jaanch theek milne par purana meter hata kar certified Bi-directional Net Meter laga diya jata hai.
 
+- **Smart Meter & Net Metering:** Aaj kal lagne wale smart meters me `1.8.0` (Import) aur `2.8.0` (Export) dono readings dekhi ja sakti hain—poori jaankari ke liye [smart meter display codes aur net metering compatibility](/articles/smart-meter-kya-hai/) padhein.
+
 ### Step 5: Commissioning & Subsidy Credit
 Meter lagte hi portal par Commissioning Certificate generate hota hai. Iske baad bank details submit karne par central subsidy direct account (DBT) me credit ho jati hai.
 

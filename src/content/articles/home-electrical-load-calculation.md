@@ -70,6 +70,7 @@ Zyadatar log yahin sabse badi galti karte hain:
 
 - **Connected Load:** Agar aap ghar ke har pankhe, bulb, plug, AC aur geyser ka wattage jod dein, toh wo aapka *Connected Load* kehlata hai (maan lijiye 6000W ya 6kW).
 - **Sanctioned Load:** Ye wo load hai jo bijli board (DISCOM) aapke meter paper par approve karta hai (jaise 2kW ya 3kW).
+- **Sanctioned Load Warning:** Naye prepaid smart meters me sanctioned load limit exceed hone par overload alert ya temporary supply cut ho sakta hai—apne [smart meter ke load limit aur disconnection rules](/articles/smart-meter-kya-hai/) zaroor check karein.
 
 ### Diversity Factor (Kya Sabhi Cheezein Ek Sath Chalti Hain?)
 Nahi! Ghar ke saare appliances kabhi bhi ek hi second me ek sath nahi chalte. 
