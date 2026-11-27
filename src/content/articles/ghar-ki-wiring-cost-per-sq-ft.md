@@ -226,7 +226,7 @@ Ek standard 2BHK (1000 sq ft) ghar mein kul lagbhag 13 se 18 coils (90m) copper 
         "@type": "Answer",
         "text": "Open (surface) wiring mein deewar mein chasing aur plaster repair nahi hoti, isliye ye aam taur par sasti padti hai. Lekin naye ghar ke liye safety aur durability ke hisaab se concealed conduit wiring behtar maani jati hai."
       }
-    }
+    },
     {
      "@type": "Question",
      "name": " 2BHK aur 3BHK ghar ki wiring mein kitne coil wire lagte hain?"
