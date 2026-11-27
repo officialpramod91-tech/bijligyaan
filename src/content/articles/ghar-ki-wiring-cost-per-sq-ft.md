@@ -228,12 +228,12 @@ Ek standard 2BHK (1000 sq ft) ghar mein kul lagbhag 13 se 18 coils (90m) copper 
       }
     },
     {
-     "@type": "Question",
-     "name": " 2BHK aur 3BHK ghar ki wiring mein kitne coil wire lagte hain?"
-     "acceptedAnswer": {
+      "@type": "Question",
+      "name": "2BHK aur 3BHK ghar ki wiring mein kitne coil wire lagte hain?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        "text": Ek standard 2BHK (1000 sq ft) ghar mein kul lagbhag 13 se 18 coils (90m) copper wire lagti hai, jabki 3BHK (1400 sq ft) ghar mein 19 se 26 coils (1.0 mm, 1.5 mm, 2.5 mm, 4.0 mm aur 6.0 mm milakar) lagti hain."
-     }
+        "text": "Ek standard 2BHK (1000 sq ft) ghar mein kul lagbhag 13 se 18 coils (90m) copper wire lagti hai, jabki 3BHK (1400 sq ft) ghar mein 19 se 26 coils (1.0 mm, 1.5 mm, 2.5 mm, 4.0 mm aur 6.0 mm milakar) lagti hain."
+      }
     }
   ]
 }
