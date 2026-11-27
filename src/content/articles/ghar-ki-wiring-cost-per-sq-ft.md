@@ -1,10 +1,11 @@
 ---
-title: "Ghar Ki Wiring Cost 2026: 1BHK, 2BHK, 3BHK Ka Kharcha"
-description: "Ghar ki wiring ka kharcha kitna aata hai? 1BHK, 2BHK, 3BHK ke liye wire, switch, MCB box aur labour charges ka 2026 estimate, per sq ft aur per point."
+title: "Electrical Wiring Cost for 1000 Sq Ft House in India (2026)"
+description: "Electrical wiring cost for 1000 sq ft house in India (2026): 1BHK, 2BHK, 3BHK ka total kharcha, per sq ft rate, labour charges aur kitne coil wire lagta hai."
 pubDate: 2026-10-17
+updatedDate: 2026-11-27
 author: "Er. Pramod Kumar"
 category: "home-electrical-guide"
-tags: ["House Wiring Cost", "Electrical Wiring Estimate", "Labour Charges", "Modular Switch", "Wire Size", "Electrical Safety"]
+tags: ["Ghar Ki Wiring Cost", "Electrical Wiring Cost for 1000 Sq Ft House in India", "House Wiring Cost Per Sq Ft", "How Much Wire for 2BHK 3BHK", "Electrical Labour Charges"]
 image: "/images/ghar-ki-wiring-cost-per-sq-ft-estimate-2026.webp"
 imageAlt: "Ghar ki electrical wiring cost estimate 1BHK 2BHK 3BHK aur labour charges"
 ---
@@ -26,6 +27,8 @@ Is guide me hum Bureau of Indian Standards (**IS 732:2019**, **IS 694**, **IS 95
 * **Electrician's Rule:** Deewar todkar bar-bar taar badla nahi ja sakta. Isliye wire aur MCB/RCCB hamesha certified ISI mark hi lagayein; paisa bachana ho toh fancy plates ke bajaye standard modular plate chunein.
 
 > 💡 **Budget Tip:** Wiring budget banate waqt sirf 6 ya 8-way box lene ki galti na karein. Future expansion aur double door safety ke liye sahi box lene ka kharcha aur tarika jaanein: [MCB Box (DB Box) Price Aur Selection Guide (2026)](/articles/mcb-box-db-box-kaise-chune/).
+
+> 🧮 **Apne Ghar Ka Exact Load & Breaker Check Karein:** Wiring ka estimate finalize karne se pehle hamare free **[Electrical Load Calculator](/calculator/)** se apne ghar ka total kW load aur MCB rating check kar lein.
 
 ---
 
@@ -62,15 +65,16 @@ Shehar ke hisaab se transportation, local dukan ke margins aur labour charges al
 
 Total bill ko mukhya 4 hisson me baanta jata hai:
 
-### 1. Copper Wires (Budget Ka ~45%)
-Wiring ka sabse bada hissa copper wire hota hai. Indian Standard **IS 694** ke mutabiq multi-strand pure copper conductor aur **FRLS (Flame Retardant Low Smoke)** insulation wali wire hi lagayein, jo aag lagne par kam dhuan aur kam acid gas chhodti hai.
+### 1. Copper Wires (Budget Ka ~45%) — 2BHK Aur 3BHK Me Kitne Coil Wire Lagta Hai?
+Indian Standard **IS 694** ke mutabiq multi-strand pure copper conductor aur **FRLS (Flame Retardant Low Smoke)** insulation wali wire (90 meter coil) hi lagayein. **How much wire for 2BHK & 3BHK** ka standard estimate neeche diya gaya hai:
 
-Ek standard 2BHK (1000 sq ft) ghar me lagne wale average wire bundles (90 meter coil) ka hisaab:
-* **1.0 sq mm (Earthing line):** 2 se 3 coil — ₹1,100 se ₹1,400 per coil.
-* **1.5 sq mm (Lights & Fans circuit):** 4 se 5 coil — ₹1,800 se ₹2,300 per coil.
-* **2.5 sq mm (Power sockets, Fridge, Geyser):** 4 se 6 coil — ₹3,000 se ₹3,800 per coil.
-* **4.0 sq mm (AC lines, Kitchen power):** 2 se 3 coil — ₹4,800 se ₹5,900 per coil.
-* **6.0 sq mm (Main Incomer line):** 1 coil — ₹7,200 se ₹8,800 per coil.
+| Wire Size & Use | 2BHK (1000 Sq Ft) | 3BHK (1400 Sq Ft) | Rate / Coil |
+| :--- | :--- | :--- | :--- |
+| **1.0 sq mm** (Earthing/Inverter) | 2 – 3 coils | 3 – 4 coils | ₹1,100 – ₹1,400 |
+| **1.5 sq mm** (Lights & Fans) | 4 – 5 coils | 6 – 8 coils | ₹1,800 – ₹2,300 |
+| **2.5 sq mm** (Sockets/Geyser) | 4 – 6 coils | 6 – 8 coils | ₹3,000 – ₹3,800 |
+| **4.0 sq mm** (AC & Kitchen) | 2 – 3 coils | 3 – 4 coils | ₹4,800 – ₹5,900 |
+| **6.0 sq mm** (Main Incomer) | 1 coil | 1 – 2 coils | ₹7,200 – ₹8,800 |
 
 Sahi wire gauge select karne ke liye dekhein:  
 👉 [House Wiring Wire Size Chart: Kaunsi Wire Best Hai?](/articles/ghar-ki-wiring-wire-size-guide/)
@@ -175,6 +179,9 @@ Har kamre ke liye alag MCB zaroori nahi, par lights/fans, sockets, kitchen, geys
 ### 5. Open wiring aur concealed wiring ke kharche mein kitna antar hota hai?
 Open (surface) wiring mein deewar mein chasing aur plaster repair nahi hoti, isliye ye aam taur par sasti padti hai. Lekin naye ghar ke liye safety aur durability ke hisaab se concealed conduit wiring behtar maani jati hai.
 
+### 6. 2BHK aur 3BHK ghar ki wiring mein kitne coil wire lagte hain?
+Ek standard 2BHK (1000 sq ft) ghar mein kul lagbhag 13 se 18 coils (90m) copper wire lagti hai, jabki 3BHK (1400 sq ft) ghar mein 19 se 26 coils (1.0 mm, 1.5 mm, 2.5 mm, 4.0 mm aur 6.0 mm milakar) lagti hain.
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -219,6 +226,14 @@ Open (surface) wiring mein deewar mein chasing aur plaster repair nahi hoti, isl
         "@type": "Answer",
         "text": "Open (surface) wiring mein deewar mein chasing aur plaster repair nahi hoti, isliye ye aam taur par sasti padti hai. Lekin naye ghar ke liye safety aur durability ke hisaab se concealed conduit wiring behtar maani jati hai."
       }
+    }
+    {
+     "@type": "Question",
+     "name": " 2BHK aur 3BHK ghar ki wiring mein kitne coil wire lagte hain?"
+     "acceptedAnswer": {
+        "@type": "Answer",
+        "text": Ek standard 2BHK (1000 sq ft) ghar mein kul lagbhag 13 se 18 coils (90m) copper wire lagti hai, jabki 3BHK (1400 sq ft) ghar mein 19 se 26 coils (1.0 mm, 1.5 mm, 2.5 mm, 4.0 mm aur 6.0 mm milakar) lagti hain."
+     }
     }
   ]
 }
